@@ -4,3315 +4,3437 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Tight Distortion"
+Date "2023-12-09"
+Rev "1.0.0"
+Comp "Bennett Custom Audio"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	2025 1850 2025 1575
+	1850 1700 1850 1425
 $Comp
 L bca-symbols:R R?
 U 1 1 668409F7
-P 1450 2000
+P 1275 1850
 AR Path="/668409F7" Ref="R?"  Part="1" 
-AR Path="/667ED907/668409F7" Ref="R?"  Part="1" 
-F 0 "R?" V 1400 1950 50  0000 R CNN
-F 1 "1M" V 1475 1950 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 1650 1800 50  0001 C CNN
-F 3 "~" V 1450 2000 50  0001 C CNN
-	1    1450 2000
+AR Path="/667ED907/668409F7" Ref="R2"  Part="1" 
+F 0 "R2" V 1225 1800 50  0000 R CNN
+F 1 "1M" V 1300 1800 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 1475 1650 50  0001 C CNN
+F 3 "~" V 1275 1850 50  0001 C CNN
+	1    1275 1850
 	0    1    1    0   
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 668409FD
-P 1450 2150
+P 1275 2000
 AR Path="/668409FD" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668409FD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1450 1900 50  0001 C CNN
-F 1 "Earth" H 1450 2000 50  0001 C CNN
-F 2 "" H 1450 2150 50  0001 C CNN
-F 3 "~" H 1450 2150 50  0001 C CNN
-	1    1450 2150
+AR Path="/667ED907/668409FD" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 1275 1750 50  0001 C CNN
+F 1 "Earth" H 1275 1850 50  0001 C CNN
+F 2 "" H 1275 2000 50  0001 C CNN
+F 3 "~" H 1275 2000 50  0001 C CNN
+	1    1275 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 66840A03
-P 1250 1575
+P 1075 1425
 AR Path="/66840A03" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840A03" Ref="R?"  Part="1" 
-F 0 "R?" H 1250 1675 50  0000 C CNN
-F 1 "68k" H 1250 1475 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 1450 1375 50  0001 C CNN
-F 3 "~" V 1250 1575 50  0001 C CNN
-	1    1250 1575
+AR Path="/667ED907/66840A03" Ref="R1"  Part="1" 
+F 0 "R1" H 1075 1525 50  0000 C CNN
+F 1 "68k" H 1075 1325 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 1275 1225 50  0001 C CNN
+F 3 "~" V 1075 1425 50  0001 C CNN
+	1    1075 1425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 1850 1450 1575
+	1275 1700 1275 1425
 Wire Wire Line
-	1450 1575 1400 1575
+	1275 1425 1225 1425
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 66840A0B
-P 1625 2000
+P 1450 1850
 AR Path="/66840A0B" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840A0B" Ref="C?"  Part="1" 
-F 0 "C?" H 1650 2100 50  0000 L CNN
-F 1 "220pF" H 1650 1875 50  0000 L CNN
-F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 1663 1850 50  0001 C CNN
-F 3 "~" H 1625 2000 50  0001 C CNN
-	1    1625 2000
+AR Path="/667ED907/66840A0B" Ref="C1"  Part="1" 
+F 0 "C1" H 1475 1950 50  0000 L CNN
+F 1 "220pF" H 1475 1725 50  0000 L CNN
+F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 1488 1700 50  0001 C CNN
+F 3 "~" H 1450 1850 50  0001 C CNN
+	1    1450 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 66840A11
-P 1625 2150
+P 1450 2000
 AR Path="/66840A11" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840A11" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1625 1900 50  0001 C CNN
-F 1 "Earth" H 1625 2000 50  0001 C CNN
-F 2 "" H 1625 2150 50  0001 C CNN
-F 3 "~" H 1625 2150 50  0001 C CNN
-	1    1625 2150
+AR Path="/667ED907/66840A11" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 1450 1750 50  0001 C CNN
+F 1 "Earth" H 1450 1850 50  0001 C CNN
+F 2 "" H 1450 2000 50  0001 C CNN
+F 3 "~" H 1450 2000 50  0001 C CNN
+	1    1450 2000
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1625 1850 1625 1575
+	1450 1700 1450 1425
 Wire Wire Line
-	1625 1575 1450 1575
-Connection ~ 1450 1575
+	1450 1425 1275 1425
+Connection ~ 1275 1425
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 66840A1A
-P 1825 1575
+P 1650 1425
 AR Path="/66840A1A" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840A1A" Ref="C?"  Part="1" 
-F 0 "C?" V 1675 1575 50  0000 C CNN
-F 1 "1nF" V 1975 1575 50  0000 C CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 1863 1425 50  0001 C CNN
-F 3 "~" H 1825 1575 50  0001 C CNN
-	1    1825 1575
+AR Path="/667ED907/66840A1A" Ref="C3"  Part="1" 
+F 0 "C3" V 1500 1425 50  0000 C CNN
+F 1 "1nF" V 1800 1425 50  0000 C CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 1688 1275 50  0001 C CNN
+F 3 "~" H 1650 1425 50  0001 C CNN
+	1    1650 1425
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1675 1575 1625 1575
-Connection ~ 1625 1575
+	1500 1425 1450 1425
+Connection ~ 1450 1425
 Wire Wire Line
-	1975 1575 2025 1575
+	1800 1425 1850 1425
 $Comp
 L power:+15V #PWR?
 U 1 1 66840A23
-P 2475 975
+P 2300 825
 AR Path="/66840A23" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840A23" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2475 825 50  0001 C CNN
-F 1 "+15V" H 2475 1125 50  0000 C CNN
-F 2 "" H 2475 975 50  0001 C CNN
-F 3 "" H 2475 975 50  0001 C CNN
-	1    2475 975 
+AR Path="/667ED907/66840A23" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 2300 675 50  0001 C CNN
+F 1 "+15V" H 2300 975 50  0000 C CNN
+F 2 "" H 2300 825 50  0001 C CNN
+F 3 "" H 2300 825 50  0001 C CNN
+	1    2300 825 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Q_NJFET_DSG Q?
 U 1 1 66840A29
-P 2375 1575
+P 2200 1425
 AR Path="/66840A29" Ref="Q?"  Part="1" 
-AR Path="/667ED907/66840A29" Ref="Q?"  Part="1" 
-F 0 "Q?" H 2566 1575 50  0000 L CNN
-F 1 "MMBFJ202" H 2565 1530 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2575 1675 50  0001 C CNN
-F 3 "~" H 2375 1575 50  0001 C CNN
-	1    2375 1575
+AR Path="/667ED907/66840A29" Ref="Q1"  Part="1" 
+F 0 "Q1" H 2391 1425 50  0000 L CNN
+F 1 "MMBFJ202" H 2390 1380 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2400 1525 50  0001 C CNN
+F 3 "~" H 2200 1425 50  0001 C CNN
+	1    2200 1425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2175 1575 2025 1575
-Connection ~ 2025 1575
+	2000 1425 1850 1425
+Connection ~ 1850 1425
 Wire Wire Line
-	2025 2200 2025 2150
+	1850 2050 1850 2000
 $Comp
 L bca-symbols:CP_Audio C?
 U 1 1 66840A32
-P 3150 2025
+P 2975 1875
 AR Path="/66840A32" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840A32" Ref="C?"  Part="1" 
-F 0 "C?" H 3175 1925 50  0000 L CNN
-F 1 "10uF" H 3175 2125 50  0000 L CNN
-F 2 "bca-footprints:CP_Radial_D4.0mm_P1.50mm" H 3150 1625 50  0001 C CNN
-F 3 "~" H 3150 2025 50  0001 C CNN
-	1    3150 2025
+AR Path="/667ED907/66840A32" Ref="C6"  Part="1" 
+F 0 "C6" H 3000 1775 50  0000 L CNN
+F 1 "10uF" H 3000 1975 50  0000 L CNN
+F 2 "bca-footprints:CP_Radial_D4.0mm_P1.50mm" H 2975 1475 50  0001 C CNN
+F 3 "~" H 2975 1875 50  0001 C CNN
+	1    2975 1875
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 66840A38
-P 3150 2175
+P 2975 2025
 AR Path="/66840A38" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840A38" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3150 1925 50  0001 C CNN
-F 1 "Earth" H 3150 2025 50  0001 C CNN
-F 2 "" H 3150 2175 50  0001 C CNN
-F 3 "~" H 3150 2175 50  0001 C CNN
-	1    3150 2175
+AR Path="/667ED907/66840A38" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 2975 1775 50  0001 C CNN
+F 1 "Earth" H 2975 1875 50  0001 C CNN
+F 2 "" H 2975 2025 50  0001 C CNN
+F 3 "~" H 2975 2025 50  0001 C CNN
+	1    2975 2025
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 66840A3E
-P 2475 1125
+P 2300 975
 AR Path="/66840A3E" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840A3E" Ref="R?"  Part="1" 
-F 0 "R?" V 2429 1193 50  0000 L CNN
-F 1 "15k" V 2520 1193 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 2675 925 50  0001 C CNN
-F 3 "~" V 2475 1125 50  0001 C CNN
-	1    2475 1125
+AR Path="/667ED907/66840A3E" Ref="R4"  Part="1" 
+F 0 "R4" V 2254 1043 50  0000 L CNN
+F 1 "15k" V 2345 1043 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 2500 775 50  0001 C CNN
+F 3 "~" V 2300 975 50  0001 C CNN
+	1    2300 975 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2475 2175 2475 2225
+	2300 2025 2300 2075
 $Comp
 L bca-symbols:R R?
 U 1 1 66840A45
-P 2475 2025
+P 2300 1875
 AR Path="/66840A45" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840A45" Ref="R?"  Part="1" 
-F 0 "R?" V 2425 2075 50  0000 L CNN
-F 1 "2k" V 2525 2075 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 2675 1825 50  0001 C CNN
-F 3 "~" V 2475 2025 50  0001 C CNN
-	1    2475 2025
+AR Path="/667ED907/66840A45" Ref="R5"  Part="1" 
+F 0 "R5" V 2250 1925 50  0000 L CNN
+F 1 "2k" V 2350 1925 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 2500 1675 50  0001 C CNN
+F 3 "~" V 2300 1875 50  0001 C CNN
+	1    2300 1875
 	0    1    1    0   
 $EndComp
-Text Label 2425 2225 2    50   ~ 0
+Text Label 2250 2075 2    50   ~ 0
 ccs0
 Wire Wire Line
-	2425 2225 2475 2225
-Text Label 2025 2200 3    50   ~ 0
+	2250 2075 2300 2075
+Text Label 1850 2050 3    50   ~ 0
 -VREF0
 $Comp
 L power:+15V #PWR?
 U 1 1 66840A4E
-P 5350 975
+P 5175 825
 AR Path="/66840A4E" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840A4E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5350 825 50  0001 C CNN
-F 1 "+15V" H 5350 1125 50  0000 C CNN
-F 2 "" H 5350 975 50  0001 C CNN
-F 3 "" H 5350 975 50  0001 C CNN
-	1    5350 975 
+AR Path="/667ED907/66840A4E" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 5175 675 50  0001 C CNN
+F 1 "+15V" H 5175 975 50  0000 C CNN
+F 2 "" H 5175 825 50  0001 C CNN
+F 3 "" H 5175 825 50  0001 C CNN
+	1    5175 825 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 2225 4200 2175
+	4025 2075 4025 2025
 $Comp
 L bca-symbols:CP_Audio C?
 U 1 1 66840A55
-P 5075 2025
+P 4900 1875
 AR Path="/66840A55" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840A55" Ref="C?"  Part="1" 
-F 0 "C?" H 5100 1925 50  0000 L CNN
-F 1 "10uF" H 5100 2125 50  0000 L CNN
-F 2 "bca-footprints:CP_Radial_D4.0mm_P1.50mm" H 5075 1625 50  0001 C CNN
-F 3 "~" H 5075 2025 50  0001 C CNN
-	1    5075 2025
+AR Path="/667ED907/66840A55" Ref="C9"  Part="1" 
+F 0 "C9" H 4925 1775 50  0000 L CNN
+F 1 "10uF" H 4925 1975 50  0000 L CNN
+F 2 "bca-footprints:CP_Radial_D4.0mm_P1.50mm" H 4900 1475 50  0001 C CNN
+F 3 "~" H 4900 1875 50  0001 C CNN
+	1    4900 1875
 	1    0    0    1   
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 66840A5B
-P 5075 2175
+P 4900 2025
 AR Path="/66840A5B" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840A5B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5075 1925 50  0001 C CNN
-F 1 "Earth" H 5075 2025 50  0001 C CNN
-F 2 "" H 5075 2175 50  0001 C CNN
-F 3 "~" H 5075 2175 50  0001 C CNN
-	1    5075 2175
+AR Path="/667ED907/66840A5B" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 4900 1775 50  0001 C CNN
+F 1 "Earth" H 4900 1875 50  0001 C CNN
+F 2 "" H 4900 2025 50  0001 C CNN
+F 3 "~" H 4900 2025 50  0001 C CNN
+	1    4900 2025
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 66840A61
-P 5350 1125
+P 5175 975
 AR Path="/66840A61" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840A61" Ref="R?"  Part="1" 
-F 0 "R?" V 5304 1193 50  0000 L CNN
-F 1 "15k" V 5395 1193 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 5550 925 50  0001 C CNN
-F 3 "~" V 5350 1125 50  0001 C CNN
-	1    5350 1125
+AR Path="/667ED907/66840A61" Ref="R10"  Part="1" 
+F 0 "R10" V 5129 1043 50  0000 L CNN
+F 1 "15k" V 5220 1043 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 5375 775 50  0001 C CNN
+F 3 "~" V 5175 975 50  0001 C CNN
+	1    5175 975 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5350 1275 5350 1325
+	5175 1125 5175 1175
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 66840A68
-P 5625 1325
+P 5450 1175
 AR Path="/66840A68" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840A68" Ref="C?"  Part="1" 
-F 0 "C?" V 5475 1325 50  0000 C CNN
-F 1 "2.2nF" V 5775 1325 50  0000 C CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 5663 1175 50  0001 C CNN
-F 3 "~" H 5625 1325 50  0001 C CNN
-	1    5625 1325
+AR Path="/667ED907/66840A68" Ref="C11"  Part="1" 
+F 0 "C11" V 5300 1175 50  0000 C CNN
+F 1 "2.2nF" V 5600 1175 50  0000 C CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 5488 1025 50  0001 C CNN
+F 3 "~" H 5450 1175 50  0001 C CNN
+	1    5450 1175
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5475 1325 5350 1325
-Connection ~ 5350 1325
+	5300 1175 5175 1175
+Connection ~ 5175 1175
 Wire Wire Line
-	5350 1325 5350 1375
+	5175 1175 5175 1225
 Wire Wire Line
-	5350 1775 5350 1825
+	5175 1625 5175 1675
 Wire Wire Line
-	5350 2175 5350 2225
+	5175 2025 5175 2075
 $Comp
 L bca-symbols:R R?
 U 1 1 66840A73
-P 5350 2025
+P 5175 1875
 AR Path="/66840A73" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840A73" Ref="R?"  Part="1" 
-F 0 "R?" V 5300 2075 50  0000 L CNN
-F 1 "2k" V 5400 2075 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 5550 1825 50  0001 C CNN
-F 3 "~" V 5350 2025 50  0001 C CNN
-	1    5350 2025
+AR Path="/667ED907/66840A73" Ref="R11"  Part="1" 
+F 0 "R11" V 5125 1925 50  0000 L CNN
+F 1 "2k" V 5225 1925 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 5375 1675 50  0001 C CNN
+F 3 "~" V 5175 1875 50  0001 C CNN
+	1    5175 1875
 	0    1    1    0   
 $EndComp
-Text Label 5400 2225 0    50   ~ 0
+Text Label 5225 2075 0    50   ~ 0
 ccs1
 Wire Wire Line
-	5400 2225 5350 2225
-Text Label 4200 2225 3    50   ~ 0
+	5225 2075 5175 2075
+Text Label 4025 2075 3    50   ~ 0
 -VREF0
 $Comp
 L bca-symbols:R_POT_Dual RV?
 U 1 1 66840A7C
-P 4200 1575
+P 4025 1425
 AR Path="/66840A7C" Ref="RV?"  Part="1" 
-AR Path="/667ED907/66840A7C" Ref="RV?"  Part="1" 
-F 0 "RV?" H 4250 1500 50  0000 L CNN
-F 1 "500kA" H 4250 1425 50  0000 L CNN
-F 2 "bca-footprints:R_POT_DUAL" V 4100 1575 50  0001 C CNN
-F 3 "~" H 4200 1575 50  0001 C CNN
-	1    4200 1575
+AR Path="/667ED907/66840A7C" Ref="RV1"  Part="1" 
+F 0 "RV1" H 4075 1350 50  0000 L CNN
+F 1 "500kA" H 4075 1275 50  0000 L CNN
+F 2 "bca-footprints:R_POT_DUAL" V 3925 1425 50  0001 C CNN
+F 3 "~" H 4025 1425 50  0001 C CNN
+	1    4025 1425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 1425 4200 1325
+	4025 1275 4025 1175
 Wire Wire Line
-	4200 1325 4075 1325
+	4025 1175 3900 1175
 $Comp
 L bca-symbols:R R?
 U 1 1 66840A84
-P 4200 2025
+P 4025 1875
 AR Path="/66840A84" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840A84" Ref="R?"  Part="1" 
-F 0 "R?" V 4150 2075 50  0000 L CNN
-F 1 "47k" V 4250 2075 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4400 1825 50  0001 C CNN
-F 3 "~" V 4200 2025 50  0001 C CNN
-	1    4200 2025
+AR Path="/667ED907/66840A84" Ref="R8"  Part="1" 
+F 0 "R8" V 3975 1925 50  0000 L CNN
+F 1 "47k" V 4075 1925 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4225 1675 50  0001 C CNN
+F 3 "~" V 4025 1875 50  0001 C CNN
+	1    4025 1875
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4200 1875 4200 1725
+	4025 1725 4025 1575
 Wire Wire Line
-	1050 1575 1100 1575
+	875  1425 925  1425
 $Comp
 L power:+15V #PWR?
 U 1 1 66840A8C
-P 7200 975
+P 7025 825
 AR Path="/66840A8C" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840A8C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7200 825 50  0001 C CNN
-F 1 "+15V" H 7200 1125 50  0000 C CNN
-F 2 "" H 7200 975 50  0001 C CNN
-F 3 "" H 7200 975 50  0001 C CNN
-	1    7200 975 
+AR Path="/667ED907/66840A8C" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 7025 675 50  0001 C CNN
+F 1 "+15V" H 7025 975 50  0000 C CNN
+F 2 "" H 7025 825 50  0001 C CNN
+F 3 "" H 7025 825 50  0001 C CNN
+	1    7025 825 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Q_NJFET_DSG Q?
 U 1 1 66840A92
-P 7100 1575
+P 6925 1425
 AR Path="/66840A92" Ref="Q?"  Part="1" 
-AR Path="/667ED907/66840A92" Ref="Q?"  Part="1" 
-F 0 "Q?" H 7291 1575 50  0000 L CNN
-F 1 "MMBFJ202" H 7290 1530 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7300 1675 50  0001 C CNN
-F 3 "~" H 7100 1575 50  0001 C CNN
-	1    7100 1575
+AR Path="/667ED907/66840A92" Ref="Q3"  Part="1" 
+F 0 "Q3" H 7116 1425 50  0000 L CNN
+F 1 "MMBFJ202" H 7115 1380 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7125 1525 50  0001 C CNN
+F 3 "~" H 6925 1425 50  0001 C CNN
+	1    6925 1425
 	1    0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 66840A98
-P 7200 1125
+P 7025 975
 AR Path="/66840A98" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840A98" Ref="R?"  Part="1" 
-F 0 "R?" V 7154 1193 50  0000 L CNN
-F 1 "15k" V 7245 1193 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7400 925 50  0001 C CNN
-F 3 "~" V 7200 1125 50  0001 C CNN
-	1    7200 1125
+AR Path="/667ED907/66840A98" Ref="R16"  Part="1" 
+F 0 "R16" V 6979 1043 50  0000 L CNN
+F 1 "15k" V 7070 1043 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7225 775 50  0001 C CNN
+F 3 "~" V 7025 975 50  0001 C CNN
+	1    7025 975 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7200 1275 7200 1325
+	7025 1125 7025 1175
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 66840A9F
-P 7475 1325
+P 7300 1175
 AR Path="/66840A9F" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840A9F" Ref="C?"  Part="1" 
-F 0 "C?" V 7325 1325 50  0000 C CNN
-F 1 "4.7nF" V 7625 1325 50  0000 C CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 7513 1175 50  0001 C CNN
-F 3 "~" H 7475 1325 50  0001 C CNN
-	1    7475 1325
+AR Path="/667ED907/66840A9F" Ref="C14"  Part="1" 
+F 0 "C14" V 7150 1175 50  0000 C CNN
+F 1 "4.7nF" V 7450 1175 50  0000 C CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 7338 1025 50  0001 C CNN
+F 3 "~" H 7300 1175 50  0001 C CNN
+	1    7300 1175
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7325 1325 7200 1325
-Connection ~ 7200 1325
+	7150 1175 7025 1175
+Connection ~ 7025 1175
 Wire Wire Line
-	7200 1325 7200 1375
+	7025 1175 7025 1225
 Wire Wire Line
-	7200 1775 7200 1825
+	7025 1625 7025 1675
 Wire Wire Line
-	7200 2175 7200 2225
+	7025 2025 7025 2075
 $Comp
 L bca-symbols:R R?
 U 1 1 66840AAA
-P 7200 2025
+P 7025 1875
 AR Path="/66840AAA" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840AAA" Ref="R?"  Part="1" 
-F 0 "R?" V 7150 2075 50  0000 L CNN
-F 1 "2k" V 7250 2075 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7400 1825 50  0001 C CNN
-F 3 "~" V 7200 2025 50  0001 C CNN
-	1    7200 2025
+AR Path="/667ED907/66840AAA" Ref="R17"  Part="1" 
+F 0 "R17" V 6975 1925 50  0000 L CNN
+F 1 "2k" V 7075 1925 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7225 1675 50  0001 C CNN
+F 3 "~" V 7025 1875 50  0001 C CNN
+	1    7025 1875
 	0    1    1    0   
 $EndComp
-Text Label 7250 2225 0    50   ~ 0
+Text Label 7075 2075 0    50   ~ 0
 ccs2
 Wire Wire Line
-	7250 2225 7200 2225
+	7075 2075 7025 2075
 $Comp
 L bca-symbols:R R?
 U 1 1 66840AB2
-P 3550 1325
+P 3375 1175
 AR Path="/66840AB2" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840AB2" Ref="R?"  Part="1" 
-F 0 "R?" H 3550 1425 50  0000 C CNN
-F 1 "220k" H 3550 1225 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 3750 1125 50  0001 C CNN
-F 3 "~" V 3550 1325 50  0001 C CNN
-	1    3550 1325
+AR Path="/667ED907/66840AB2" Ref="R6"  Part="1" 
+F 0 "R6" H 3375 1275 50  0000 C CNN
+F 1 "220k" H 3375 1075 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 3575 975 50  0001 C CNN
+F 3 "~" V 3375 1175 50  0001 C CNN
+	1    3375 1175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6350 2225 6350 2175
+	6175 2075 6175 2025
 $Comp
 L bca-symbols:R_POT_Dual RV?
 U 2 1 66840AB9
-P 6350 1575
+P 6175 1425
 AR Path="/66840AB9" Ref="RV?"  Part="2" 
-AR Path="/667ED907/66840AB9" Ref="RV?"  Part="2" 
-F 0 "RV?" H 6375 1725 50  0000 L CNN
-F 1 "500kA" H 6375 1450 50  0000 L CNN
-F 2 "bca-footprints:R_POT_DUAL" V 6250 1575 50  0001 C CNN
-F 3 "~" H 6350 1575 50  0001 C CNN
-	2    6350 1575
+AR Path="/667ED907/66840AB9" Ref="RV1"  Part="2" 
+F 0 "RV1" H 6200 1575 50  0000 L CNN
+F 1 "500kA" H 6200 1300 50  0000 L CNN
+F 2 "bca-footprints:R_POT_DUAL" V 6075 1425 50  0001 C CNN
+F 3 "~" H 6175 1425 50  0001 C CNN
+	2    6175 1425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6350 1425 6350 1325
+	6175 1275 6175 1175
 Wire Wire Line
-	6350 1325 6175 1325
+	6175 1175 6000 1175
 $Comp
 L bca-symbols:R R?
 U 1 1 66840AC1
-P 6350 2025
+P 6175 1875
 AR Path="/66840AC1" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840AC1" Ref="R?"  Part="1" 
-F 0 "R?" V 6300 2075 50  0000 L CNN
-F 1 "47k" V 6400 2075 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6550 1825 50  0001 C CNN
-F 3 "~" V 6350 2025 50  0001 C CNN
-	1    6350 2025
+AR Path="/667ED907/66840AC1" Ref="R14"  Part="1" 
+F 0 "R14" V 6125 1925 50  0000 L CNN
+F 1 "47k" V 6225 1925 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6375 1675 50  0001 C CNN
+F 3 "~" V 6175 1875 50  0001 C CNN
+	1    6175 1875
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6350 1875 6350 1725
+	6175 1725 6175 1575
 Wire Wire Line
-	6500 1575 6550 1575
+	6325 1425 6375 1425
 $Comp
 L bca-symbols:R R?
 U 1 1 66840AC9
-P 5975 1325
+P 5800 1175
 AR Path="/66840AC9" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840AC9" Ref="R?"  Part="1" 
-F 0 "R?" H 5975 1425 50  0000 C CNN
-F 1 "220k" H 5975 1225 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6175 1125 50  0001 C CNN
-F 3 "~" V 5975 1325 50  0001 C CNN
-	1    5975 1325
+AR Path="/667ED907/66840AC9" Ref="R12"  Part="1" 
+F 0 "R12" H 5800 1275 50  0000 C CNN
+F 1 "220k" H 5800 1075 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6000 975 50  0001 C CNN
+F 3 "~" V 5800 1175 50  0001 C CNN
+	1    5800 1175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5825 1325 5775 1325
+	5650 1175 5600 1175
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 66840AD0
-P 3750 2025
+P 3575 1875
 AR Path="/66840AD0" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840AD0" Ref="C?"  Part="1" 
-F 0 "C?" H 3725 1925 50  0000 R CNN
-F 1 "470pF" H 3725 2125 50  0000 R CNN
-F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 3788 1875 50  0001 C CNN
-F 3 "~" H 3750 2025 50  0001 C CNN
-	1    3750 2025
+AR Path="/667ED907/66840AD0" Ref="C7"  Part="1" 
+F 0 "C7" H 3550 1775 50  0000 R CNN
+F 1 "470pF" H 3550 1975 50  0000 R CNN
+F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 3613 1725 50  0001 C CNN
+F 3 "~" H 3575 1875 50  0001 C CNN
+	1    3575 1875
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3750 1875 3750 1325
+	3575 1725 3575 1175
 $Comp
 L power:Earth #PWR?
 U 1 1 66840AD7
-P 3750 2175
+P 3575 2025
 AR Path="/66840AD7" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840AD7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3750 1925 50  0001 C CNN
-F 1 "Earth" H 3750 2025 50  0001 C CNN
-F 2 "" H 3750 2175 50  0001 C CNN
-F 3 "~" H 3750 2175 50  0001 C CNN
-	1    3750 2175
+AR Path="/667ED907/66840AD7" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 3575 1775 50  0001 C CNN
+F 1 "Earth" H 3575 1875 50  0001 C CNN
+F 2 "" H 3575 2025 50  0001 C CNN
+F 3 "~" H 3575 2025 50  0001 C CNN
+	1    3575 2025
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5075 1875 5075 1825
+	4900 1725 4900 1675
 Wire Wire Line
-	5075 1825 5350 1825
+	4900 1675 5175 1675
 $Comp
 L bca-symbols:R R?
 U 1 1 66840ADF
-P 2025 2000
+P 1850 1850
 AR Path="/66840ADF" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840ADF" Ref="R?"  Part="1" 
-F 0 "R?" V 1975 1950 50  0000 R CNN
-F 1 "1M" V 2050 1950 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 2225 1800 50  0001 C CNN
-F 3 "~" V 2025 2000 50  0001 C CNN
-	1    2025 2000
+AR Path="/667ED907/66840ADF" Ref="R3"  Part="1" 
+F 0 "R3" V 1800 1800 50  0000 R CNN
+F 1 "1M" V 1875 1800 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 2050 1650 50  0001 C CNN
+F 3 "~" V 1850 1850 50  0001 C CNN
+	1    1850 1850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3700 1325 3750 1325
-Connection ~ 3750 1325
+	3525 1175 3575 1175
+Connection ~ 3575 1175
 $Comp
 L bca-symbols:R R?
 U 1 1 66840AE7
-P 4075 2025
+P 3900 1875
 AR Path="/66840AE7" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840AE7" Ref="R?"  Part="1" 
-F 0 "R?" V 4025 1975 50  0000 R CNN
-F 1 "220k" V 4100 1975 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4275 1825 50  0001 C CNN
-F 3 "~" V 4075 2025 50  0001 C CNN
-	1    4075 2025
+AR Path="/667ED907/66840AE7" Ref="R7"  Part="1" 
+F 0 "R7" V 3850 1825 50  0000 R CNN
+F 1 "220k" V 3925 1825 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4100 1675 50  0001 C CNN
+F 3 "~" V 3900 1875 50  0001 C CNN
+	1    3900 1875
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4075 1875 4075 1325
-Connection ~ 4075 1325
+	3900 1725 3900 1175
+Connection ~ 3900 1175
 Wire Wire Line
-	4075 1325 3750 1325
-Text Label 4075 2225 3    50   ~ 0
+	3900 1175 3575 1175
+Text Label 3900 2075 3    50   ~ 0
 -VREF0
 Wire Wire Line
-	4075 2225 4075 2175
+	3900 2075 3900 2025
 Wire Wire Line
-	2475 1275 2475 1325
+	2300 1125 2300 1175
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 66840AF3
-P 3150 1325
+P 2975 1175
 AR Path="/66840AF3" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840AF3" Ref="C?"  Part="1" 
-F 0 "C?" V 3000 1325 50  0000 C CNN
-F 1 "2.2nF" V 3300 1325 50  0000 C CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 3188 1175 50  0001 C CNN
-F 3 "~" H 3150 1325 50  0001 C CNN
-	1    3150 1325
+AR Path="/667ED907/66840AF3" Ref="C5"  Part="1" 
+F 0 "C5" V 2825 1175 50  0000 C CNN
+F 1 "2.2nF" V 3125 1175 50  0000 C CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 3013 1025 50  0001 C CNN
+F 3 "~" H 2975 1175 50  0001 C CNN
+	1    2975 1175
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3300 1325 3350 1325
+	3125 1175 3175 1175
 Wire Wire Line
-	3000 1325 2825 1325
-Connection ~ 2475 1325
+	2825 1175 2650 1175
+Connection ~ 2300 1175
 Wire Wire Line
-	2475 1325 2475 1375
+	2300 1175 2300 1225
 $Comp
 L bca-symbols:CP_Audio C?
 U 1 1 66840AFD
-P 6925 2025
+P 6750 1875
 AR Path="/66840AFD" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840AFD" Ref="C?"  Part="1" 
-F 0 "C?" H 6950 1925 50  0000 L CNN
-F 1 "10uF" H 6950 2125 50  0000 L CNN
-F 2 "bca-footprints:CP_Radial_D4.0mm_P1.50mm" H 6925 1625 50  0001 C CNN
-F 3 "~" H 6925 2025 50  0001 C CNN
-	1    6925 2025
+AR Path="/667ED907/66840AFD" Ref="C12"  Part="1" 
+F 0 "C12" H 6775 1775 50  0000 L CNN
+F 1 "10uF" H 6775 1975 50  0000 L CNN
+F 2 "bca-footprints:CP_Radial_D4.0mm_P1.50mm" H 6750 1475 50  0001 C CNN
+F 3 "~" H 6750 1875 50  0001 C CNN
+	1    6750 1875
 	1    0    0    1   
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 66840B03
-P 6925 2175
+P 6750 2025
 AR Path="/66840B03" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840B03" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6925 1925 50  0001 C CNN
-F 1 "Earth" H 6925 2025 50  0001 C CNN
-F 2 "" H 6925 2175 50  0001 C CNN
-F 3 "~" H 6925 2175 50  0001 C CNN
-	1    6925 2175
+AR Path="/667ED907/66840B03" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 6750 1775 50  0001 C CNN
+F 1 "Earth" H 6750 1875 50  0001 C CNN
+F 2 "" H 6750 2025 50  0001 C CNN
+F 3 "~" H 6750 2025 50  0001 C CNN
+	1    6750 2025
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6925 1875 6925 1825
+	6750 1725 6750 1675
 Wire Wire Line
-	6925 1825 7200 1825
+	6750 1675 7025 1675
 $Comp
 L bca-symbols:R R?
 U 1 1 66840B0B
-P 7825 1325
+P 7650 1175
 AR Path="/66840B0B" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840B0B" Ref="R?"  Part="1" 
-F 0 "R?" H 7825 1425 50  0000 C CNN
-F 1 "470k" H 7825 1225 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 8025 1125 50  0001 C CNN
-F 3 "~" V 7825 1325 50  0001 C CNN
-	1    7825 1325
+AR Path="/667ED907/66840B0B" Ref="R18"  Part="1" 
+F 0 "R18" H 7650 1275 50  0000 C CNN
+F 1 "470k" H 7650 1075 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7850 975 50  0001 C CNN
+F 3 "~" V 7650 1175 50  0001 C CNN
+	1    7650 1175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7675 1325 7625 1325
+	7500 1175 7450 1175
 $Comp
 L bca-symbols:R R?
 U 1 1 66840B12
-P 8025 2025
+P 7850 1875
 AR Path="/66840B12" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840B12" Ref="R?"  Part="1" 
-F 0 "R?" V 7975 1975 50  0000 R CNN
-F 1 "220k" V 8050 1975 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 8225 1825 50  0001 C CNN
-F 3 "~" V 8025 2025 50  0001 C CNN
-	1    8025 2025
+AR Path="/667ED907/66840B12" Ref="R19"  Part="1" 
+F 0 "R19" V 7800 1825 50  0000 R CNN
+F 1 "220k" V 7875 1825 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 8050 1675 50  0001 C CNN
+F 3 "~" V 7850 1875 50  0001 C CNN
+	1    7850 1875
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8025 1875 8025 1600
-Text Label 8025 2225 3    50   ~ 0
+	7850 1725 7850 1450
+Text Label 7850 2075 3    50   ~ 0
 -VREF0
 Wire Wire Line
-	8025 2225 8025 2175
+	7850 2075 7850 2025
 Wire Wire Line
-	8025 1325 7975 1325
+	7850 1175 7800 1175
 $Comp
 L power:+15V #PWR?
 U 1 1 66840B1C
-P 8725 1000
+P 8550 850
 AR Path="/66840B1C" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840B1C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8725 850 50  0001 C CNN
-F 1 "+15V" H 8725 1150 50  0000 C CNN
-F 2 "" H 8725 1000 50  0001 C CNN
-F 3 "" H 8725 1000 50  0001 C CNN
-	1    8725 1000
+AR Path="/667ED907/66840B1C" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 8550 700 50  0001 C CNN
+F 1 "+15V" H 8550 1000 50  0000 C CNN
+F 2 "" H 8550 850 50  0001 C CNN
+F 3 "" H 8550 850 50  0001 C CNN
+	1    8550 850 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Q_NJFET_DSG Q?
 U 1 1 66840B22
-P 8625 1600
+P 8450 1450
 AR Path="/66840B22" Ref="Q?"  Part="1" 
-AR Path="/667ED907/66840B22" Ref="Q?"  Part="1" 
-F 0 "Q?" H 8816 1600 50  0000 L CNN
-F 1 "MMBFJ202" H 8815 1555 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 8825 1700 50  0001 C CNN
-F 3 "~" H 8625 1600 50  0001 C CNN
-	1    8625 1600
+AR Path="/667ED907/66840B22" Ref="Q4"  Part="1" 
+F 0 "Q4" H 8641 1450 50  0000 L CNN
+F 1 "MMBFJ202" H 8640 1405 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 8650 1550 50  0001 C CNN
+F 3 "~" H 8450 1450 50  0001 C CNN
+	1    8450 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 66840B28
-P 8725 1150
+P 8550 1000
 AR Path="/66840B28" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840B28" Ref="R?"  Part="1" 
-F 0 "R?" V 8679 1218 50  0000 L CNN
-F 1 "7.5k" V 8770 1218 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 8925 950 50  0001 C CNN
-F 3 "~" V 8725 1150 50  0001 C CNN
-	1    8725 1150
+AR Path="/667ED907/66840B28" Ref="R21"  Part="1" 
+F 0 "R21" V 8504 1068 50  0000 L CNN
+F 1 "7.5k" V 8595 1068 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 8750 800 50  0001 C CNN
+F 3 "~" V 8550 1000 50  0001 C CNN
+	1    8550 1000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8725 1800 8725 1875
+	8550 1650 8550 1725
 Wire Wire Line
-	8725 2175 8725 2225
+	8550 2025 8550 2075
 $Comp
 L bca-symbols:R R?
 U 1 1 66840B30
-P 8725 2025
+P 8550 1875
 AR Path="/66840B30" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840B30" Ref="R?"  Part="1" 
-F 0 "R?" V 8675 2075 50  0000 L CNN
-F 1 "1k" V 8775 2075 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 8925 1825 50  0001 C CNN
-F 3 "~" V 8725 2025 50  0001 C CNN
-	1    8725 2025
+AR Path="/667ED907/66840B30" Ref="R22"  Part="1" 
+F 0 "R22" V 8500 1925 50  0000 L CNN
+F 1 "1k" V 8600 1925 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 8750 1675 50  0001 C CNN
+F 3 "~" V 8550 1875 50  0001 C CNN
+	1    8550 1875
 	0    1    1    0   
 $EndComp
-Text Label 8775 2225 0    50   ~ 0
+Text Label 8600 2075 0    50   ~ 0
 ccs3
 Wire Wire Line
-	8775 2225 8725 2225
+	8600 2075 8550 2075
 Wire Wire Line
-	8025 1600 8075 1600
-Connection ~ 8025 1600
+	7850 1450 7900 1450
+Connection ~ 7850 1450
 Wire Wire Line
-	8025 1600 8025 1325
+	7850 1450 7850 1175
 $Comp
 L Device:Q_NJFET_DSG Q?
 U 1 1 66840B3B
-P 5250 1575
+P 5075 1425
 AR Path="/66840B3B" Ref="Q?"  Part="1" 
-AR Path="/667ED907/66840B3B" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5441 1575 50  0000 L CNN
-F 1 "MMBFJ202" H 5440 1530 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5450 1675 50  0001 C CNN
-F 3 "~" H 5250 1575 50  0001 C CNN
-	1    5250 1575
+AR Path="/667ED907/66840B3B" Ref="Q2"  Part="1" 
+F 0 "Q2" H 5266 1425 50  0000 L CNN
+F 1 "MMBFJ202" H 5265 1380 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5275 1525 50  0001 C CNN
+F 3 "~" H 5075 1425 50  0001 C CNN
+	1    5075 1425
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Q_NPN_BEC Q?
 U 1 1 66840B41
-P 9850 1350
+P 9675 1200
 AR Path="/66840B41" Ref="Q?"  Part="1" 
-AR Path="/667ED907/66840B41" Ref="Q?"  Part="1" 
-F 0 "Q?" H 10041 1396 50  0000 L CNN
-F 1 "BC848C" H 10041 1305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 10050 1450 50  0001 C CNN
-F 3 "~" H 9850 1350 50  0001 C CNN
-	1    9850 1350
+AR Path="/667ED907/66840B41" Ref="Q5"  Part="1" 
+F 0 "Q5" H 9866 1246 50  0000 L CNN
+F 1 "BC848C" H 9866 1155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 9875 1300 50  0001 C CNN
+F 3 "~" H 9675 1200 50  0001 C CNN
+	1    9675 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+15V #PWR?
 U 1 1 66840B47
-P 9950 1000
+P 9775 850
 AR Path="/66840B47" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840B47" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9950 850 50  0001 C CNN
-F 1 "+15V" H 9950 1150 50  0000 C CNN
-F 2 "" H 9950 1000 50  0001 C CNN
-F 3 "" H 9950 1000 50  0001 C CNN
-	1    9950 1000
+AR Path="/667ED907/66840B47" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 9775 700 50  0001 C CNN
+F 1 "+15V" H 9775 1000 50  0000 C CNN
+F 2 "" H 9775 850 50  0001 C CNN
+F 3 "" H 9775 850 50  0001 C CNN
+	1    9775 850 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 1000 9950 1150
+	9775 850  9775 1000
 $Comp
 L bca-symbols:R R?
 U 1 1 66840B4E
-P 9950 2025
+P 9775 1875
 AR Path="/66840B4E" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840B4E" Ref="R?"  Part="1" 
-F 0 "R?" V 9900 2075 50  0000 L CNN
-F 1 "15k" V 10000 2075 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 10150 1825 50  0001 C CNN
-F 3 "~" V 9950 2025 50  0001 C CNN
-	1    9950 2025
+AR Path="/667ED907/66840B4E" Ref="R25"  Part="1" 
+F 0 "R25" V 9725 1925 50  0000 L CNN
+F 1 "15k" V 9825 1925 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 9975 1675 50  0001 C CNN
+F 3 "~" V 9775 1875 50  0001 C CNN
+	1    9775 1875
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9950 1875 9950 1725
+	9775 1725 9775 1575
 $Comp
 L power:-15V #PWR?
 U 1 1 66840B55
-P 9950 2175
+P 9775 2025
 AR Path="/66840B55" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840B55" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9950 2275 50  0001 C CNN
-F 1 "-15V" H 9950 2325 50  0000 C CNN
-F 2 "" H 9950 2175 50  0001 C CNN
-F 3 "" H 9950 2175 50  0001 C CNN
-	1    9950 2175
+AR Path="/667ED907/66840B55" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 9775 2125 50  0001 C CNN
+F 1 "-15V" H 9775 2175 50  0000 C CNN
+F 2 "" H 9775 2025 50  0001 C CNN
+F 3 "" H 9775 2025 50  0001 C CNN
+	1    9775 2025
 	-1   0    0    1   
 $EndComp
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 66840B5B
-P 10150 1725
+P 9975 1575
 AR Path="/66840B5B" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840B5B" Ref="C?"  Part="1" 
-F 0 "C?" V 10000 1725 50  0000 C CNN
-F 1 "0.1uF" V 10300 1725 50  0000 C CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 10188 1575 50  0001 C CNN
-F 3 "~" H 10150 1725 50  0001 C CNN
-	1    10150 1725
+AR Path="/667ED907/66840B5B" Ref="C18"  Part="1" 
+F 0 "C18" V 9825 1575 50  0000 C CNN
+F 1 "0.1uF" V 10125 1575 50  0000 C CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 10013 1425 50  0001 C CNN
+F 3 "~" H 9975 1575 50  0001 C CNN
+	1    9975 1575
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10000 1725 9950 1725
-Connection ~ 9950 1725
+	9825 1575 9775 1575
+Connection ~ 9775 1575
 Wire Wire Line
-	9950 1725 9950 1550
-Text Label 10350 1725 0    50   ~ 0
+	9775 1575 9775 1400
+Text Label 10175 1575 0    50   ~ 0
 eq_send
 Wire Wire Line
-	10350 1725 10300 1725
+	10175 1575 10125 1575
 $Comp
 L bca-symbols:CP_Audio C?
 U 1 1 66840B66
-P 8450 2025
+P 8275 1875
 AR Path="/66840B66" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840B66" Ref="C?"  Part="1" 
-F 0 "C?" H 8475 2125 50  0000 L CNN
-F 1 "10uF" H 8475 1925 50  0000 L CNN
-F 2 "bca-footprints:CP_Radial_D4.0mm_P1.50mm" H 8450 1625 50  0001 C CNN
-F 3 "~" H 8450 2025 50  0001 C CNN
-	1    8450 2025
+AR Path="/667ED907/66840B66" Ref="C15"  Part="1" 
+F 0 "C15" H 8300 1975 50  0000 L CNN
+F 1 "10uF" H 8300 1775 50  0000 L CNN
+F 2 "bca-footprints:CP_Radial_D4.0mm_P1.50mm" H 8275 1475 50  0001 C CNN
+F 3 "~" H 8275 1875 50  0001 C CNN
+	1    8275 1875
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 2175 8450 2225
+	8275 2025 8275 2075
 Wire Wire Line
-	8450 2225 8725 2225
-Connection ~ 8725 2225
+	8275 2075 8550 2075
+Connection ~ 8550 2075
 $Comp
 L power:Earth #PWR?
 U 1 1 66840B6F
-P 8450 1875
+P 8275 1725
 AR Path="/66840B6F" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840B6F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8450 1625 50  0001 C CNN
-F 1 "Earth" H 8450 1725 50  0001 C CNN
-F 2 "" H 8450 1875 50  0001 C CNN
-F 3 "~" H 8450 1875 50  0001 C CNN
-	1    8450 1875
+AR Path="/667ED907/66840B6F" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 8275 1475 50  0001 C CNN
+F 1 "Earth" H 8275 1575 50  0001 C CNN
+F 2 "" H 8275 1725 50  0001 C CNN
+F 3 "~" H 8275 1725 50  0001 C CNN
+	1    8275 1725
 	-1   0    0    1   
 $EndComp
-Connection ~ 7200 1825
+Connection ~ 7025 1675
 Wire Wire Line
-	7200 1825 7200 1875
-Connection ~ 5350 1825
+	7025 1675 7025 1725
+Connection ~ 5175 1675
 Wire Wire Line
-	5350 1825 5350 1875
+	5175 1675 5175 1725
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 66840B79
-P 5150 1125
+P 4975 975
 AR Path="/66840B79" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840B79" Ref="C?"  Part="1" 
-F 0 "C?" H 5125 1025 50  0000 R CNN
-F 1 "100pF" H 5125 1225 50  0000 R CNN
-F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 5188 975 50  0001 C CNN
-F 3 "~" H 5150 1125 50  0001 C CNN
-	1    5150 1125
+AR Path="/667ED907/66840B79" Ref="C10"  Part="1" 
+F 0 "C10" H 4950 875 50  0000 R CNN
+F 1 "100pF" H 4950 1075 50  0000 R CNN
+F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 5013 825 50  0001 C CNN
+F 3 "~" H 4975 975 50  0001 C CNN
+	1    4975 975 
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5350 1325 5150 1325
+	5175 1175 4975 1175
 Wire Wire Line
-	5150 1325 5150 1275
+	4975 1175 4975 1125
 $Comp
 L power:+15V #PWR?
 U 1 1 66840B81
-P 5150 975
+P 4975 825
 AR Path="/66840B81" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840B81" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5150 825 50  0001 C CNN
-F 1 "+15V" H 5150 1125 50  0000 C CNN
-F 2 "" H 5150 975 50  0001 C CNN
-F 3 "" H 5150 975 50  0001 C CNN
-	1    5150 975 
+AR Path="/667ED907/66840B81" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 4975 675 50  0001 C CNN
+F 1 "+15V" H 4975 975 50  0000 C CNN
+F 2 "" H 4975 825 50  0001 C CNN
+F 3 "" H 4975 825 50  0001 C CNN
+	1    4975 825 
 	1    0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 66840B87
-P 7000 1125
+P 6825 975
 AR Path="/66840B87" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840B87" Ref="C?"  Part="1" 
-F 0 "C?" H 6975 1025 50  0000 R CNN
-F 1 "100pF" H 6975 1225 50  0000 R CNN
-F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 7038 975 50  0001 C CNN
-F 3 "~" H 7000 1125 50  0001 C CNN
-	1    7000 1125
+AR Path="/667ED907/66840B87" Ref="C13"  Part="1" 
+F 0 "C13" H 6800 875 50  0000 R CNN
+F 1 "100pF" H 6800 1075 50  0000 R CNN
+F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 6863 825 50  0001 C CNN
+F 3 "~" H 6825 975 50  0001 C CNN
+	1    6825 975 
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	7200 1325 7000 1325
+	7025 1175 6825 1175
 Wire Wire Line
-	7000 1325 7000 1275
+	6825 1175 6825 1125
 $Comp
 L power:+15V #PWR?
 U 1 1 66840B8F
-P 7000 975
+P 6825 825
 AR Path="/66840B8F" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840B8F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7000 825 50  0001 C CNN
-F 1 "+15V" H 7000 1125 50  0000 C CNN
-F 2 "" H 7000 975 50  0001 C CNN
-F 3 "" H 7000 975 50  0001 C CNN
-	1    7000 975 
+AR Path="/667ED907/66840B8F" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 6825 675 50  0001 C CNN
+F 1 "+15V" H 6825 975 50  0000 C CNN
+F 2 "" H 6825 825 50  0001 C CNN
+F 3 "" H 6825 825 50  0001 C CNN
+	1    6825 825 
 	1    0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 66840B95
-P 4850 1575
+P 4675 1425
 AR Path="/66840B95" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840B95" Ref="R?"  Part="1" 
-F 0 "R?" H 4850 1675 50  0000 C CNN
-F 1 "47k" H 4850 1475 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 5050 1375 50  0001 C CNN
-F 3 "~" V 4850 1575 50  0001 C CNN
-	1    4850 1575
+AR Path="/667ED907/66840B95" Ref="R9"  Part="1" 
+F 0 "R9" H 4675 1525 50  0000 C CNN
+F 1 "47k" H 4675 1325 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4875 1225 50  0001 C CNN
+F 3 "~" V 4675 1425 50  0001 C CNN
+	1    4675 1425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 1575 5050 1575
+	4825 1425 4875 1425
 $Comp
 L bca-symbols:R R?
 U 1 1 66840B9C
-P 6700 1575
+P 6525 1425
 AR Path="/66840B9C" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840B9C" Ref="R?"  Part="1" 
-F 0 "R?" H 6700 1675 50  0000 C CNN
-F 1 "47k" H 6700 1475 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6900 1375 50  0001 C CNN
-F 3 "~" V 6700 1575 50  0001 C CNN
-	1    6700 1575
+AR Path="/667ED907/66840B9C" Ref="R15"  Part="1" 
+F 0 "R15" H 6525 1525 50  0000 C CNN
+F 1 "47k" H 6525 1325 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6725 1225 50  0001 C CNN
+F 3 "~" V 6525 1425 50  0001 C CNN
+	1    6525 1425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 1575 6900 1575
+	6675 1425 6725 1425
 $Comp
 L bca-symbols:R R?
 U 1 1 66840BA3
-P 8225 1600
+P 8050 1450
 AR Path="/66840BA3" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840BA3" Ref="R?"  Part="1" 
-F 0 "R?" H 8225 1700 50  0000 C CNN
-F 1 "47k" H 8225 1500 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 8425 1400 50  0001 C CNN
-F 3 "~" V 8225 1600 50  0001 C CNN
-	1    8225 1600
+AR Path="/667ED907/66840BA3" Ref="R20"  Part="1" 
+F 0 "R20" H 8050 1550 50  0000 C CNN
+F 1 "47k" H 8050 1350 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 8250 1250 50  0001 C CNN
+F 3 "~" V 8050 1450 50  0001 C CNN
+	1    8050 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8375 1600 8425 1600
+	8200 1450 8250 1450
 Wire Wire Line
-	8725 1300 8725 1350
+	8550 1150 8550 1200
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 66840BAB
-P 9050 1350
+P 8875 1200
 AR Path="/66840BAB" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840BAB" Ref="C?"  Part="1" 
-F 0 "C?" V 8900 1350 50  0000 C CNN
-F 1 "0.1uF" V 9200 1350 50  0000 C CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 9088 1200 50  0001 C CNN
-F 3 "~" H 9050 1350 50  0001 C CNN
-	1    9050 1350
+AR Path="/667ED907/66840BAB" Ref="C17"  Part="1" 
+F 0 "C17" V 8725 1200 50  0000 C CNN
+F 1 "0.1uF" V 9025 1200 50  0000 C CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 8913 1050 50  0001 C CNN
+F 3 "~" H 8875 1200 50  0001 C CNN
+	1    8875 1200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8900 1350 8725 1350
-Connection ~ 8725 1350
+	8725 1200 8550 1200
+Connection ~ 8550 1200
 Wire Wire Line
-	8725 1350 8725 1400
+	8550 1200 8550 1250
 $Comp
 L bca-symbols:R R?
 U 1 1 66840BB4
-P 9400 1350
+P 9225 1200
 AR Path="/66840BB4" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840BB4" Ref="R?"  Part="1" 
-F 0 "R?" H 9400 1450 50  0000 C CNN
-F 1 "470k" H 9400 1250 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 9600 1150 50  0001 C CNN
-F 3 "~" V 9400 1350 50  0001 C CNN
-	1    9400 1350
+AR Path="/667ED907/66840BB4" Ref="R23"  Part="1" 
+F 0 "R23" H 9225 1300 50  0000 C CNN
+F 1 "470k" H 9225 1100 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 9425 1000 50  0001 C CNN
+F 3 "~" V 9225 1200 50  0001 C CNN
+	1    9225 1200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 1350 9200 1350
+	9075 1200 9025 1200
 $Comp
 L bca-symbols:R R?
 U 1 1 66840BBB
-P 9600 2025
+P 9425 1875
 AR Path="/66840BBB" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840BBB" Ref="R?"  Part="1" 
-F 0 "R?" V 9550 1975 50  0000 R CNN
-F 1 "100k" V 9625 1975 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 9800 1825 50  0001 C CNN
-F 3 "~" V 9600 2025 50  0001 C CNN
-	1    9600 2025
+AR Path="/667ED907/66840BBB" Ref="R24"  Part="1" 
+F 0 "R24" V 9375 1825 50  0000 R CNN
+F 1 "100k" V 9450 1825 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 9625 1675 50  0001 C CNN
+F 3 "~" V 9425 1875 50  0001 C CNN
+	1    9425 1875
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9650 1350 9600 1350
+	9475 1200 9425 1200
 Wire Wire Line
-	9600 1350 9600 1875
-Connection ~ 9600 1350
+	9425 1200 9425 1725
+Connection ~ 9425 1200
 Wire Wire Line
-	9600 1350 9550 1350
+	9425 1200 9375 1200
 $Comp
 L power:Earth #PWR?
 U 1 1 66840BC5
-P 9600 2175
+P 9425 2025
 AR Path="/66840BC5" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840BC5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9600 1925 50  0001 C CNN
-F 1 "Earth" H 9600 2025 50  0001 C CNN
-F 2 "" H 9600 2175 50  0001 C CNN
-F 3 "~" H 9600 2175 50  0001 C CNN
-	1    9600 2175
+AR Path="/667ED907/66840BC5" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 9425 1775 50  0001 C CNN
+F 1 "Earth" H 9425 1875 50  0001 C CNN
+F 2 "" H 9425 2025 50  0001 C CNN
+F 3 "~" H 9425 2025 50  0001 C CNN
+	1    9425 2025
 	1    0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 66840BCB
-P 8525 1150
+P 8350 1000
 AR Path="/66840BCB" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840BCB" Ref="C?"  Part="1" 
-F 0 "C?" H 8500 1050 50  0000 R CNN
-F 1 "100pF" H 8500 1250 50  0000 R CNN
-F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 8563 1000 50  0001 C CNN
-F 3 "~" H 8525 1150 50  0001 C CNN
-	1    8525 1150
+AR Path="/667ED907/66840BCB" Ref="C16"  Part="1" 
+F 0 "C16" H 8325 900 50  0000 R CNN
+F 1 "100pF" H 8325 1100 50  0000 R CNN
+F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 8388 850 50  0001 C CNN
+F 3 "~" H 8350 1000 50  0001 C CNN
+	1    8350 1000
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	8725 1350 8525 1350
+	8550 1200 8350 1200
 Wire Wire Line
-	8525 1350 8525 1300
+	8350 1200 8350 1150
 $Comp
 L power:+15V #PWR?
 U 1 1 66840BD3
-P 8525 1000
+P 8350 850
 AR Path="/66840BD3" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/66840BD3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8525 850 50  0001 C CNN
-F 1 "+15V" H 8525 1150 50  0000 C CNN
-F 2 "" H 8525 1000 50  0001 C CNN
-F 3 "" H 8525 1000 50  0001 C CNN
-	1    8525 1000
+AR Path="/667ED907/66840BD3" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 8350 700 50  0001 C CNN
+F 1 "+15V" H 8350 1000 50  0000 C CNN
+F 2 "" H 8350 850 50  0001 C CNN
+F 3 "" H 8350 850 50  0001 C CNN
+	1    8350 850 
 	1    0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 66840BD9
-P 6175 2025
+P 6000 1875
 AR Path="/66840BD9" Ref="R?"  Part="1" 
-AR Path="/667ED907/66840BD9" Ref="R?"  Part="1" 
-F 0 "R?" V 6125 1975 50  0000 R CNN
-F 1 "470k" V 6200 1975 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6375 1825 50  0001 C CNN
-F 3 "~" V 6175 2025 50  0001 C CNN
-	1    6175 2025
+AR Path="/667ED907/66840BD9" Ref="R13"  Part="1" 
+F 0 "R13" V 5950 1825 50  0000 R CNN
+F 1 "470k" V 6025 1825 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6200 1675 50  0001 C CNN
+F 3 "~" V 6000 1875 50  0001 C CNN
+	1    6000 1875
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6175 1875 6175 1325
-Connection ~ 6175 1325
+	6000 1725 6000 1175
+Connection ~ 6000 1175
 Wire Wire Line
-	6175 1325 6125 1325
+	6000 1175 5950 1175
 Wire Wire Line
-	6175 2225 6175 2175
-Text Label 6175 2225 3    50   ~ 0
+	6000 2075 6000 2025
+Text Label 6000 2075 3    50   ~ 0
 -VREF0
-Text Label 6350 2225 3    50   ~ 0
+Text Label 6175 2075 3    50   ~ 0
 -VREF0
 $Comp
 L Switch:SW_SPDT SW?
 U 1 1 66840BE5
-P 4000 1125
+P 3825 975
 AR Path="/66840BE5" Ref="SW?"  Part="1" 
-AR Path="/667ED907/66840BE5" Ref="SW?"  Part="1" 
-F 0 "SW?" H 4000 1410 50  0000 C CNN
-F 1 "SW_SPDT" H 4000 1319 50  0000 C CNN
-F 2 "bca-footprints:SW_Toggle_SPDT_SolderLug" H 4000 1125 50  0001 C CNN
-F 3 "~" H 4000 1125 50  0001 C CNN
-	1    4000 1125
+AR Path="/667ED907/66840BE5" Ref="SW3"  Part="1" 
+F 0 "SW3" H 3825 1260 50  0000 C CNN
+F 1 "SW_SPDT" H 3825 1169 50  0000 C CNN
+F 2 "bca-footprints:SW_Toggle_SPDT_SolderLug" H 3825 975 50  0001 C CNN
+F 3 "~" H 3825 975 50  0001 C CNN
+	1    3825 975 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 1125 3750 1125
+	3625 975  3575 975 
 Wire Wire Line
-	3750 1125 3750 1325
+	3575 975  3575 1175
 Wire Wire Line
-	4350 1575 4650 1575
-Connection ~ 4650 1575
+	4175 1425 4475 1425
+Connection ~ 4475 1425
 Wire Wire Line
-	4650 1575 4700 1575
+	4475 1425 4525 1425
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 66840BF0
-P 4450 925
+P 4275 775
 AR Path="/66840BF0" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840BF0" Ref="C?"  Part="1" 
-F 0 "C?" V 4300 925 50  0000 C CNN
-F 1 "2.2nF" V 4600 925 50  0000 C CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 4488 775 50  0001 C CNN
-F 3 "~" H 4450 925 50  0001 C CNN
-	1    4450 925 
+AR Path="/667ED907/66840BF0" Ref="C8"  Part="1" 
+F 0 "C8" V 4125 775 50  0000 C CNN
+F 1 "2.2nF" V 4425 775 50  0000 C CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 4313 625 50  0001 C CNN
+F 3 "~" H 4275 775 50  0001 C CNN
+	1    4275 775 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4200 1025 4250 1025
+	4025 875  4075 875 
 Wire Wire Line
-	4250 1025 4250 925 
+	4075 875  4075 775 
 Wire Wire Line
-	4250 925  4300 925 
+	4075 775  4125 775 
 Wire Wire Line
-	4600 925  4650 925 
+	4425 775  4475 775 
 $Comp
 L Switch:SW_DPDT_x2 SW?
-U 1 1 66840BFA
-P 1450 1325
+U 2 1 66840BFA
+P 1275 1175
 AR Path="/66840BFA" Ref="SW?"  Part="1" 
-AR Path="/667ED907/66840BFA" Ref="SW?"  Part="1" 
-F 0 "SW?" V 1450 1325 50  0000 R CNN
-F 1 "SW_DPDT_x2" V 1405 1137 50  0001 R CNN
-F 2 "" H 1450 1325 50  0001 C CNN
-F 3 "~" H 1450 1325 50  0001 C CNN
-	1    1450 1325
+AR Path="/667ED907/66840BFA" Ref="SW1"  Part="2" 
+F 0 "SW1" V 1275 1175 50  0000 R CNN
+F 1 "SW_DPDT_x2" V 1230 987 50  0001 R CNN
+F 2 "bca-footprints:SW_Toggle_DPDT_SolderLug" H 1275 1175 50  0001 C CNN
+F 3 "~" H 1275 1175 50  0001 C CNN
+	2    1275 1175
 	0    -1   -1   0   
 $EndComp
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 66840C00
-P 1825 1075
+P 1650 925
 AR Path="/66840C00" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840C00" Ref="C?"  Part="1" 
-F 0 "C?" V 1675 1075 50  0000 C CNN
-F 1 "10nF" V 1975 1075 50  0000 C CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 1863 925 50  0001 C CNN
-F 3 "~" H 1825 1075 50  0001 C CNN
-	1    1825 1075
+AR Path="/667ED907/66840C00" Ref="C2"  Part="1" 
+F 0 "C2" V 1500 925 50  0000 C CNN
+F 1 "10nF" V 1800 925 50  0000 C CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 1688 775 50  0001 C CNN
+F 3 "~" H 1650 925 50  0001 C CNN
+	1    1650 925 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1675 1075 1350 1075
+	1500 925  1175 925 
 Wire Wire Line
-	1350 1075 1350 1125
+	1175 925  1175 975 
 Wire Wire Line
-	1975 1075 2025 1075
+	1800 925  1850 925 
 Wire Wire Line
-	2025 1075 2025 1575
+	1850 925  1850 1425
 $Comp
 L Switch:SW_DPDT_x2 SW?
-U 2 1 66840C0A
-P 2825 1075
+U 1 1 66840C0A
+P 2650 925
 AR Path="/66840C0A" Ref="SW?"  Part="2" 
-AR Path="/667ED907/66840C0A" Ref="SW?"  Part="2" 
-F 0 "SW?" V 2825 1075 50  0000 R CNN
-F 1 "SW_DPDT_x2" V 2780 887 50  0001 R CNN
-F 2 "" H 2825 1075 50  0001 C CNN
-F 3 "~" H 2825 1075 50  0001 C CNN
-	2    2825 1075
+AR Path="/667ED907/66840C0A" Ref="SW1"  Part="1" 
+F 0 "SW1" V 2650 925 50  0000 R CNN
+F 1 "SW_DPDT_x2" V 2605 737 50  0001 R CNN
+F 2 "bca-footprints:SW_Toggle_DPDT_SolderLug" H 2650 925 50  0001 C CNN
+F 3 "~" H 2650 925 50  0001 C CNN
+	1    2650 925 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 66840C10
-P 3150 825
+P 2975 675
 AR Path="/66840C10" Ref="C?"  Part="1" 
-AR Path="/667ED907/66840C10" Ref="C?"  Part="1" 
-F 0 "C?" V 3000 825 50  0000 C CNN
-F 1 "22nF" V 3300 825 50  0000 C CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 3188 675 50  0001 C CNN
-F 3 "~" H 3150 825 50  0001 C CNN
-	1    3150 825 
+AR Path="/667ED907/66840C10" Ref="C4"  Part="1" 
+F 0 "C4" V 2825 675 50  0000 C CNN
+F 1 "22nF" V 3125 675 50  0000 C CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 3013 525 50  0001 C CNN
+F 3 "~" H 2975 675 50  0001 C CNN
+	1    2975 675 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3000 825  2725 825 
+	2825 675  2550 675 
 Wire Wire Line
-	2725 825  2725 875 
+	2550 675  2550 725 
 Wire Wire Line
-	3350 825  3350 1325
+	3175 675  3175 1175
 Wire Wire Line
-	3300 825  3350 825 
-Connection ~ 3350 1325
+	3125 675  3175 675 
+Connection ~ 3175 1175
 Wire Wire Line
-	3350 1325 3400 1325
+	3175 1175 3225 1175
 Wire Wire Line
-	2475 1775 2475 1825
-Connection ~ 2475 1825
+	2300 1625 2300 1675
+Connection ~ 2300 1675
 Wire Wire Line
-	2475 1825 2475 1875
-Connection ~ 2475 2225
+	2300 1675 2300 1725
+Connection ~ 2300 2075
 Wire Wire Line
-	2825 1275 2825 1325
-Connection ~ 2825 1325
+	2650 1125 2650 1175
+Connection ~ 2650 1175
 Wire Wire Line
-	2825 1325 2475 1325
+	2650 1175 2300 1175
 Wire Wire Line
-	1450 1525 1450 1575
+	1275 1375 1275 1425
 $Comp
 L Switch:SW_SPDT SW?
 U 1 1 66840C24
-P 2900 1825
+P 2725 1675
 AR Path="/66840C24" Ref="SW?"  Part="1" 
-AR Path="/667ED907/66840C24" Ref="SW?"  Part="1" 
-F 0 "SW?" H 2950 1825 50  0000 C CNN
-F 1 "SW_SPDT" H 2900 2019 50  0001 C CNN
-F 2 "bca-footprints:SW_Toggle_SPDT_SolderLug" H 2900 1825 50  0001 C CNN
-F 3 "~" H 2900 1825 50  0001 C CNN
-	1    2900 1825
+AR Path="/667ED907/66840C24" Ref="SW2"  Part="1" 
+F 0 "SW2" H 2775 1675 50  0000 C CNN
+F 1 "SW_SPDT" H 2725 1869 50  0001 C CNN
+F 2 "bca-footprints:SW_Toggle_SPDT_SolderLug" H 2725 1675 50  0001 C CNN
+F 3 "~" H 2725 1675 50  0001 C CNN
+	1    2725 1675
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 1825 3150 1825
+	2925 1675 2975 1675
 Wire Wire Line
-	3150 1825 3150 1875
+	2975 1675 2975 1725
 Wire Wire Line
-	2700 1925 2650 1925
+	2525 1775 2475 1775
 Wire Wire Line
-	2650 1925 2650 2225
+	2475 1775 2475 2075
 Wire Wire Line
-	2475 2225 2650 2225
+	2300 2075 2475 2075
 Wire Wire Line
-	2700 1725 2650 1725
+	2525 1575 2475 1575
 Wire Wire Line
-	2650 1725 2650 1825
+	2475 1575 2475 1675
 Wire Wire Line
-	2475 1825 2650 1825
+	2300 1675 2475 1675
 Wire Wire Line
-	4650 925  4650 1575
-Text HLabel 1050 1575 0    50   Input ~ 0
+	4475 775  4475 1425
+Text HLabel 875  1425 0    50   Input ~ 0
 send
 $Comp
 L power:-15V #PWR?
 U 1 1 6687CA96
-P 3850 7450
+P 4800 7450
 AR Path="/6687CA96" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/6687CA96" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3850 7550 50  0001 C CNN
-F 1 "-15V" H 3850 7600 50  0000 C CNN
-F 2 "" H 3850 7450 50  0001 C CNN
-F 3 "" H 3850 7450 50  0001 C CNN
-	1    3850 7450
+AR Path="/667ED907/6687CA96" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 4800 7550 50  0001 C CNN
+F 1 "-15V" H 4800 7600 50  0000 C CNN
+F 2 "" H 4800 7450 50  0001 C CNN
+F 3 "" H 4800 7450 50  0001 C CNN
+	1    4800 7450
 	-1   0    0    1   
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 6687CA9C
-P 3850 7300
+P 4800 7300
 AR Path="/6687CA9C" Ref="R?"  Part="1" 
-AR Path="/667ED907/6687CA9C" Ref="R?"  Part="1" 
-F 0 "R?" V 3804 7368 50  0000 L CNN
-F 1 "12k" V 3895 7368 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4050 7100 50  0001 C CNN
-F 3 "~" V 3850 7300 50  0001 C CNN
-	1    3850 7300
+AR Path="/667ED907/6687CA9C" Ref="R57"  Part="1" 
+F 0 "R57" V 4754 7368 50  0000 L CNN
+F 1 "12k" V 4845 7368 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 5000 7100 50  0001 C CNN
+F 3 "~" V 4800 7300 50  0001 C CNN
+	1    4800 7300
 	0    1    1    0   
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 6687CAA2
-P 3850 6550
+P 4800 6550
 AR Path="/6687CAA2" Ref="R?"  Part="1" 
-AR Path="/667ED907/6687CAA2" Ref="R?"  Part="1" 
-F 0 "R?" V 3804 6618 50  0000 L CNN
-F 1 "1k" V 3895 6618 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4050 6350 50  0001 C CNN
-F 3 "~" V 3850 6550 50  0001 C CNN
-	1    3850 6550
+AR Path="/667ED907/6687CAA2" Ref="R55"  Part="1" 
+F 0 "R55" V 4754 6618 50  0000 L CNN
+F 1 "1k" V 4845 6618 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 5000 6350 50  0001 C CNN
+F 3 "~" V 4800 6550 50  0001 C CNN
+	1    4800 6550
 	0    1    1    0   
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 6687CAA8
-P 3850 6400
+P 4800 6400
 AR Path="/6687CAA8" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/6687CAA8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3850 6150 50  0001 C CNN
-F 1 "Earth" H 3850 6250 50  0001 C CNN
-F 2 "" H 3850 6400 50  0001 C CNN
-F 3 "~" H 3850 6400 50  0001 C CNN
-	1    3850 6400
+AR Path="/667ED907/6687CAA8" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 4800 6150 50  0001 C CNN
+F 1 "Earth" H 4800 6250 50  0001 C CNN
+F 2 "" H 4800 6400 50  0001 C CNN
+F 3 "~" H 4800 6400 50  0001 C CNN
+	1    4800 6400
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3850 6800 3850 6750
+	4800 6800 4800 6750
 $Comp
 L bca-symbols:CP_Power C?
 U 1 1 6687CAAF
-P 4200 7300
+P 5150 7300
 AR Path="/6687CAAF" Ref="C?"  Part="1" 
-AR Path="/667ED907/6687CAAF" Ref="C?"  Part="1" 
-F 0 "C?" H 4225 7175 50  0000 L CNN
-F 1 "100uF" H 4225 7400 50  0000 L CNN
-F 2 "bca-footprints:CP_Radial_D6.3mm_P2.50mm" H 4200 6900 50  0001 C CNN
-F 3 "~" H 4200 7300 50  0001 C CNN
-	1    4200 7300
+AR Path="/667ED907/6687CAAF" Ref="C38"  Part="1" 
+F 0 "C38" H 5175 7175 50  0000 L CNN
+F 1 "100uF" H 5175 7400 50  0000 L CNN
+F 2 "bca-footprints:CP_Radial_D6.3mm_P2.50mm" H 5150 6900 50  0001 C CNN
+F 3 "~" H 5150 7300 50  0001 C CNN
+	1    5150 7300
 	1    0    0    1   
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 6687CAB5
-P 4200 7450
+P 5150 7450
 AR Path="/6687CAB5" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/6687CAB5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4200 7200 50  0001 C CNN
-F 1 "Earth" H 4200 7300 50  0001 C CNN
-F 2 "" H 4200 7450 50  0001 C CNN
-F 3 "~" H 4200 7450 50  0001 C CNN
-	1    4200 7450
+AR Path="/667ED907/6687CAB5" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 5150 7200 50  0001 C CNN
+F 1 "Earth" H 5150 7300 50  0001 C CNN
+F 2 "" H 5150 7450 50  0001 C CNN
+F 3 "~" H 5150 7450 50  0001 C CNN
+	1    5150 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 7150 4200 6750
+	5150 7150 5150 6750
 Wire Wire Line
-	4200 6750 3850 6750
-Connection ~ 3850 6750
+	5150 6750 4800 6750
+Connection ~ 4800 6750
 Wire Wire Line
-	3850 6750 3850 6700
+	4800 6750 4800 6700
 $Comp
 L bca-symbols:R R?
 U 1 1 6687CABF
-P 3850 6950
+P 4800 6950
 AR Path="/6687CABF" Ref="R?"  Part="1" 
-AR Path="/667ED907/6687CABF" Ref="R?"  Part="1" 
-F 0 "R?" V 3804 7018 50  0000 L CNN
-F 1 "2k" V 3895 7018 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4050 6750 50  0001 C CNN
-F 3 "~" V 3850 6950 50  0001 C CNN
-	1    3850 6950
+AR Path="/667ED907/6687CABF" Ref="R56"  Part="1" 
+F 0 "R56" V 4754 7018 50  0000 L CNN
+F 1 "2k" V 4845 7018 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 5000 6750 50  0001 C CNN
+F 3 "~" V 4800 6950 50  0001 C CNN
+	1    4800 6950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3850 7150 3850 7100
+	4800 7150 4800 7100
 $Comp
 L bca-symbols:Opamp_Generic U?
 U 1 1 6687CAC6
-P 4550 6650
+P 5500 6650
 AR Path="/6687CAC6" Ref="U?"  Part="1" 
-AR Path="/667ED907/6687CAC6" Ref="U?"  Part="1" 
-F 0 "U?" H 4650 6500 50  0000 C CNN
-F 1 "TLV9301" H 4725 6800 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4550 6625 50  0001 C CNN
-F 3 "~" H 4550 6625 50  0001 C CNN
-	1    4550 6650
+AR Path="/667ED907/6687CAC6" Ref="U4"  Part="1" 
+F 0 "U4" H 5600 6500 50  0000 C CNN
+F 1 "TLV9301" H 5675 6800 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5500 6625 50  0001 C CNN
+F 3 "~" H 5500 6625 50  0001 C CNN
+	1    5500 6650
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	4250 6750 4200 6750
-Connection ~ 4200 6750
+	5200 6750 5150 6750
+Connection ~ 5150 6750
 Wire Wire Line
-	4250 6550 4200 6550
+	5200 6550 5150 6550
 Wire Wire Line
-	4200 6550 4200 6350
+	5150 6550 5150 6350
 Wire Wire Line
-	4200 6350 4900 6350
+	5150 6350 5850 6350
 Wire Wire Line
-	4900 6350 4900 6650
+	5850 6350 5850 6650
 Wire Wire Line
-	4900 6650 4850 6650
-Text Label 4900 6350 0    50   ~ 0
+	5850 6650 5800 6650
+Text Label 5850 6350 0    50   ~ 0
 -VREF0
-Connection ~ 4900 6650
+Connection ~ 5850 6650
 $Comp
 L bca-symbols:CP_Audio C?
 U 1 1 6687CAD5
-P 4900 7300
+P 5850 7300
 AR Path="/6687CAD5" Ref="C?"  Part="1" 
-AR Path="/667ED907/6687CAD5" Ref="C?"  Part="1" 
-F 0 "C?" H 4786 7254 50  0000 R CNN
-F 1 "10uF" H 4786 7345 50  0000 R CNN
-F 2 "bca-footprints:CP_Radial_D4.0mm_P1.50mm" H 4900 6900 50  0001 C CNN
-F 3 "~" H 4900 7300 50  0001 C CNN
-	1    4900 7300
+AR Path="/667ED907/6687CAD5" Ref="C39"  Part="1" 
+F 0 "C39" H 5736 7254 50  0000 R CNN
+F 1 "10uF" H 5736 7345 50  0000 R CNN
+F 2 "bca-footprints:CP_Radial_D4.0mm_P1.50mm" H 5850 6900 50  0001 C CNN
+F 3 "~" H 5850 7300 50  0001 C CNN
+	1    5850 7300
 	1    0    0    1   
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 6687CADB
-P 4900 7450
+P 5850 7450
 AR Path="/6687CADB" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/6687CADB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4900 7200 50  0001 C CNN
-F 1 "Earth" H 4900 7300 50  0001 C CNN
-F 2 "" H 4900 7450 50  0001 C CNN
-F 3 "~" H 4900 7450 50  0001 C CNN
-	1    4900 7450
+AR Path="/667ED907/6687CADB" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 5850 7200 50  0001 C CNN
+F 1 "Earth" H 5850 7300 50  0001 C CNN
+F 2 "" H 5850 7450 50  0001 C CNN
+F 3 "~" H 5850 7450 50  0001 C CNN
+	1    5850 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 7150 4900 6650
+	5850 7150 5850 6650
 $Comp
 L power:-15V #PWR?
 U 1 1 668B534F
-P 700 7450
+P 775 7450
 AR Path="/668B534F" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668B534F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 700 7550 50  0001 C CNN
-F 1 "-15V" H 700 7600 50  0000 C CNN
-F 2 "" H 700 7450 50  0001 C CNN
-F 3 "" H 700 7450 50  0001 C CNN
-	1    700  7450
+AR Path="/667ED907/668B534F" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 775 7550 50  0001 C CNN
+F 1 "-15V" H 775 7600 50  0000 C CNN
+F 2 "" H 775 7450 50  0001 C CNN
+F 3 "" H 775 7450 50  0001 C CNN
+	1    775  7450
 	-1   0    0    1   
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 668B5355
-P 700 6450
+P 775 6400
 AR Path="/668B5355" Ref="R?"  Part="1" 
-AR Path="/667ED907/668B5355" Ref="R?"  Part="1" 
-F 0 "R?" V 654 6518 50  0000 L CNN
-F 1 "27k" V 745 6518 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 900 6250 50  0001 C CNN
-F 3 "~" V 700 6450 50  0001 C CNN
-	1    700  6450
+AR Path="/667ED907/668B5355" Ref="R48"  Part="1" 
+F 0 "R48" V 729 6468 50  0000 L CNN
+F 1 "27k" V 820 6468 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 975 6200 50  0001 C CNN
+F 3 "~" V 775 6400 50  0001 C CNN
+	1    775  6400
 	0    1    1    0   
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 668B535B
-P 700 6300
+P 775 6250
 AR Path="/668B535B" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668B535B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 700 6050 50  0001 C CNN
-F 1 "Earth" H 700 6150 50  0001 C CNN
-F 2 "" H 700 6300 50  0001 C CNN
-F 3 "~" H 700 6300 50  0001 C CNN
-	1    700  6300
+AR Path="/667ED907/668B535B" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 775 6000 50  0001 C CNN
+F 1 "Earth" H 775 6100 50  0001 C CNN
+F 2 "" H 775 6250 50  0001 C CNN
+F 3 "~" H 775 6250 50  0001 C CNN
+	1    775  6250
 	-1   0    0    1   
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 668B5361
-P 700 7300
+P 775 7300
 AR Path="/668B5361" Ref="R?"  Part="1" 
-AR Path="/667ED907/668B5361" Ref="R?"  Part="1" 
-F 0 "R?" V 654 7368 50  0000 L CNN
-F 1 "470R" V 745 7368 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 900 7100 50  0001 C CNN
-F 3 "~" V 700 7300 50  0001 C CNN
-	1    700  7300
+AR Path="/667ED907/668B5361" Ref="R49"  Part="1" 
+F 0 "R49" V 729 7368 50  0000 L CNN
+F 1 "470R" V 820 7368 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 975 7100 50  0001 C CNN
+F 3 "~" V 775 7300 50  0001 C CNN
+	1    775  7300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1000 6900 1050 6900
+	1075 6850 1125 6850
 Wire Wire Line
-	700  7150 700  7100
-Connection ~ 1050 6900
+	775  7150 775  7050
+Connection ~ 1125 6850
 $Comp
 L power:-15V #PWR?
 U 1 1 668B536A
-P 1350 7450
+P 1425 7450
 AR Path="/668B536A" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668B536A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1350 7550 50  0001 C CNN
-F 1 "-15V" H 1350 7600 50  0000 C CNN
-F 2 "" H 1350 7450 50  0001 C CNN
-F 3 "" H 1350 7450 50  0001 C CNN
-	1    1350 7450
+AR Path="/667ED907/668B536A" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 1425 7550 50  0001 C CNN
+F 1 "-15V" H 1425 7600 50  0000 C CNN
+F 2 "" H 1425 7450 50  0001 C CNN
+F 3 "" H 1425 7450 50  0001 C CNN
+	1    1425 7450
 	-1   0    0    1   
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 668B5370
-P 1350 7300
+P 1425 7300
 AR Path="/668B5370" Ref="R?"  Part="1" 
-AR Path="/667ED907/668B5370" Ref="R?"  Part="1" 
-F 0 "R?" V 1304 7368 50  0000 L CNN
-F 1 "470R" V 1395 7368 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 1550 7100 50  0001 C CNN
-F 3 "~" V 1350 7300 50  0001 C CNN
-	1    1350 7300
+AR Path="/667ED907/668B5370" Ref="R50"  Part="1" 
+F 0 "R50" V 1379 7368 50  0000 L CNN
+F 1 "470R" V 1470 7368 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 1625 7100 50  0001 C CNN
+F 3 "~" V 1425 7300 50  0001 C CNN
+	1    1425 7300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1350 7150 1350 7100
-Text Label 1400 6650 0    50   ~ 0
+	1425 7150 1425 7050
+Text Label 1475 6600 0    50   ~ 0
 ccs0
 Wire Wire Line
-	1400 6650 1350 6650
+	1475 6600 1425 6600
 Wire Wire Line
-	1350 6650 1350 6700
+	1425 6600 1425 6650
 $Comp
 L power:-15V #PWR?
 U 1 1 668B537A
-P 1800 7450
+P 1875 7450
 AR Path="/668B537A" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668B537A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1800 7550 50  0001 C CNN
-F 1 "-15V" H 1800 7600 50  0000 C CNN
-F 2 "" H 1800 7450 50  0001 C CNN
-F 3 "" H 1800 7450 50  0001 C CNN
-	1    1800 7450
+AR Path="/667ED907/668B537A" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 1875 7550 50  0001 C CNN
+F 1 "-15V" H 1875 7600 50  0000 C CNN
+F 2 "" H 1875 7450 50  0001 C CNN
+F 3 "" H 1875 7450 50  0001 C CNN
+	1    1875 7450
 	-1   0    0    1   
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 668B5380
-P 1800 7300
+P 1875 7300
 AR Path="/668B5380" Ref="R?"  Part="1" 
-AR Path="/667ED907/668B5380" Ref="R?"  Part="1" 
-F 0 "R?" V 1754 7368 50  0000 L CNN
-F 1 "470R" V 1845 7368 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 2000 7100 50  0001 C CNN
-F 3 "~" V 1800 7300 50  0001 C CNN
-	1    1800 7300
+AR Path="/667ED907/668B5380" Ref="R51"  Part="1" 
+F 0 "R51" V 1829 7368 50  0000 L CNN
+F 1 "470R" V 1920 7368 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 2075 7100 50  0001 C CNN
+F 3 "~" V 1875 7300 50  0001 C CNN
+	1    1875 7300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1800 7150 1800 7100
-Text Label 1850 6650 0    50   ~ 0
+	1875 7150 1875 7050
+Text Label 1925 6600 0    50   ~ 0
 ccs1
 Wire Wire Line
-	1850 6650 1800 6650
+	1925 6600 1875 6600
 Wire Wire Line
-	1800 6650 1800 6700
+	1875 6600 1875 6650
 $Comp
 L power:-15V #PWR?
 U 1 1 668B538A
-P 2250 7450
+P 2325 7450
 AR Path="/668B538A" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668B538A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2250 7550 50  0001 C CNN
-F 1 "-15V" H 2250 7600 50  0000 C CNN
-F 2 "" H 2250 7450 50  0001 C CNN
-F 3 "" H 2250 7450 50  0001 C CNN
-	1    2250 7450
+AR Path="/667ED907/668B538A" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 2325 7550 50  0001 C CNN
+F 1 "-15V" H 2325 7600 50  0000 C CNN
+F 2 "" H 2325 7450 50  0001 C CNN
+F 3 "" H 2325 7450 50  0001 C CNN
+	1    2325 7450
 	-1   0    0    1   
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 668B5390
-P 2250 7300
+P 2325 7300
 AR Path="/668B5390" Ref="R?"  Part="1" 
-AR Path="/667ED907/668B5390" Ref="R?"  Part="1" 
-F 0 "R?" V 2204 7368 50  0000 L CNN
-F 1 "470R" V 2295 7368 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 2450 7100 50  0001 C CNN
-F 3 "~" V 2250 7300 50  0001 C CNN
-	1    2250 7300
+AR Path="/667ED907/668B5390" Ref="R52"  Part="1" 
+F 0 "R52" V 2279 7368 50  0000 L CNN
+F 1 "470R" V 2370 7368 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 2525 7100 50  0001 C CNN
+F 3 "~" V 2325 7300 50  0001 C CNN
+	1    2325 7300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2250 7150 2250 7100
-Text Label 2300 6650 0    50   ~ 0
+	2325 7150 2325 7050
+Text Label 2375 6600 0    50   ~ 0
 ccs2
 Wire Wire Line
-	2300 6650 2250 6650
+	2375 6600 2325 6600
 Wire Wire Line
-	2250 6650 2250 6700
+	2325 6600 2325 6650
 Wire Wire Line
-	700  6600 700  6650
+	775  6550 775  6600
 $Comp
 L Device:Q_NPN_CBE Q?
 U 1 1 668B539B
-P 950 6650
+P 1025 6600
 AR Path="/668B539B" Ref="Q?"  Part="1" 
-AR Path="/667ED907/668B539B" Ref="Q?"  Part="1" 
-F 0 "Q?" H 1141 6650 50  0000 L CNN
-F 1 "BC848C" H 1141 6605 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1150 6750 50  0001 C CNN
-F 3 "~" H 950 6650 50  0001 C CNN
-	1    950  6650
+AR Path="/667ED907/668B539B" Ref="Q8"  Part="1" 
+F 0 "Q8" H 1216 6600 50  0000 L CNN
+F 1 "BC848C" H 1216 6555 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1225 6700 50  0001 C CNN
+F 3 "~" H 1025 6600 50  0001 C CNN
+	1    1025 6600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 6850 1050 6900
+	1125 6800 1125 6850
 Wire Wire Line
-	750  6650 700  6650
-Connection ~ 700  6650
+	825  6600 775  6600
+Connection ~ 775  6600
 Wire Wire Line
-	700  6650 700  6700
+	775  6600 775  6650
 $Comp
 L power:Earth #PWR?
 U 1 1 668B53A5
-P 1050 6300
+P 1125 6250
 AR Path="/668B53A5" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668B53A5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1050 6050 50  0001 C CNN
-F 1 "Earth" H 1050 6150 50  0001 C CNN
-F 2 "" H 1050 6300 50  0001 C CNN
-F 3 "~" H 1050 6300 50  0001 C CNN
-	1    1050 6300
+AR Path="/667ED907/668B53A5" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 1125 6000 50  0001 C CNN
+F 1 "Earth" H 1125 6100 50  0001 C CNN
+F 2 "" H 1125 6250 50  0001 C CNN
+F 3 "~" H 1125 6250 50  0001 C CNN
+	1    1125 6250
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1050 6300 1050 6450
+	1125 6250 1125 6400
 Wire Wire Line
-	1050 6900 1500 6900
+	1125 6850 1575 6850
 $Comp
 L Device:Q_NPN_CBE Q?
 U 1 1 668B53AD
-P 2150 6900
+P 2225 6850
 AR Path="/668B53AD" Ref="Q?"  Part="1" 
-AR Path="/667ED907/668B53AD" Ref="Q?"  Part="1" 
-F 0 "Q?" H 2341 6900 50  0000 L CNN
-F 1 "BC848C" H 2341 6855 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2350 7000 50  0001 C CNN
-F 3 "~" H 2150 6900 50  0001 C CNN
-	1    2150 6900
+AR Path="/667ED907/668B53AD" Ref="Q11"  Part="1" 
+F 0 "Q11" H 2416 6850 50  0000 L CNN
+F 1 "BC848C" H 2416 6805 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2425 6950 50  0001 C CNN
+F 3 "~" H 2225 6850 50  0001 C CNN
+	1    2225 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Q_NPN_CBE Q?
 U 1 1 668B53B3
-P 1700 6900
+P 1775 6850
 AR Path="/668B53B3" Ref="Q?"  Part="1" 
-AR Path="/667ED907/668B53B3" Ref="Q?"  Part="1" 
-F 0 "Q?" H 1891 6900 50  0000 L CNN
-F 1 "BC848C" H 1891 6855 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1900 7000 50  0001 C CNN
-F 3 "~" H 1700 6900 50  0001 C CNN
-	1    1700 6900
+AR Path="/667ED907/668B53B3" Ref="Q10"  Part="1" 
+F 0 "Q10" H 1966 6850 50  0000 L CNN
+F 1 "BC848C" H 1966 6805 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1975 6950 50  0001 C CNN
+F 3 "~" H 1775 6850 50  0001 C CNN
+	1    1775 6850
 	1    0    0    -1  
 $EndComp
-Connection ~ 1500 6900
+Connection ~ 1575 6850
 Wire Wire Line
-	1500 6900 1950 6900
+	1575 6850 2025 6850
 $Comp
 L Device:Q_NPN_CBE Q?
 U 1 1 668B53BB
-P 1250 6900
+P 1325 6850
 AR Path="/668B53BB" Ref="Q?"  Part="1" 
-AR Path="/667ED907/668B53BB" Ref="Q?"  Part="1" 
-F 0 "Q?" H 1441 6900 50  0000 L CNN
-F 1 "BC848C" H 1441 6855 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1450 7000 50  0001 C CNN
-F 3 "~" H 1250 6900 50  0001 C CNN
-	1    1250 6900
+AR Path="/667ED907/668B53BB" Ref="Q9"  Part="1" 
+F 0 "Q9" H 1516 6850 50  0000 L CNN
+F 1 "BC848C" H 1516 6805 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1525 6950 50  0001 C CNN
+F 3 "~" H 1325 6850 50  0001 C CNN
+	1    1325 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Q_NPN_CBE Q?
 U 1 1 668B53C1
-P 800 6900
+P 875 6850
 AR Path="/668B53C1" Ref="Q?"  Part="1" 
-AR Path="/667ED907/668B53C1" Ref="Q?"  Part="1" 
-F 0 "Q?" H 991 6900 50  0000 L CNN
-F 1 "BC848C" H 991 6855 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1000 7000 50  0001 C CNN
-F 3 "~" H 800 6900 50  0001 C CNN
-	1    800  6900
+AR Path="/667ED907/668B53C1" Ref="Q7"  Part="1" 
+F 0 "Q7" H 1066 6850 50  0000 L CNN
+F 1 "BC848C" H 1066 6805 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1075 6950 50  0001 C CNN
+F 3 "~" H 875 6850 50  0001 C CNN
+	1    875  6850
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:-15V #PWR?
 U 1 1 668B53C7
-P 2775 7450
+P 2700 7450
 AR Path="/668B53C7" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668B53C7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2775 7550 50  0001 C CNN
-F 1 "-15V" H 2775 7600 50  0000 C CNN
-F 2 "" H 2775 7450 50  0001 C CNN
-F 3 "" H 2775 7450 50  0001 C CNN
-	1    2775 7450
+AR Path="/667ED907/668B53C7" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 2700 7550 50  0001 C CNN
+F 1 "-15V" H 2700 7600 50  0000 C CNN
+F 2 "" H 2700 7450 50  0001 C CNN
+F 3 "" H 2700 7450 50  0001 C CNN
+	1    2700 7450
 	-1   0    0    1   
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 668B53CD
-P 2775 7300
+P 2700 7300
 AR Path="/668B53CD" Ref="R?"  Part="1" 
-AR Path="/667ED907/668B53CD" Ref="R?"  Part="1" 
-F 0 "R?" V 2729 7368 50  0000 L CNN
-F 1 "235R" V 2820 7368 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 2975 7100 50  0001 C CNN
-F 3 "~" V 2775 7300 50  0001 C CNN
-	1    2775 7300
+AR Path="/667ED907/668B53CD" Ref="R53"  Part="1" 
+F 0 "R53" V 2654 7368 50  0000 L CNN
+F 1 "470R" V 2745 7368 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 2900 7100 50  0001 C CNN
+F 3 "~" V 2700 7300 50  0001 C CNN
+	1    2700 7300
 	0    1    1    0   
 $EndComp
-Text Label 2825 6650 0    50   ~ 0
+Text Label 2900 6600 0    50   ~ 0
 ccs3
 Wire Wire Line
-	2825 6650 2775 6650
+	2900 6600 2850 6600
 Wire Wire Line
-	2775 6650 2775 6700
+	2850 6600 2850 6650
 $Comp
 L power:-15V #PWR?
 U 1 1 668B53D6
-P 3300 7450
+P 3375 7450
 AR Path="/668B53D6" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668B53D6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3300 7550 50  0001 C CNN
-F 1 "-15V" H 3300 7600 50  0000 C CNN
-F 2 "" H 3300 7450 50  0001 C CNN
-F 3 "" H 3300 7450 50  0001 C CNN
-	1    3300 7450
+AR Path="/667ED907/668B53D6" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 3375 7550 50  0001 C CNN
+F 1 "-15V" H 3375 7600 50  0000 C CNN
+F 2 "" H 3375 7450 50  0001 C CNN
+F 3 "" H 3375 7450 50  0001 C CNN
+	1    3375 7450
 	-1   0    0    1   
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 668B53DC
-P 3300 7300
+P 3375 7300
 AR Path="/668B53DC" Ref="R?"  Part="1" 
-AR Path="/667ED907/668B53DC" Ref="R?"  Part="1" 
-F 0 "R?" V 3254 7368 50  0000 L CNN
-F 1 "117.5R" V 3345 7368 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 3500 7100 50  0001 C CNN
-F 3 "~" V 3300 7300 50  0001 C CNN
-	1    3300 7300
+AR Path="/667ED907/668B53DC" Ref="R54"  Part="1" 
+F 0 "R54" V 3329 7368 50  0000 L CNN
+F 1 "470R" V 3420 7368 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 3575 7100 50  0001 C CNN
+F 3 "~" V 3375 7300 50  0001 C CNN
+	1    3375 7300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3300 7150 3300 7100
-Text Label 3350 6650 0    50   ~ 0
+	3375 7150 3375 7100
+Text Label 3425 6600 0    50   ~ 0
 ccs4
 Wire Wire Line
-	3350 6650 3300 6650
+	3425 6600 3375 6600
 Wire Wire Line
-	3300 6650 3300 6700
+	3375 6600 3375 6650
 $Comp
 L Device:Q_NPN_CBE Q?
 U 1 1 668B53E6
-P 3200 6900
+P 3275 6850
 AR Path="/668B53E6" Ref="Q?"  Part="1" 
-AR Path="/667ED907/668B53E6" Ref="Q?"  Part="1" 
-F 0 "Q?" H 3391 6900 50  0000 L CNN
-F 1 "BC848C" H 3391 6855 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3400 7000 50  0001 C CNN
-F 3 "~" H 3200 6900 50  0001 C CNN
-	1    3200 6900
+AR Path="/667ED907/668B53E6" Ref="Q13"  Part="1" 
+F 0 "Q13" H 3466 6850 50  0000 L CNN
+F 1 "BC848C" H 3466 6805 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3475 6950 50  0001 C CNN
+F 3 "~" H 3275 6850 50  0001 C CNN
+	1    3275 6850
 	1    0    0    -1  
 $EndComp
-Connection ~ 1950 6900
+Connection ~ 2025 6850
 Wire Wire Line
-	3000 6900 2475 6900
+	3075 6850 2550 6850
 Wire Wire Line
-	2475 6900 1950 6900
-Connection ~ 2475 6900
+	2550 6850 2025 6850
+Connection ~ 2550 6850
 $Comp
 L Device:Q_NPN_CBE Q?
 U 1 1 668B53F0
-P 2675 6900
+P 2750 6850
 AR Path="/668B53F0" Ref="Q?"  Part="1" 
-AR Path="/667ED907/668B53F0" Ref="Q?"  Part="1" 
-F 0 "Q?" H 2866 6900 50  0000 L CNN
-F 1 "BC848C" H 2866 6855 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2875 7000 50  0001 C CNN
-F 3 "~" H 2675 6900 50  0001 C CNN
-	1    2675 6900
+AR Path="/667ED907/668B53F0" Ref="Q12"  Part="1" 
+F 0 "Q12" H 2941 6850 50  0000 L CNN
+F 1 "BC848C" H 2941 6805 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2950 6950 50  0001 C CNN
+F 3 "~" H 2750 6850 50  0001 C CNN
+	1    2750 6850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2775 7100 2775 7150
 $Comp
 L power:-15V #PWR?
 U 1 1 668B53F7
-P 5300 7450
+P 6250 7450
 AR Path="/668B53F7" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668B53F7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5300 7550 50  0001 C CNN
-F 1 "-15V" H 5300 7600 50  0000 C CNN
-F 2 "" H 5300 7450 50  0001 C CNN
-F 3 "" H 5300 7450 50  0001 C CNN
-	1    5300 7450
+AR Path="/667ED907/668B53F7" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 6250 7550 50  0001 C CNN
+F 1 "-15V" H 6250 7600 50  0000 C CNN
+F 2 "" H 6250 7450 50  0001 C CNN
+F 3 "" H 6250 7450 50  0001 C CNN
+	1    6250 7450
 	-1   0    0    1   
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 668B53FD
-P 5300 7300
+P 6250 7300
 AR Path="/668B53FD" Ref="R?"  Part="1" 
-AR Path="/667ED907/668B53FD" Ref="R?"  Part="1" 
-F 0 "R?" V 5254 7368 50  0000 L CNN
-F 1 "3.3k" V 5345 7368 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 5500 7100 50  0001 C CNN
-F 3 "~" V 5300 7300 50  0001 C CNN
-	1    5300 7300
+AR Path="/667ED907/668B53FD" Ref="R59"  Part="1" 
+F 0 "R59" V 6204 7368 50  0000 L CNN
+F 1 "3.3k" V 6295 7368 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6450 7100 50  0001 C CNN
+F 3 "~" V 6250 7300 50  0001 C CNN
+	1    6250 7300
 	0    1    1    0   
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 668B5403
-P 5300 6900
+P 6250 6900
 AR Path="/668B5403" Ref="R?"  Part="1" 
-AR Path="/667ED907/668B5403" Ref="R?"  Part="1" 
-F 0 "R?" V 5254 6968 50  0000 L CNN
-F 1 "12k" V 5345 6968 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 5500 6700 50  0001 C CNN
-F 3 "~" V 5300 6900 50  0001 C CNN
-	1    5300 6900
+AR Path="/667ED907/668B5403" Ref="R58"  Part="1" 
+F 0 "R58" V 6204 6968 50  0000 L CNN
+F 1 "12k" V 6295 6968 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6450 6700 50  0001 C CNN
+F 3 "~" V 6250 6900 50  0001 C CNN
+	1    6250 6900
 	0    1    1    0   
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 668B5409
-P 5300 6750
+P 6250 6750
 AR Path="/668B5409" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668B5409" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5300 6500 50  0001 C CNN
-F 1 "Earth" H 5300 6600 50  0001 C CNN
-F 2 "" H 5300 6750 50  0001 C CNN
-F 3 "~" H 5300 6750 50  0001 C CNN
-	1    5300 6750
+AR Path="/667ED907/668B5409" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 6250 6500 50  0001 C CNN
+F 1 "Earth" H 6250 6600 50  0001 C CNN
+F 2 "" H 6250 6750 50  0001 C CNN
+F 3 "~" H 6250 6750 50  0001 C CNN
+	1    6250 6750
 	-1   0    0    1   
 $EndComp
 $Comp
 L bca-symbols:CP_Power C?
 U 1 1 668B540F
-P 5650 7300
+P 6600 7300
 AR Path="/668B540F" Ref="C?"  Part="1" 
-AR Path="/667ED907/668B540F" Ref="C?"  Part="1" 
-F 0 "C?" H 5675 7175 50  0000 L CNN
-F 1 "100uF" H 5675 7400 50  0000 L CNN
-F 2 "bca-footprints:CP_Radial_D6.3mm_P2.50mm" H 5650 6900 50  0001 C CNN
-F 3 "~" H 5650 7300 50  0001 C CNN
-	1    5650 7300
+AR Path="/667ED907/668B540F" Ref="C40"  Part="1" 
+F 0 "C40" H 6625 7175 50  0000 L CNN
+F 1 "100uF" H 6625 7400 50  0000 L CNN
+F 2 "bca-footprints:CP_Radial_D6.3mm_P2.50mm" H 6600 6900 50  0001 C CNN
+F 3 "~" H 6600 7300 50  0001 C CNN
+	1    6600 7300
 	1    0    0    1   
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 668B5415
-P 5650 7450
+P 6600 7450
 AR Path="/668B5415" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668B5415" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5650 7200 50  0001 C CNN
-F 1 "Earth" H 5650 7300 50  0001 C CNN
-F 2 "" H 5650 7450 50  0001 C CNN
-F 3 "~" H 5650 7450 50  0001 C CNN
-	1    5650 7450
+AR Path="/667ED907/668B5415" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 6600 7200 50  0001 C CNN
+F 1 "Earth" H 6600 7300 50  0001 C CNN
+F 2 "" H 6600 7450 50  0001 C CNN
+F 3 "~" H 6600 7450 50  0001 C CNN
+	1    6600 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 7150 5650 7100
+	6600 7150 6600 7100
 Wire Wire Line
-	5300 7150 5300 7100
+	6250 7150 6250 7100
 Wire Wire Line
-	5650 7100 5300 7100
-Connection ~ 5300 7100
-Text Label 5650 7050 0    50   ~ 0
+	6600 7100 6250 7100
+Connection ~ 6250 7100
+Text Label 6600 7050 0    50   ~ 0
 -VREF1
 Wire Wire Line
-	5650 7050 5650 7100
-Connection ~ 5650 7100
+	6600 7050 6600 7100
+Connection ~ 6600 7100
 Wire Wire Line
-	5300 7050 5300 7100
+	6250 7050 6250 7100
 $Comp
 L bca-symbols:R R?
 U 1 1 668FDF4F
-P 7100 3400
+P 6975 3275
 AR Path="/668FDF4F" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FDF4F" Ref="R?"  Part="1" 
-F 0 "R?" H 7100 3575 50  0000 C CNN
-F 1 "10k" H 7100 3500 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7300 3200 50  0001 C CNN
-F 3 "~" V 7100 3400 50  0001 C CNN
-	1    7100 3400
+AR Path="/667ED907/668FDF4F" Ref="R44"  Part="1" 
+F 0 "R44" H 6975 3450 50  0000 C CNN
+F 1 "10k" H 6975 3375 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7175 3075 50  0001 C CNN
+F 3 "~" V 6975 3275 50  0001 C CNN
+	1    6975 3275
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 3400 6450 3400
+	6825 3275 6325 3275
 Wire Wire Line
-	7250 3400 7300 3400
+	7125 3275 7175 3275
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 668FDF57
-P 6725 3825
+P 6600 3700
 AR Path="/668FDF57" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FDF57" Ref="C?"  Part="1" 
-F 0 "C?" H 6700 3725 50  0000 R CNN
-F 1 "270pF" H 6700 3925 50  0000 R CNN
-F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 6763 3675 50  0001 C CNN
-F 3 "~" H 6725 3825 50  0001 C CNN
-	1    6725 3825
+AR Path="/667ED907/668FDF57" Ref="C33"  Part="1" 
+F 0 "C33" H 6575 3600 50  0000 R CNN
+F 1 "270pF" H 6575 3800 50  0000 R CNN
+F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 6638 3550 50  0001 C CNN
+F 3 "~" H 6600 3700 50  0001 C CNN
+	1    6600 3700
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	7250 3600 7300 3600
+	7125 3475 7175 3475
 $Comp
 L bca-symbols:R R?
 U 1 1 668FDF5E
-P 7100 3600
+P 6975 3475
 AR Path="/668FDF5E" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FDF5E" Ref="R?"  Part="1" 
-F 0 "R?" H 7100 3700 50  0000 C CNN
-F 1 "10k" H 7100 3500 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7300 3400 50  0001 C CNN
-F 3 "~" V 7100 3600 50  0001 C CNN
-	1    7100 3600
+AR Path="/667ED907/668FDF5E" Ref="R45"  Part="1" 
+F 0 "R45" H 6975 3575 50  0000 C CNN
+F 1 "10k" H 6975 3375 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7175 3275 50  0001 C CNN
+F 3 "~" V 6975 3475 50  0001 C CNN
+	1    6975 3475
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 668FDF64
-P 6450 3975
+P 6325 3850
 AR Path="/668FDF64" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668FDF64" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6450 3725 50  0001 C CNN
-F 1 "Earth" H 6450 3825 50  0001 C CNN
-F 2 "" H 6450 3975 50  0001 C CNN
-F 3 "~" H 6450 3975 50  0001 C CNN
-	1    6450 3975
+AR Path="/667ED907/668FDF64" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 6325 3600 50  0001 C CNN
+F 1 "Earth" H 6325 3700 50  0001 C CNN
+F 2 "" H 6325 3850 50  0001 C CNN
+F 3 "~" H 6325 3850 50  0001 C CNN
+	1    6325 3850
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 3675 6450 3400
+	6325 3550 6325 3275
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 668FDF6B
-P 6450 3825
+P 6325 3700
 AR Path="/668FDF6B" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FDF6B" Ref="C?"  Part="1" 
-F 0 "C?" H 6425 3725 50  0000 R CNN
-F 1 "270pF" H 6425 3925 50  0000 R CNN
-F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 6488 3675 50  0001 C CNN
-F 3 "~" H 6450 3825 50  0001 C CNN
-	1    6450 3825
+AR Path="/667ED907/668FDF6B" Ref="C32"  Part="1" 
+F 0 "C32" H 6300 3600 50  0000 R CNN
+F 1 "270pF" H 6300 3800 50  0000 R CNN
+F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 6363 3550 50  0001 C CNN
+F 3 "~" H 6325 3700 50  0001 C CNN
+	1    6325 3700
 	1    0    0    1   
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 668FDF71
-P 5700 3200
+P 5575 3075
 AR Path="/668FDF71" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FDF71" Ref="R?"  Part="1" 
-F 0 "R?" V 5650 3150 50  0000 R CNN
-F 1 "15k" V 5750 3150 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 5900 3000 50  0001 C CNN
-F 3 "~" V 5700 3200 50  0001 C CNN
-	1    5700 3200
+AR Path="/667ED907/668FDF71" Ref="R37"  Part="1" 
+F 0 "R37" V 5525 3025 50  0000 R CNN
+F 1 "15k" V 5625 3025 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 5775 2875 50  0001 C CNN
+F 3 "~" V 5575 3075 50  0001 C CNN
+	1    5575 3075
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4900 4175 4950 4175
+	4775 4050 4825 4050
 $Comp
 L bca-symbols:R R?
 U 1 1 668FDF78
-P 4750 4175
+P 4625 4050
 AR Path="/668FDF78" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FDF78" Ref="R?"  Part="1" 
-F 0 "R?" H 4750 4275 50  0000 C CNN
-F 1 "10k" H 4750 4075 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4950 3975 50  0001 C CNN
-F 3 "~" V 4750 4175 50  0001 C CNN
-	1    4750 4175
+AR Path="/667ED907/668FDF78" Ref="R35"  Part="1" 
+F 0 "R35" H 4625 4150 50  0000 C CNN
+F 1 "10k" H 4625 3950 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4825 3850 50  0001 C CNN
+F 3 "~" V 4625 4050 50  0001 C CNN
+	1    4625 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6725 3600 6900 3600
-Connection ~ 6725 3600
+	6600 3475 6775 3475
+Connection ~ 6600 3475
 Wire Wire Line
-	6725 3675 6725 3600
+	6600 3550 6600 3475
 $Comp
 L power:Earth #PWR?
 U 1 1 668FDF81
-P 6725 3975
+P 6600 3850
 AR Path="/668FDF81" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668FDF81" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6725 3725 50  0001 C CNN
-F 1 "Earth" H 6725 3825 50  0001 C CNN
-F 2 "" H 6725 3975 50  0001 C CNN
-F 3 "~" H 6725 3975 50  0001 C CNN
-	1    6725 3975
+AR Path="/667ED907/668FDF81" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 6600 3600 50  0001 C CNN
+F 1 "Earth" H 6600 3700 50  0001 C CNN
+F 2 "" H 6600 3850 50  0001 C CNN
+F 3 "~" H 6600 3850 50  0001 C CNN
+	1    6600 3850
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 668FDF87
-P 7225 2750
+P 7100 2625
 AR Path="/668FDF87" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FDF87" Ref="C?"  Part="1" 
-F 0 "C?" V 7075 2800 50  0000 R CNN
-F 1 "100pF" V 7375 2750 50  0000 C CNN
-F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 7263 2600 50  0001 C CNN
-F 3 "~" H 7225 2750 50  0001 C CNN
-	1    7225 2750
+AR Path="/667ED907/668FDF87" Ref="C35"  Part="1" 
+F 0 "C35" V 6950 2700 50  0000 R CNN
+F 1 "100pF" V 7250 2625 50  0000 C CNN
+F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 7138 2475 50  0001 C CNN
+F 3 "~" H 7100 2625 50  0001 C CNN
+	1    7100 2625
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	7075 2750 6450 2750
+	6950 2625 6325 2625
 Wire Wire Line
-	7375 2750 7950 2750
-Connection ~ 6450 3075
+	7250 2625 7825 2625
+Connection ~ 6325 2950
 Wire Wire Line
-	6450 2750 6450 3075
-Connection ~ 7950 3075
+	6325 2625 6325 2950
+Connection ~ 7825 2950
 Wire Wire Line
-	7950 2750 7950 3075
+	7825 2625 7825 2950
 Wire Wire Line
-	6800 4175 6450 4175
-Connection ~ 6800 4175
+	6675 4050 6325 4050
+Connection ~ 6675 4050
 Wire Wire Line
-	6800 4225 6800 4175
+	6675 4100 6675 4050
 $Comp
 L power:Earth #PWR?
 U 1 1 668FDF96
-P 6800 4875
+P 6675 4750
 AR Path="/668FDF96" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668FDF96" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6800 4625 50  0001 C CNN
-F 1 "Earth" H 6800 4725 50  0001 C CNN
-F 2 "" H 6800 4875 50  0001 C CNN
-F 3 "~" H 6800 4875 50  0001 C CNN
-	1    6800 4875
+AR Path="/667ED907/668FDF96" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 6675 4500 50  0001 C CNN
+F 1 "Earth" H 6675 4600 50  0001 C CNN
+F 2 "" H 6675 4750 50  0001 C CNN
+F 3 "~" H 6675 4750 50  0001 C CNN
+	1    6675 4750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 4575 6800 4525
+	6675 4450 6675 4400
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 668FDF9D
-P 6800 4725
+P 6675 4600
 AR Path="/668FDF9D" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FDF9D" Ref="C?"  Part="1" 
-F 0 "C?" H 6775 4825 50  0000 R CNN
-F 1 "3.3nF" H 6775 4625 50  0000 R CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 6838 4575 50  0001 C CNN
-F 3 "~" H 6800 4725 50  0001 C CNN
-	1    6800 4725
+AR Path="/667ED907/668FDF9D" Ref="C34"  Part="1" 
+F 0 "C34" H 6650 4700 50  0000 R CNN
+F 1 "3.3nF" H 6650 4500 50  0000 R CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 6713 4450 50  0001 C CNN
+F 3 "~" H 6675 4600 50  0001 C CNN
+	1    6675 4600
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 3600 5250 3975
-Connection ~ 5250 3600
+	5125 3475 5125 3850
+Connection ~ 5125 3475
 Wire Wire Line
-	5325 3600 5250 3600
+	5200 3475 5125 3475
 Wire Wire Line
-	5625 3600 5700 3600
+	5500 3475 5575 3475
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 668FDFA7
-P 5475 3600
+P 5350 3475
 AR Path="/668FDFA7" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FDFA7" Ref="C?"  Part="1" 
-F 0 "C?" V 5325 3650 50  0000 R CNN
-F 1 "470pF" V 5625 3600 50  0000 C CNN
-F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 5513 3450 50  0001 C CNN
-F 3 "~" H 5475 3600 50  0001 C CNN
-	1    5475 3600
+AR Path="/667ED907/668FDFA7" Ref="C28"  Part="1" 
+F 0 "C28" V 5200 3525 50  0000 R CNN
+F 1 "100pF" V 5500 3475 50  0000 C CNN
+F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 5388 3325 50  0001 C CNN
+F 3 "~" H 5350 3475 50  0001 C CNN
+	1    5350 3475
 	0    -1   1    0   
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 668FDFAD
-P 6800 4375
+P 6675 4250
 AR Path="/668FDFAD" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FDFAD" Ref="R?"  Part="1" 
-F 0 "R?" V 6750 4325 50  0000 R CNN
-F 1 "470R" V 6850 4325 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7000 4175 50  0001 C CNN
-F 3 "~" V 6800 4375 50  0001 C CNN
-	1    6800 4375
+AR Path="/667ED907/668FDFAD" Ref="R42"  Part="1" 
+F 0 "R42" V 6625 4200 50  0000 R CNN
+F 1 "470R" V 6725 4200 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6875 4050 50  0001 C CNN
+F 3 "~" V 6675 4250 50  0001 C CNN
+	1    6675 4250
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	8550 3800 8500 3800
+	8425 3675 8375 3675
 Wire Wire Line
-	8350 3500 8300 3500
+	8225 3375 8175 3375
 Wire Wire Line
-	8350 3650 8350 3500
+	8225 3525 8225 3375
 $Comp
 L power:Earth #PWR?
 U 1 1 668FDFB6
-P 8350 3950
+P 8225 3825
 AR Path="/668FDFB6" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668FDFB6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8350 3700 50  0001 C CNN
-F 1 "Earth" H 8350 3800 50  0001 C CNN
-F 2 "" H 8350 3950 50  0001 C CNN
-F 3 "~" H 8350 3950 50  0001 C CNN
-	1    8350 3950
+AR Path="/667ED907/668FDFB6" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 8225 3575 50  0001 C CNN
+F 1 "Earth" H 8225 3675 50  0001 C CNN
+F 2 "" H 8225 3825 50  0001 C CNN
+F 3 "~" H 8225 3825 50  0001 C CNN
+	1    8225 3825
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:R_POT RV?
 U 1 1 668FDFBC
-P 8350 3800
+P 8225 3675
 AR Path="/668FDFBC" Ref="RV?"  Part="1" 
-AR Path="/667ED907/668FDFBC" Ref="RV?"  Part="1" 
-F 0 "RV?" H 8282 3846 50  0000 R CNN
-F 1 "100kA" H 8282 3755 50  0000 R CNN
-F 2 "bca-footprints:R_POT" V 8050 3800 50  0001 C CNN
-F 3 "~" V 8600 4000 50  0001 C CNN
-	1    8350 3800
+AR Path="/667ED907/668FDFBC" Ref="RV5"  Part="1" 
+F 0 "RV5" H 8157 3721 50  0000 R CNN
+F 1 "100kA" H 8157 3630 50  0000 R CNN
+F 2 "bca-footprints:R_POT" V 7925 3675 50  0001 C CNN
+F 3 "~" V 8475 3875 50  0001 C CNN
+	1    8225 3675
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 4375 5700 4425
+	5575 4250 5575 4300
 Wire Wire Line
-	5250 4375 5250 4425
+	5125 4250 5125 4300
 Wire Wire Line
-	8000 3500 7950 3500
+	7875 3375 7825 3375
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 668FDFC5
-P 8150 3500
+P 8025 3375
 AR Path="/668FDFC5" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FDFC5" Ref="C?"  Part="1" 
-F 0 "C?" V 8000 3500 50  0000 C CNN
-F 1 "0.1uF" V 8300 3500 50  0000 C CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 8188 3350 50  0001 C CNN
-F 3 "~" H 8150 3500 50  0001 C CNN
-	1    8150 3500
+AR Path="/667ED907/668FDFC5" Ref="C36"  Part="1" 
+F 0 "C36" V 7875 3375 50  0000 C CNN
+F 1 "0.1uF" V 8175 3375 50  0000 C CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 8063 3225 50  0001 C CNN
+F 3 "~" H 8025 3375 50  0001 C CNN
+	1    8025 3375
 	0    1    1    0   
 $EndComp
-Connection ~ 7950 3500
+Connection ~ 7825 3375
 Wire Wire Line
-	7950 4175 7950 3500
+	7825 4050 7825 3375
 Wire Wire Line
-	7375 4175 7950 4175
-Connection ~ 6450 4175
+	7250 4050 7825 4050
+Connection ~ 6325 4050
 Wire Wire Line
-	7075 4175 6800 4175
+	6950 4050 6675 4050
 $Comp
 L bca-symbols:R R?
 U 1 1 668FDFD0
-P 7225 4175
+P 7100 4050
 AR Path="/668FDFD0" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FDFD0" Ref="R?"  Part="1" 
-F 0 "R?" H 7225 4275 50  0000 C CNN
-F 1 "100k" H 7225 4075 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7425 3975 50  0001 C CNN
-F 3 "~" V 7225 4175 50  0001 C CNN
-	1    7225 4175
+AR Path="/667ED907/668FDFD0" Ref="R47"  Part="1" 
+F 0 "R47" H 7100 4150 50  0000 C CNN
+F 1 "100k" H 7100 3950 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7300 3850 50  0001 C CNN
+F 3 "~" V 7100 4050 50  0001 C CNN
+	1    7100 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 4175 6400 4175
+	6325 4050 6275 4050
 Wire Wire Line
-	6450 4225 6450 4175
+	6325 4100 6325 4050
 $Comp
 L power:Earth #PWR?
 U 1 1 668FDFD8
-P 6450 4525
+P 6325 4400
 AR Path="/668FDFD8" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668FDFD8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6450 4275 50  0001 C CNN
-F 1 "Earth" H 6450 4375 50  0001 C CNN
-F 2 "" H 6450 4525 50  0001 C CNN
-F 3 "~" H 6450 4525 50  0001 C CNN
-	1    6450 4525
+AR Path="/667ED907/668FDFD8" Ref="#PWR0141"  Part="1" 
+F 0 "#PWR0141" H 6325 4150 50  0001 C CNN
+F 1 "Earth" H 6325 4250 50  0001 C CNN
+F 2 "" H 6325 4400 50  0001 C CNN
+F 3 "~" H 6325 4400 50  0001 C CNN
+	1    6325 4400
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 668FDFDE
-P 6450 4375
+P 6325 4250
 AR Path="/668FDFDE" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FDFDE" Ref="R?"  Part="1" 
-F 0 "R?" V 6400 4325 50  0000 R CNN
-F 1 "10k" V 6500 4325 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6650 4175 50  0001 C CNN
-F 3 "~" V 6450 4375 50  0001 C CNN
-	1    6450 4375
+AR Path="/667ED907/668FDFDE" Ref="R41"  Part="1" 
+F 0 "R41" V 6275 4200 50  0000 R CNN
+F 1 "10k" V 6375 4200 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6525 4050 50  0001 C CNN
+F 3 "~" V 6325 4250 50  0001 C CNN
+	1    6325 4250
 	0    -1   1    0   
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 668FDFE4
-P 6900 3975
+P 6775 3850
 AR Path="/668FDFE4" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668FDFE4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6900 3725 50  0001 C CNN
-F 1 "Earth" H 6900 3825 50  0001 C CNN
-F 2 "" H 6900 3975 50  0001 C CNN
-F 3 "~" H 6900 3975 50  0001 C CNN
-	1    6900 3975
+AR Path="/667ED907/668FDFE4" Ref="#PWR0142"  Part="1" 
+F 0 "#PWR0142" H 6775 3600 50  0001 C CNN
+F 1 "Earth" H 6775 3700 50  0001 C CNN
+F 2 "" H 6775 3850 50  0001 C CNN
+F 3 "~" H 6775 3850 50  0001 C CNN
+	1    6775 3850
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:R R?
 U 1 1 668FDFEA
-P 6050 4375
+P 5925 4250
 AR Path="/668FDFEA" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FDFEA" Ref="R?"  Part="1" 
-F 0 "R?" V 6000 4325 50  0000 R CNN
-F 1 "1M" V 6100 4325 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6250 4175 50  0001 C CNN
-F 3 "~" V 6050 4375 50  0001 C CNN
-	1    6050 4375
+AR Path="/667ED907/668FDFEA" Ref="R38"  Part="1" 
+F 0 "R38" V 5875 4200 50  0000 R CNN
+F 1 "1M" V 5975 4200 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6125 4050 50  0001 C CNN
+F 3 "~" V 5925 4250 50  0001 C CNN
+	1    5925 4250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4550 3125 4500 3125
+	4425 3000 4375 3000
 Wire Wire Line
-	4550 4175 4550 3125
-Connection ~ 4550 4175
-Connection ~ 4050 3125
+	4425 4050 4425 3000
+Connection ~ 4425 4050
+Connection ~ 3925 3000
 Wire Wire Line
-	4200 3125 4050 3125
+	4075 3000 3925 3000
 Wire Wire Line
-	1025 3025 1075 3025
-Text Label 1025 3025 2    50   ~ 0
+	900  2900 950  2900
+Text Label 900  2900 2    50   ~ 0
 eq_send
 $Comp
 L power:Earth #PWR?
 U 1 1 668FDFF7
-P 1425 3375
+P 1300 3250
 AR Path="/668FDFF7" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668FDFF7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1425 3125 50  0001 C CNN
-F 1 "Earth" H 1425 3225 50  0001 C CNN
-F 2 "" H 1425 3375 50  0001 C CNN
-F 3 "~" H 1425 3375 50  0001 C CNN
-	1    1425 3375
+AR Path="/667ED907/668FDFF7" Ref="#PWR0143"  Part="1" 
+F 0 "#PWR0143" H 1300 3000 50  0001 C CNN
+F 1 "Earth" H 1300 3100 50  0001 C CNN
+F 2 "" H 1300 3250 50  0001 C CNN
+F 3 "~" H 1300 3250 50  0001 C CNN
+	1    1300 3250
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1425 3025 1700 3025
-Connection ~ 1425 3025
+	1300 2900 1575 2900
+Connection ~ 1300 2900
 Wire Wire Line
-	1425 3075 1425 3025
+	1300 2950 1300 2900
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 668FE000
-P 1425 3225
+P 1300 3100
 AR Path="/668FE000" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FE000" Ref="C?"  Part="1" 
-F 0 "C?" H 1400 3125 50  0000 R CNN
-F 1 "100pF" H 1400 3325 50  0000 R CNN
-F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 1463 3075 50  0001 C CNN
-F 3 "~" H 1425 3225 50  0001 C CNN
-	1    1425 3225
+AR Path="/667ED907/668FE000" Ref="C19"  Part="1" 
+F 0 "C19" H 1275 3000 50  0000 R CNN
+F 1 "100pF" H 1275 3200 50  0000 R CNN
+F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 1338 2950 50  0001 C CNN
+F 3 "~" H 1300 3100 50  0001 C CNN
+	1    1300 3100
 	-1   0    0    1   
 $EndComp
-Text Notes 4100 3675 0    50   ~ 0
+Text Notes 3975 3550 0    50   ~ 0
 Treble
-Text Notes 3050 3675 0    50   ~ 0
+Text Notes 2925 3550 0    50   ~ 0
 Middle
-Text Notes 2025 3675 0    50   ~ 0
+Text Notes 1900 3550 0    50   ~ 0
 Bass
 Wire Wire Line
-	1700 3025 3225 3025
-Connection ~ 1700 3025
+	1575 2900 3100 2900
+Connection ~ 1575 2900
 Wire Wire Line
-	1700 3975 1700 3025
+	1575 3850 1575 2900
 Wire Wire Line
-	1950 3975 1700 3975
-Connection ~ 1950 3975
+	1825 3850 1575 3850
+Connection ~ 1825 3850
 $Comp
 L bca-symbols:R_POT RV?
 U 1 1 668FE00E
-P 4050 3775
+P 3925 3650
 AR Path="/668FE00E" Ref="RV?"  Part="1" 
-AR Path="/667ED907/668FE00E" Ref="RV?"  Part="1" 
-F 0 "RV?" H 3982 3821 50  0000 R CNN
-F 1 "100kB" H 3982 3730 50  0000 R CNN
-F 2 "bca-footprints:R_POT" V 3750 3775 50  0001 C CNN
-F 3 "~" V 4300 3975 50  0001 C CNN
-	1    4050 3775
+AR Path="/667ED907/668FE00E" Ref="RV4"  Part="1" 
+F 0 "RV4" H 3857 3696 50  0000 R CNN
+F 1 "100kB" H 3857 3605 50  0000 R CNN
+F 2 "bca-footprints:R_POT" V 3625 3650 50  0001 C CNN
+F 3 "~" V 4175 3850 50  0001 C CNN
+	1    3925 3650
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 3775 2850 3775
+	2675 3650 2725 3650
 $Comp
 L bca-symbols:R_POT RV?
 U 1 1 668FE015
-P 3000 3775
+P 2875 3650
 AR Path="/668FE015" Ref="RV?"  Part="1" 
-AR Path="/667ED907/668FE015" Ref="RV?"  Part="1" 
-F 0 "RV?" H 2932 3821 50  0000 R CNN
-F 1 "100kB" H 2932 3730 50  0000 R CNN
-F 2 "bca-footprints:R_POT" V 2700 3775 50  0001 C CNN
-F 3 "~" V 3250 3975 50  0001 C CNN
-	1    3000 3775
+AR Path="/667ED907/668FE015" Ref="RV3"  Part="1" 
+F 0 "RV3" H 2807 3696 50  0000 R CNN
+F 1 "100kB" H 2807 3605 50  0000 R CNN
+F 2 "bca-footprints:R_POT" V 2575 3650 50  0001 C CNN
+F 3 "~" V 3125 3850 50  0001 C CNN
+	1    2875 3650
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:R_POT RV?
 U 1 1 668FE01B
-P 1950 3775
+P 1825 3650
 AR Path="/668FE01B" Ref="RV?"  Part="1" 
-AR Path="/667ED907/668FE01B" Ref="RV?"  Part="1" 
-F 0 "RV?" H 1882 3821 50  0000 R CNN
-F 1 "100kB" H 1882 3730 50  0000 R CNN
-F 2 "bca-footprints:R_POT" V 1650 3775 50  0001 C CNN
-F 3 "~" V 2200 3975 50  0001 C CNN
-	1    1950 3775
+AR Path="/667ED907/668FE01B" Ref="RV2"  Part="1" 
+F 0 "RV2" H 1757 3696 50  0000 R CNN
+F 1 "100kB" H 1757 3605 50  0000 R CNN
+F 2 "bca-footprints:R_POT" V 1525 3650 50  0001 C CNN
+F 3 "~" V 2075 3850 50  0001 C CNN
+	1    1825 3650
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 3775 1800 3775
+	1625 3650 1675 3650
 $Comp
 L Device:Opamp_Dual_Generic U?
-U 2 1 668FE022
-P 2375 4875
+U 1 1 668FE022
+P 2250 4750
 AR Path="/668FE022" Ref="U?"  Part="2" 
-AR Path="/667ED907/668FE022" Ref="U?"  Part="2" 
-F 0 "U?" H 2475 5025 50  0000 C CNN
-F 1 "TLV9302" H 2550 4750 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2375 4875 50  0001 C CNN
-F 3 "~" H 2375 4875 50  0001 C CNN
-	2    2375 4875
+AR Path="/667ED907/668FE022" Ref="U1"  Part="1" 
+F 0 "U1" H 2350 4900 50  0000 C CNN
+F 1 "TLV9302" H 2425 4625 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2250 4750 50  0001 C CNN
+F 3 "~" H 2250 4750 50  0001 C CNN
+	1    2250 4750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:Opamp_Generic U?
 U 1 1 668FE028
-P 3425 4875
+P 3300 4750
 AR Path="/668FE028" Ref="U?"  Part="1" 
-AR Path="/667ED907/668FE028" Ref="U?"  Part="1" 
-F 0 "U?" H 3525 5025 50  0000 C CNN
-F 1 "TLV9301" H 3600 4725 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3425 4850 50  0001 C CNN
-F 3 "~" H 3425 4850 50  0001 C CNN
-	1    3425 4875
+AR Path="/667ED907/668FE028" Ref="U2"  Part="1" 
+F 0 "U2" H 3400 4900 50  0000 C CNN
+F 1 "TLV9301" H 3475 4600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3300 4725 50  0001 C CNN
+F 3 "~" H 3300 4725 50  0001 C CNN
+	1    3300 4750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1375 3025 1425 3025
+	1250 2900 1300 2900
 $Comp
 L bca-symbols:R R?
 U 1 1 668FE02F
-P 1225 3025
+P 1100 2900
 AR Path="/668FE02F" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FE02F" Ref="R?"  Part="1" 
-F 0 "R?" H 1225 3125 50  0000 C CNN
-F 1 "10k" H 1225 2925 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 1425 2825 50  0001 C CNN
-F 3 "~" V 1225 3025 50  0001 C CNN
-	1    1225 3025
+AR Path="/667ED907/668FE02F" Ref="R27"  Part="1" 
+F 0 "R27" H 1100 3000 50  0000 C CNN
+F 1 "10k" H 1100 2800 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 1300 2700 50  0001 C CNN
+F 3 "~" V 1100 2900 50  0001 C CNN
+	1    1100 2900
 	1    0    0    -1  
 $EndComp
-Connection ~ 3000 3975
+Connection ~ 2875 3850
 Wire Wire Line
-	1950 3975 1950 3925
+	1825 3850 1825 3800
 Wire Wire Line
-	3000 3975 1950 3975
+	2875 3850 1825 3850
 Wire Wire Line
-	3000 3975 3000 3925
+	2875 3850 2875 3800
 Wire Wire Line
-	4050 3975 3000 3975
+	3925 3850 2875 3850
 Wire Wire Line
-	4050 3925 4050 3975
-Connection ~ 3000 3575
+	3925 3800 3925 3850
+Connection ~ 2875 3450
 Wire Wire Line
-	1950 3575 3000 3575
-Connection ~ 3175 3575
+	1825 3450 2875 3450
+Connection ~ 3050 3450
 Wire Wire Line
-	3175 3575 3000 3575
+	3050 3450 2875 3450
 Wire Wire Line
-	1750 4025 1750 3775
+	1625 3900 1625 3650
 Wire Wire Line
-	1950 3625 1950 3575
-Connection ~ 1750 4375
+	1825 3500 1825 3450
+Connection ~ 1625 4250
 Wire Wire Line
-	1750 4325 1750 4375
+	1625 4200 1625 4250
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 668FE043
-P 1750 4175
+P 1625 4050
 AR Path="/668FE043" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FE043" Ref="C?"  Part="1" 
-F 0 "C?" H 1725 4275 50  0000 R CNN
-F 1 "10nF" H 1725 4075 50  0000 R CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 1788 4025 50  0001 C CNN
-F 3 "~" H 1750 4175 50  0001 C CNN
-	1    1750 4175
+AR Path="/667ED907/668FE043" Ref="C20"  Part="1" 
+F 0 "C20" H 1600 4150 50  0000 R CNN
+F 1 "10nF" H 1600 3950 50  0000 R CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 1663 3900 50  0001 C CNN
+F 3 "~" H 1625 4050 50  0001 C CNN
+	1    1625 4050
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 4375 1750 4425
+	1625 4250 1625 4300
 Wire Wire Line
-	975  4375 1750 4375
+	850  4250 1625 4250
 Wire Wire Line
-	975  4425 975  4375
-Connection ~ 975  4875
+	850  4300 850  4250
+Connection ~ 850  4750
 Wire Wire Line
-	975  4725 975  4875
+	850  4600 850  4750
 $Comp
 L bca-symbols:R R?
 U 1 1 668FE04E
-P 975 4575
+P 850 4450
 AR Path="/668FE04E" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FE04E" Ref="R?"  Part="1" 
-F 0 "R?" V 925 4525 50  0000 R CNN
-F 1 "2k" V 1025 4525 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 1175 4375 50  0001 C CNN
-F 3 "~" V 975 4575 50  0001 C CNN
-	1    975  4575
+AR Path="/667ED907/668FE04E" Ref="R26"  Part="1" 
+F 0 "R26" V 800 4400 50  0000 R CNN
+F 1 "2k" V 900 4400 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 1050 4250 50  0001 C CNN
+F 3 "~" V 850 4450 50  0001 C CNN
+	1    850  4450
 	0    -1   1    0   
 $EndComp
-Connection ~ 1750 4775
+Connection ~ 1625 4650
 Wire Wire Line
-	1750 4725 1750 4775
+	1625 4600 1625 4650
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 668FE056
-P 1750 4575
+P 1625 4450
 AR Path="/668FE056" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FE056" Ref="C?"  Part="1" 
-F 0 "C?" H 1725 4675 50  0000 R CNN
-F 1 "10nF" H 1725 4475 50  0000 R CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 1788 4425 50  0001 C CNN
-F 3 "~" H 1750 4575 50  0001 C CNN
-	1    1750 4575
+AR Path="/667ED907/668FE056" Ref="C21"  Part="1" 
+F 0 "C21" H 1600 4550 50  0000 R CNN
+F 1 "10nF" H 1600 4350 50  0000 R CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 1663 4300 50  0001 C CNN
+F 3 "~" H 1625 4450 50  0001 C CNN
+	1    1625 4450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 668FE05C
-P 1750 5300
+P 1625 5175
 AR Path="/668FE05C" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668FE05C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1750 5050 50  0001 C CNN
-F 1 "Earth" H 1750 5150 50  0001 C CNN
-F 2 "" H 1750 5300 50  0001 C CNN
-F 3 "~" H 1750 5300 50  0001 C CNN
-	1    1750 5300
+AR Path="/667ED907/668FE05C" Ref="#PWR0144"  Part="1" 
+F 0 "#PWR0144" H 1625 4925 50  0001 C CNN
+F 1 "Earth" H 1625 5025 50  0001 C CNN
+F 2 "" H 1625 5175 50  0001 C CNN
+F 3 "~" H 1625 5175 50  0001 C CNN
+	1    1625 5175
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	975  4875 1025 4875
+	850  4750 900  4750
 Wire Wire Line
-	975  5150 975  4875
+	850  5025 850  4750
 Wire Wire Line
-	1675 5150 975  5150
+	1550 5025 850  5025
 Wire Wire Line
-	1675 4975 1675 5150
+	1550 4850 1550 5025
 Wire Wire Line
-	1625 4975 1675 4975
+	1500 4850 1550 4850
 Wire Wire Line
-	1750 4775 1625 4775
+	1625 4650 1500 4650
 Wire Wire Line
-	1750 5000 1750 4775
+	1625 4875 1625 4650
 $Comp
 L bca-symbols:R R?
 U 1 1 668FE069
-P 1750 5150
+P 1625 5025
 AR Path="/668FE069" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FE069" Ref="R?"  Part="1" 
-F 0 "R?" V 1700 5100 50  0000 R CNN
-F 1 "2k" V 1800 5100 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 1950 4950 50  0001 C CNN
-F 3 "~" V 1750 5150 50  0001 C CNN
-	1    1750 5150
+AR Path="/667ED907/668FE069" Ref="R28"  Part="1" 
+F 0 "R28" V 1575 4975 50  0000 R CNN
+F 1 "2k" V 1675 4975 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 1825 4825 50  0001 C CNN
+F 3 "~" V 1625 5025 50  0001 C CNN
+	1    1625 5025
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:Opamp_Dual_Generic U?
-U 1 1 668FE06F
-P 1325 4875
+U 2 1 668FE06F
+P 1200 4750
 AR Path="/668FE06F" Ref="U?"  Part="1" 
-AR Path="/667ED907/668FE06F" Ref="U?"  Part="1" 
-F 0 "U?" H 1425 5025 50  0000 C CNN
-F 1 "TLV9302" H 1500 4750 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1325 4875 50  0001 C CNN
-F 3 "~" H 1325 4875 50  0001 C CNN
-	1    1325 4875
+AR Path="/667ED907/668FE06F" Ref="U1"  Part="2" 
+F 0 "U1" H 1300 4900 50  0000 C CNN
+F 1 "TLV9302" H 1375 4625 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1200 4750 50  0001 C CNN
+F 3 "~" H 1200 4750 50  0001 C CNN
+	2    1200 4750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 4025 2800 3775
+	2675 3900 2675 3650
 Wire Wire Line
-	3000 3625 3000 3575
-Connection ~ 2800 4375
+	2875 3500 2875 3450
+Connection ~ 2675 4250
 Wire Wire Line
-	2800 4325 2800 4375
+	2675 4200 2675 4250
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 668FE079
-P 2800 4175
+P 2675 4050
 AR Path="/668FE079" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FE079" Ref="C?"  Part="1" 
-F 0 "C?" H 2775 4275 50  0000 R CNN
-F 1 "10nF" H 2775 4075 50  0000 R CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 2838 4025 50  0001 C CNN
-F 3 "~" H 2800 4175 50  0001 C CNN
-	1    2800 4175
+AR Path="/667ED907/668FE079" Ref="C22"  Part="1" 
+F 0 "C22" H 2650 4150 50  0000 R CNN
+F 1 "10nF" H 2650 3950 50  0000 R CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 2713 3900 50  0001 C CNN
+F 3 "~" H 2675 4050 50  0001 C CNN
+	1    2675 4050
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 4375 2800 4425
+	2675 4250 2675 4300
 Wire Wire Line
-	2025 4375 2800 4375
+	1900 4250 2675 4250
 Wire Wire Line
-	2025 4425 2025 4375
-Connection ~ 2025 4875
+	1900 4300 1900 4250
+Connection ~ 1900 4750
 Wire Wire Line
-	2025 4725 2025 4875
+	1900 4600 1900 4750
 $Comp
 L bca-symbols:R R?
 U 1 1 668FE084
-P 2025 4575
+P 1900 4450
 AR Path="/668FE084" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FE084" Ref="R?"  Part="1" 
-F 0 "R?" V 1975 4525 50  0000 R CNN
-F 1 "2k" V 2075 4525 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 2225 4375 50  0001 C CNN
-F 3 "~" V 2025 4575 50  0001 C CNN
-	1    2025 4575
+AR Path="/667ED907/668FE084" Ref="R29"  Part="1" 
+F 0 "R29" V 1850 4400 50  0000 R CNN
+F 1 "2k" V 1950 4400 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 2100 4250 50  0001 C CNN
+F 3 "~" V 1900 4450 50  0001 C CNN
+	1    1900 4450
 	0    -1   1    0   
 $EndComp
-Connection ~ 2800 4775
+Connection ~ 2675 4650
 Wire Wire Line
-	2800 4725 2800 4775
+	2675 4600 2675 4650
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 668FE08C
-P 2800 4575
+P 2675 4450
 AR Path="/668FE08C" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FE08C" Ref="C?"  Part="1" 
-F 0 "C?" H 2775 4675 50  0000 R CNN
-F 1 "10nF" H 2775 4475 50  0000 R CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 2838 4425 50  0001 C CNN
-F 3 "~" H 2800 4575 50  0001 C CNN
-	1    2800 4575
+AR Path="/667ED907/668FE08C" Ref="C23"  Part="1" 
+F 0 "C23" H 2650 4550 50  0000 R CNN
+F 1 "10nF" H 2650 4350 50  0000 R CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 2713 4300 50  0001 C CNN
+F 3 "~" H 2675 4450 50  0001 C CNN
+	1    2675 4450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 668FE092
-P 2800 5300
+P 2675 5175
 AR Path="/668FE092" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668FE092" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2800 5050 50  0001 C CNN
-F 1 "Earth" H 2800 5150 50  0001 C CNN
-F 2 "" H 2800 5300 50  0001 C CNN
-F 3 "~" H 2800 5300 50  0001 C CNN
-	1    2800 5300
+AR Path="/667ED907/668FE092" Ref="#PWR0145"  Part="1" 
+F 0 "#PWR0145" H 2675 4925 50  0001 C CNN
+F 1 "Earth" H 2675 5025 50  0001 C CNN
+F 2 "" H 2675 5175 50  0001 C CNN
+F 3 "~" H 2675 5175 50  0001 C CNN
+	1    2675 5175
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2025 4875 2075 4875
+	1900 4750 1950 4750
 Wire Wire Line
-	2025 5150 2025 4875
+	1900 5025 1900 4750
 Wire Wire Line
-	2725 5150 2025 5150
+	2600 5025 1900 5025
 Wire Wire Line
-	2725 4975 2725 5150
+	2600 4850 2600 5025
 Wire Wire Line
-	2675 4975 2725 4975
+	2550 4850 2600 4850
 Wire Wire Line
-	2800 4775 2675 4775
+	2675 4650 2550 4650
 Wire Wire Line
-	2800 5000 2800 4775
+	2675 4875 2675 4650
 $Comp
 L bca-symbols:R R?
 U 1 1 668FE09F
-P 2800 5150
+P 2675 5025
 AR Path="/668FE09F" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FE09F" Ref="R?"  Part="1" 
-F 0 "R?" V 2750 5100 50  0000 R CNN
-F 1 "2k" V 2850 5100 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 3000 4950 50  0001 C CNN
-F 3 "~" V 2800 5150 50  0001 C CNN
-	1    2800 5150
+AR Path="/667ED907/668FE09F" Ref="R30"  Part="1" 
+F 0 "R30" V 2625 4975 50  0000 R CNN
+F 1 "2k" V 2725 4975 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 2875 4825 50  0001 C CNN
+F 3 "~" V 2675 5025 50  0001 C CNN
+	1    2675 5025
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	3850 3775 3900 3775
+	3725 3650 3775 3650
 Wire Wire Line
-	3850 4025 3850 3775
-Connection ~ 4050 3575
+	3725 3900 3725 3650
+Connection ~ 3925 3450
 Wire Wire Line
-	4050 3625 4050 3575
-Connection ~ 3850 4375
+	3925 3500 3925 3450
+Connection ~ 3725 4250
 Wire Wire Line
-	3850 4325 3850 4375
+	3725 4200 3725 4250
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 668FE0AB
-P 3850 4175
+P 3725 4050
 AR Path="/668FE0AB" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FE0AB" Ref="C?"  Part="1" 
-F 0 "C?" H 3825 4275 50  0000 R CNN
-F 1 "10nF" H 3825 4075 50  0000 R CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 3888 4025 50  0001 C CNN
-F 3 "~" H 3850 4175 50  0001 C CNN
-	1    3850 4175
+AR Path="/667ED907/668FE0AB" Ref="C24"  Part="1" 
+F 0 "C24" H 3700 4150 50  0000 R CNN
+F 1 "10nF" H 3700 3950 50  0000 R CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 3763 3900 50  0001 C CNN
+F 3 "~" H 3725 4050 50  0001 C CNN
+	1    3725 4050
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3850 4375 3850 4425
+	3725 4250 3725 4300
 Wire Wire Line
-	3075 4375 3850 4375
+	2950 4250 3725 4250
 Wire Wire Line
-	3075 4425 3075 4375
-Connection ~ 3075 4875
+	2950 4300 2950 4250
+Connection ~ 2950 4750
 Wire Wire Line
-	3075 4725 3075 4875
+	2950 4600 2950 4750
 $Comp
 L bca-symbols:R R?
 U 1 1 668FE0B6
-P 3075 4575
+P 2950 4450
 AR Path="/668FE0B6" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FE0B6" Ref="R?"  Part="1" 
-F 0 "R?" V 3025 4525 50  0000 R CNN
-F 1 "2k" V 3125 4525 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 3275 4375 50  0001 C CNN
-F 3 "~" V 3075 4575 50  0001 C CNN
-	1    3075 4575
+AR Path="/667ED907/668FE0B6" Ref="R31"  Part="1" 
+F 0 "R31" V 2900 4400 50  0000 R CNN
+F 1 "2k" V 3000 4400 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 3150 4250 50  0001 C CNN
+F 3 "~" V 2950 4450 50  0001 C CNN
+	1    2950 4450
 	0    -1   1    0   
 $EndComp
-Connection ~ 3850 4775
+Connection ~ 3725 4650
 Wire Wire Line
-	3850 4725 3850 4775
+	3725 4600 3725 4650
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 668FE0BE
-P 3850 4575
+P 3725 4450
 AR Path="/668FE0BE" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FE0BE" Ref="C?"  Part="1" 
-F 0 "C?" H 3825 4675 50  0000 R CNN
-F 1 "10nF" H 3825 4475 50  0000 R CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 3888 4425 50  0001 C CNN
-F 3 "~" H 3850 4575 50  0001 C CNN
-	1    3850 4575
+AR Path="/667ED907/668FE0BE" Ref="C25"  Part="1" 
+F 0 "C25" H 3700 4550 50  0000 R CNN
+F 1 "10nF" H 3700 4350 50  0000 R CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 3763 4300 50  0001 C CNN
+F 3 "~" H 3725 4450 50  0001 C CNN
+	1    3725 4450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 668FE0C4
-P 3850 5300
+P 3725 5175
 AR Path="/668FE0C4" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668FE0C4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3850 5050 50  0001 C CNN
-F 1 "Earth" H 3850 5150 50  0001 C CNN
-F 2 "" H 3850 5300 50  0001 C CNN
-F 3 "~" H 3850 5300 50  0001 C CNN
-	1    3850 5300
+AR Path="/667ED907/668FE0C4" Ref="#PWR0146"  Part="1" 
+F 0 "#PWR0146" H 3725 4925 50  0001 C CNN
+F 1 "Earth" H 3725 5025 50  0001 C CNN
+F 2 "" H 3725 5175 50  0001 C CNN
+F 3 "~" H 3725 5175 50  0001 C CNN
+	1    3725 5175
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3075 4875 3125 4875
+	2950 4750 3000 4750
 Wire Wire Line
-	3075 5150 3075 4875
+	2950 5025 2950 4750
 Wire Wire Line
-	3775 5150 3075 5150
+	3650 5025 2950 5025
 Wire Wire Line
-	3775 4975 3775 5150
+	3650 4850 3650 5025
 Wire Wire Line
-	3725 4975 3775 4975
+	3600 4850 3650 4850
 Wire Wire Line
-	3850 4775 3725 4775
+	3725 4650 3600 4650
 Wire Wire Line
-	3850 5000 3850 4775
+	3725 4875 3725 4650
 $Comp
 L bca-symbols:R R?
 U 1 1 668FE0D1
-P 3850 5150
+P 3725 5025
 AR Path="/668FE0D1" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FE0D1" Ref="R?"  Part="1" 
-F 0 "R?" V 3800 5100 50  0000 R CNN
-F 1 "2k" V 3900 5100 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4050 4950 50  0001 C CNN
-F 3 "~" V 3850 5150 50  0001 C CNN
-	1    3850 5150
+AR Path="/667ED907/668FE0D1" Ref="R32"  Part="1" 
+F 0 "R32" V 3675 4975 50  0000 R CNN
+F 1 "2k" V 3775 4975 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 3925 4825 50  0001 C CNN
+F 3 "~" V 3725 5025 50  0001 C CNN
+	1    3725 5025
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	3875 3575 3175 3575
-Connection ~ 3875 3575
+	3750 3450 3050 3450
+Connection ~ 3750 3450
 Wire Wire Line
-	3875 3525 3875 3575
+	3750 3400 3750 3450
 Wire Wire Line
-	3175 3225 3225 3225
+	3050 3100 3100 3100
 Wire Wire Line
-	3175 3575 3175 3225
+	3050 3450 3050 3100
 Wire Wire Line
-	4050 3575 3875 3575
+	3925 3450 3750 3450
 Wire Wire Line
-	4050 3525 4050 3575
-Connection ~ 3875 3125
+	3925 3400 3925 3450
+Connection ~ 3750 3000
 Wire Wire Line
-	4050 3125 3875 3125
+	3925 3000 3750 3000
 Wire Wire Line
-	4050 3225 4050 3125
+	3925 3100 3925 3000
 $Comp
 L bca-symbols:R R?
 U 1 1 668FE0E1
-P 4050 3375
+P 3925 3250
 AR Path="/668FE0E1" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FE0E1" Ref="R?"  Part="1" 
-F 0 "R?" V 4004 3443 50  0000 L CNN
-F 1 "10k" V 4095 3443 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4250 3175 50  0001 C CNN
-F 3 "~" V 4050 3375 50  0001 C CNN
-	1    4050 3375
+AR Path="/667ED907/668FE0E1" Ref="R33"  Part="1" 
+F 0 "R33" V 3879 3318 50  0000 L CNN
+F 1 "10k" V 3970 3318 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4125 3050 50  0001 C CNN
+F 3 "~" V 3925 3250 50  0001 C CNN
+	1    3925 3250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3875 3125 3875 3225
+	3750 3000 3750 3100
 Wire Wire Line
-	3825 3125 3875 3125
+	3700 3000 3750 3000
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 668FE0E9
-P 3875 3375
+P 3750 3250
 AR Path="/668FE0E9" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FE0E9" Ref="C?"  Part="1" 
-F 0 "C?" H 3850 3275 50  0000 R CNN
-F 1 "100pF" H 3850 3475 50  0000 R CNN
-F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 3913 3225 50  0001 C CNN
-F 3 "~" H 3875 3375 50  0001 C CNN
-	1    3875 3375
+AR Path="/667ED907/668FE0E9" Ref="C26"  Part="1" 
+F 0 "C26" H 3725 3150 50  0000 R CNN
+F 1 "100pF" H 3725 3350 50  0000 R CNN
+F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 3788 3100 50  0001 C CNN
+F 3 "~" H 3750 3250 50  0001 C CNN
+	1    3750 3250
 	1    0    0    1   
 $EndComp
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 668FE0EF
-P 4350 3125
+P 4225 3000
 AR Path="/668FE0EF" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FE0EF" Ref="C?"  Part="1" 
-F 0 "C?" V 4200 3125 50  0000 C CNN
-F 1 "10nF" V 4500 3125 50  0000 C CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 4388 2975 50  0001 C CNN
-F 3 "~" H 4350 3125 50  0001 C CNN
-	1    4350 3125
+AR Path="/667ED907/668FE0EF" Ref="C27"  Part="1" 
+F 0 "C27" V 4075 3000 50  0000 C CNN
+F 1 "10nF" V 4375 3000 50  0000 C CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 4263 2850 50  0001 C CNN
+F 3 "~" H 4225 3000 50  0001 C CNN
+	1    4225 3000
 	0    1    1    0   
 $EndComp
-Connection ~ 6050 4175
+Connection ~ 5925 4050
 Wire Wire Line
-	6100 4175 6050 4175
+	5975 4050 5925 4050
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 668FE0F7
-P 6250 4175
+P 6125 4050
 AR Path="/668FE0F7" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FE0F7" Ref="C?"  Part="1" 
-F 0 "C?" V 6100 4175 50  0000 C CNN
-F 1 "0.1uF" V 6400 4175 50  0000 C CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 6288 4025 50  0001 C CNN
-F 3 "~" H 6250 4175 50  0001 C CNN
-	1    6250 4175
+AR Path="/667ED907/668FE0F7" Ref="C31"  Part="1" 
+F 0 "C31" V 5975 4050 50  0000 C CNN
+F 1 "0.1uF" V 6275 4050 50  0000 C CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 6163 3900 50  0001 C CNN
+F 3 "~" H 6125 4050 50  0001 C CNN
+	1    6125 4050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6050 4175 6000 4175
+	5925 4050 5875 4050
 Wire Wire Line
-	6050 4225 6050 4175
+	5925 4100 5925 4050
 Wire Wire Line
-	6050 4575 6050 4525
-Text Label 6050 4575 3    50   ~ 0
+	5925 4450 5925 4400
+Text Label 5925 4450 3    50   ~ 0
 -VREF1
 Wire Wire Line
-	7950 3075 7375 3075
+	7825 2950 7250 2950
 Wire Wire Line
-	7950 3500 7950 3075
+	7825 3375 7825 2950
 Wire Wire Line
-	7900 3500 7950 3500
-Connection ~ 6450 3400
+	7775 3375 7825 3375
+Connection ~ 6325 3275
 Wire Wire Line
-	6450 3075 6450 3400
+	6325 2950 6325 3275
 Wire Wire Line
-	7075 3075 6450 3075
+	6950 2950 6325 2950
 $Comp
 L bca-symbols:R R?
 U 1 1 668FE107
-P 7225 3075
+P 7100 2950
 AR Path="/668FE107" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FE107" Ref="R?"  Part="1" 
-F 0 "R?" H 7225 3175 50  0000 C CNN
-F 1 "100k" H 7225 2975 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7425 2875 50  0001 C CNN
-F 3 "~" V 7225 3075 50  0001 C CNN
-	1    7225 3075
+AR Path="/667ED907/668FE107" Ref="R46"  Part="1" 
+F 0 "R46" H 7100 3050 50  0000 C CNN
+F 1 "100k" H 7100 2850 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7300 2750 50  0001 C CNN
+F 3 "~" V 7100 2950 50  0001 C CNN
+	1    7100 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 3600 5700 3975
-Connection ~ 5700 3600
+	5575 3475 5575 3850
+Connection ~ 5575 3475
 Wire Wire Line
-	5750 3600 5700 3600
+	5625 3475 5575 3475
 Wire Wire Line
-	5250 3400 5250 3600
-Connection ~ 5250 3400
+	5125 3275 5125 3475
+Connection ~ 5125 3275
 Wire Wire Line
-	5750 3400 5250 3400
+	5625 3275 5125 3275
 Wire Wire Line
-	6050 3600 6100 3600
+	5925 3475 5975 3475
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 668FE114
-P 5900 3600
+P 5775 3475
 AR Path="/668FE114" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FE114" Ref="C?"  Part="1" 
-F 0 "C?" V 6025 3600 50  0000 C CNN
-F 1 "0.1uF" V 6100 3600 50  0000 C CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 5938 3450 50  0001 C CNN
-F 3 "~" H 5900 3600 50  0001 C CNN
-	1    5900 3600
+AR Path="/667ED907/668FE114" Ref="C30"  Part="1" 
+F 0 "C30" V 5900 3475 50  0000 C CNN
+F 1 "0.1uF" V 5975 3475 50  0000 C CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 5813 3325 50  0001 C CNN
+F 3 "~" H 5775 3475 50  0001 C CNN
+	1    5775 3475
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6050 3400 6100 3400
+	5925 3275 5975 3275
 $Comp
 L bca-symbols:C_Film_W2.50mm C?
 U 1 1 668FE11B
-P 5900 3400
+P 5775 3275
 AR Path="/668FE11B" Ref="C?"  Part="1" 
-AR Path="/667ED907/668FE11B" Ref="C?"  Part="1" 
-F 0 "C?" V 5700 3400 50  0000 C CNN
-F 1 "0.1uF" V 5775 3400 50  0000 C CNN
-F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 5938 3250 50  0001 C CNN
-F 3 "~" H 5900 3400 50  0001 C CNN
-	1    5900 3400
+AR Path="/667ED907/668FE11B" Ref="C29"  Part="1" 
+F 0 "C29" V 5575 3275 50  0000 C CNN
+F 1 "0.1uF" V 5650 3275 50  0000 C CNN
+F 2 "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm" H 5813 3125 50  0001 C CNN
+F 3 "~" H 5775 3275 50  0001 C CNN
+	1    5775 3275
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6400 3400 6450 3400
+	6275 3275 6325 3275
 $Comp
 L bca-symbols:R R?
 U 1 1 668FE122
-P 6250 3400
+P 6125 3275
 AR Path="/668FE122" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FE122" Ref="R?"  Part="1" 
-F 0 "R?" H 6250 3575 50  0000 C CNN
-F 1 "100k" H 6250 3500 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6450 3200 50  0001 C CNN
-F 3 "~" V 6250 3400 50  0001 C CNN
-	1    6250 3400
+AR Path="/667ED907/668FE122" Ref="R39"  Part="1" 
+F 0 "R39" H 6125 3450 50  0000 C CNN
+F 1 "100k" H 6125 3375 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6325 3075 50  0001 C CNN
+F 3 "~" V 6125 3275 50  0001 C CNN
+	1    6125 3275
 	1    0    0    -1  
 $EndComp
-Connection ~ 6900 3600
+Connection ~ 6775 3475
 Wire Wire Line
-	6400 3600 6725 3600
+	6275 3475 6600 3475
 $Comp
 L bca-symbols:R R?
 U 1 1 668FE12A
-P 6250 3600
+P 6125 3475
 AR Path="/668FE12A" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FE12A" Ref="R?"  Part="1" 
-F 0 "R?" H 6250 3700 50  0000 C CNN
-F 1 "100k" H 6250 3500 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6450 3400 50  0001 C CNN
-F 3 "~" V 6250 3600 50  0001 C CNN
-	1    6250 3600
+AR Path="/667ED907/668FE12A" Ref="R40"  Part="1" 
+F 0 "R40" H 6125 3575 50  0000 C CNN
+F 1 "100k" H 6125 3375 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6325 3275 50  0001 C CNN
+F 3 "~" V 6125 3475 50  0001 C CNN
+	1    6125 3475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6900 3600 6950 3600
+	6775 3475 6825 3475
 Wire Wire Line
-	6900 3675 6900 3600
+	6775 3550 6775 3475
 $Comp
 L bca-symbols:R R?
 U 1 1 668FE132
-P 6900 3825
+P 6775 3700
 AR Path="/668FE132" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FE132" Ref="R?"  Part="1" 
-F 0 "R?" V 6850 3875 50  0000 L CNN
-F 1 "100k" V 6950 3875 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7100 3625 50  0001 C CNN
-F 3 "~" V 6900 3825 50  0001 C CNN
-	1    6900 3825
+AR Path="/667ED907/668FE132" Ref="R43"  Part="1" 
+F 0 "R43" V 6725 3750 50  0000 L CNN
+F 1 "100k" V 6825 3750 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 6975 3500 50  0001 C CNN
+F 3 "~" V 6775 3700 50  0001 C CNN
+	1    6775 3700
 	0    1    1    0   
 $EndComp
 $Comp
 L Amplifier_Operational:OPA1692xD U?
 U 2 1 668FE138
-P 7600 3500
+P 3400 3000
 AR Path="/668FE138" Ref="U?"  Part="2" 
-AR Path="/667ED907/668FE138" Ref="U?"  Part="2" 
-F 0 "U?" H 7600 3350 50  0000 L CNN
-F 1 "OPA1692xD" H 7500 3700 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7700 3500 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/opa1692.pdf" H 7850 3650 50  0001 C CNN
-	2    7600 3500
-	1    0    0    1   
+AR Path="/667ED907/668FE138" Ref="U3"  Part="2" 
+F 0 "U3" H 3350 3275 50  0000 L CNN
+F 1 "OPA1692xD" H 3350 3175 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3500 3000 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa1692.pdf" H 3650 3150 50  0001 C CNN
+	2    3400 3000
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+15V #PWR?
 U 1 1 668FE13E
-P 5700 3050
+P 5575 2925
 AR Path="/668FE13E" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668FE13E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5700 2900 50  0001 C CNN
-F 1 "+15V" H 5700 3200 50  0000 C CNN
-F 2 "" H 5700 3050 50  0001 C CNN
-F 3 "" H 5700 3050 50  0001 C CNN
-	1    5700 3050
+AR Path="/667ED907/668FE13E" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 5575 2775 50  0001 C CNN
+F 1 "+15V" H 5575 3075 50  0000 C CNN
+F 2 "" H 5575 2925 50  0001 C CNN
+F 3 "" H 5575 2925 50  0001 C CNN
+	1    5575 2925
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+15V #PWR?
 U 1 1 668FE144
-P 5250 3050
+P 5125 2925
 AR Path="/668FE144" Ref="#PWR?"  Part="1" 
-AR Path="/667ED907/668FE144" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5250 2900 50  0001 C CNN
-F 1 "+15V" H 5250 3200 50  0000 C CNN
-F 2 "" H 5250 3050 50  0001 C CNN
-F 3 "" H 5250 3050 50  0001 C CNN
-	1    5250 3050
+AR Path="/667ED907/668FE144" Ref="#PWR0148"  Part="1" 
+F 0 "#PWR0148" H 5125 2775 50  0001 C CNN
+F 1 "+15V" H 5125 3075 50  0000 C CNN
+F 2 "" H 5125 2925 50  0001 C CNN
+F 3 "" H 5125 2925 50  0001 C CNN
+	1    5125 2925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 4575 4550 4525
-Text Label 4550 4575 3    50   ~ 0
+	4425 4450 4425 4400
+Text Label 4425 4450 3    50   ~ 0
 -VREF1
 Wire Wire Line
-	4550 4175 4600 4175
+	4425 4050 4475 4050
 Wire Wire Line
-	4550 4225 4550 4175
+	4425 4100 4425 4050
 $Comp
 L bca-symbols:R R?
 U 1 1 668FE14E
-P 4550 4375
+P 4425 4250
 AR Path="/668FE14E" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FE14E" Ref="R?"  Part="1" 
-F 0 "R?" V 4500 4325 50  0000 R CNN
-F 1 "1M" V 4600 4325 50  0000 R CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4750 4175 50  0001 C CNN
-F 3 "~" V 4550 4375 50  0001 C CNN
-	1    4550 4375
+AR Path="/667ED907/668FE14E" Ref="R34"  Part="1" 
+F 0 "R34" V 4375 4200 50  0000 R CNN
+F 1 "1M" V 4475 4200 50  0000 R CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4625 4050 50  0001 C CNN
+F 3 "~" V 4425 4250 50  0001 C CNN
+	1    4425 4250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5250 3350 5250 3400
+	5125 3225 5125 3275
 Wire Wire Line
-	5700 3350 5700 3600
+	5575 3225 5575 3475
 $Comp
 L bca-symbols:R R?
 U 1 1 668FE156
-P 5250 3200
+P 5125 3075
 AR Path="/668FE156" Ref="R?"  Part="1" 
-AR Path="/667ED907/668FE156" Ref="R?"  Part="1" 
-F 0 "R?" V 5200 3250 50  0000 L CNN
-F 1 "15k" V 5300 3250 50  0000 L CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 5450 3000 50  0001 C CNN
-F 3 "~" V 5250 3200 50  0001 C CNN
-	1    5250 3200
+AR Path="/667ED907/668FE156" Ref="R36"  Part="1" 
+F 0 "R36" V 5075 3125 50  0000 L CNN
+F 1 "15k" V 5175 3125 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 5325 2875 50  0001 C CNN
+F 3 "~" V 5125 3075 50  0001 C CNN
+	1    5125 3075
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5475 4425 5250 4425
-Connection ~ 5475 4425
+	5350 4300 5125 4300
+Connection ~ 5350 4300
 Wire Wire Line
-	5475 4475 5475 4425
-Text Label 5475 4475 3    50   ~ 0
+	5350 4350 5350 4300
+Text Label 5350 4350 3    50   ~ 0
 ccs4
 Wire Wire Line
-	5700 4425 5475 4425
+	5575 4300 5350 4300
 $Comp
 L bca-symbols:LS84x_SOT23 Q?
 U 2 1 668FE161
-P 5800 4175
+P 5675 4050
 AR Path="/668FE161" Ref="Q?"  Part="2" 
-AR Path="/667ED907/668FE161" Ref="Q?"  Part="2" 
-F 0 "Q?" H 5975 4225 50  0000 L CNN
-F 1 "LS844" H 5991 4130 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 6000 4275 50  0001 C CNN
-F 3 "https://www.linearsystems.com/lsdata/datasheets/LS843_LS844_LS845_Low_Noise,_Low_Drift,_Low_Capacitance,_Monolithic_Dual,_N-Channel_JFET.pdf" H 5800 4175 50  0001 C CNN
-	2    5800 4175
+AR Path="/667ED907/668FE161" Ref="Q6"  Part="2" 
+F 0 "Q6" H 5850 4100 50  0000 L CNN
+F 1 "LS844" H 5866 4005 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 5875 4150 50  0001 C CNN
+F 3 "https://www.linearsystems.com/lsdata/datasheets/LS843_LS844_LS845_Low_Noise,_Low_Drift,_Low_Capacitance,_Monolithic_Dual,_N-Channel_JFET.pdf" H 5675 4050 50  0001 C CNN
+	2    5675 4050
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:LS84x_SOT23 Q?
 U 1 1 668FE167
-P 5150 4175
+P 5025 4050
 AR Path="/668FE167" Ref="Q?"  Part="1" 
-AR Path="/667ED907/668FE167" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5325 4225 50  0000 L CNN
-F 1 "LS844" H 5350 4125 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 5350 4275 50  0001 C CNN
-F 3 "https://www.linearsystems.com/lsdata/datasheets/LS843_LS844_LS845_Low_Noise,_Low_Drift,_Low_Capacitance,_Monolithic_Dual,_N-Channel_JFET.pdf" H 5150 4175 50  0001 C CNN
-	1    5150 4175
+AR Path="/667ED907/668FE167" Ref="Q6"  Part="1" 
+F 0 "Q6" H 5200 4100 50  0000 L CNN
+F 1 "LS844" H 5225 4000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 5225 4150 50  0001 C CNN
+F 3 "https://www.linearsystems.com/lsdata/datasheets/LS843_LS844_LS845_Low_Noise,_Low_Drift,_Low_Capacitance,_Monolithic_Dual,_N-Channel_JFET.pdf" H 5025 4050 50  0001 C CNN
+	1    5025 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:OPA1692xD U?
 U 1 1 668FE16D
-P 3525 3125
+P 7475 3375
 AR Path="/668FE16D" Ref="U?"  Part="1" 
-AR Path="/667ED907/668FE16D" Ref="U?"  Part="1" 
-F 0 "U?" H 3600 3375 50  0000 C CNN
-F 1 "OPA1692xD" H 3750 3275 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3625 3125 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/opa1692.pdf" H 3775 3275 50  0001 C CNN
-	1    3525 3125
-	1    0    0    -1  
+AR Path="/667ED907/668FE16D" Ref="U3"  Part="1" 
+F 0 "U3" H 7500 3200 50  0000 C CNN
+F 1 "OPA1692xD" H 7600 3575 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7575 3375 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa1692.pdf" H 7725 3525 50  0001 C CNN
+	1    7475 3375
+	1    0    0    1   
 $EndComp
-Text HLabel 8550 3800 2    50   Input ~ 0
+Text HLabel 8425 3675 2    50   Input ~ 0
 return
-Connection ~ 13225 7150
+Connection ~ 8975 5400
 Wire Wire Line
-	13225 7250 13225 7150
-Connection ~ 13225 7950
+	8975 5500 8975 5400
+Connection ~ 8975 6200
 Wire Wire Line
-	13225 7850 13225 7950
+	8975 6100 8975 6200
 Wire Wire Line
-	13225 8000 13225 7950
+	8975 6250 8975 6200
 $Comp
 L power:-15V #PWR?
 U 1 1 66926209
-P 13225 8000
-F 0 "#PWR?" H 13225 8100 50  0001 C CNN
-F 1 "-15V" H 13225 8150 50  0000 C CNN
-F 2 "" H 13225 8000 50  0001 C CNN
-F 3 "" H 13225 8000 50  0001 C CNN
-	1    13225 8000
+P 8975 6250
+AR Path="/66926209" Ref="#PWR?"  Part="1" 
+AR Path="/667ED907/66926209" Ref="#PWR0149"  Part="1" 
+F 0 "#PWR0149" H 8975 6350 50  0001 C CNN
+F 1 "-15V" H 8975 6400 50  0000 C CNN
+F 2 "" H 8975 6250 50  0001 C CNN
+F 3 "" H 8975 6250 50  0001 C CNN
+	1    8975 6250
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	13225 7100 13225 7150
+	8975 5350 8975 5400
 $Comp
 L power:+15V #PWR?
 U 1 1 66926210
-P 13225 7100
-F 0 "#PWR?" H 13225 6950 50  0001 C CNN
-F 1 "+15V" H 13225 7250 50  0000 C CNN
-F 2 "" H 13225 7100 50  0001 C CNN
-F 3 "" H 13225 7100 50  0001 C CNN
-	1    13225 7100
+P 8975 5350
+AR Path="/66926210" Ref="#PWR?"  Part="1" 
+AR Path="/667ED907/66926210" Ref="#PWR0150"  Part="1" 
+F 0 "#PWR0150" H 8975 5200 50  0001 C CNN
+F 1 "+15V" H 8975 5500 50  0000 C CNN
+F 2 "" H 8975 5350 50  0001 C CNN
+F 3 "" H 8975 5350 50  0001 C CNN
+	1    8975 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13550 7550 13550 7600
-Connection ~ 13550 7550
+	9300 5800 9300 5850
+Connection ~ 9300 5800
 Wire Wire Line
-	13425 7550 13550 7550
+	9175 5800 9300 5800
 Wire Wire Line
-	13425 7600 13425 7550
+	9175 5850 9175 5800
 $Comp
 L power:Earth #PWR?
 U 1 1 6692621A
-P 13425 7600
-F 0 "#PWR?" H 13425 7350 50  0001 C CNN
-F 1 "Earth" H 13425 7450 50  0001 C CNN
-F 2 "" H 13425 7600 50  0001 C CNN
-F 3 "~" H 13425 7600 50  0001 C CNN
-	1    13425 7600
+P 9175 5850
+AR Path="/6692621A" Ref="#PWR?"  Part="1" 
+AR Path="/667ED907/6692621A" Ref="#PWR0151"  Part="1" 
+F 0 "#PWR0151" H 9175 5600 50  0001 C CNN
+F 1 "Earth" H 9175 5700 50  0001 C CNN
+F 2 "" H 9175 5850 50  0001 C CNN
+F 3 "~" H 9175 5850 50  0001 C CNN
+	1    9175 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13550 7500 13550 7550
+	9300 5750 9300 5800
 Wire Wire Line
-	13550 7150 13225 7150
+	9300 5400 8975 5400
 Wire Wire Line
-	13550 7200 13550 7150
+	9300 5450 9300 5400
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 66926223
-P 13550 7350
-F 0 "C?" H 13575 7450 50  0000 L CNN
-F 1 "100nF" H 13575 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 13588 7200 50  0001 C CNN
-F 3 "~" H 13550 7350 50  0001 C CNN
-	1    13550 7350
+P 9300 5600
+AR Path="/66926223" Ref="C?"  Part="1" 
+AR Path="/667ED907/66926223" Ref="C43"  Part="1" 
+F 0 "C43" H 9325 5700 50  0000 L CNN
+F 1 "100nF" H 9325 5500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9338 5450 50  0001 C CNN
+F 3 "~" H 9300 5600 50  0001 C CNN
+	1    9300 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13550 7950 13225 7950
+	9300 6200 8975 6200
 Wire Wire Line
-	13550 7900 13550 7950
+	9300 6150 9300 6200
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 6692622B
-P 13550 7750
-F 0 "C?" H 13575 7850 50  0000 L CNN
-F 1 "100nF" H 13575 7650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 13588 7600 50  0001 C CNN
-F 3 "~" H 13550 7750 50  0001 C CNN
-	1    13550 7750
+P 9300 6000
+AR Path="/6692622B" Ref="C?"  Part="1" 
+AR Path="/667ED907/6692622B" Ref="C44"  Part="1" 
+F 0 "C44" H 9325 6100 50  0000 L CNN
+F 1 "100nF" H 9325 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9338 5850 50  0001 C CNN
+F 3 "~" H 9300 6000 50  0001 C CNN
+	1    9300 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Opamp_Dual_Generic U?
 U 3 1 66926231
-P 13125 7550
-F 0 "U?" V 13125 7550 50  0000 C CNN
-F 1 "TLV9302" V 12925 7550 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 13125 7550 50  0001 C CNN
-F 3 "~" H 13125 7550 50  0001 C CNN
-	3    13125 7550
+P 8875 5800
+AR Path="/66926231" Ref="U?"  Part="3" 
+AR Path="/667ED907/66926231" Ref="U1"  Part="3" 
+F 0 "U1" V 8875 5800 50  0000 C CNN
+F 1 "TLV9302" V 8675 5800 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8875 5800 50  0001 C CNN
+F 3 "~" H 8875 5800 50  0001 C CNN
+	3    8875 5800
 	-1   0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:Opamp_Generic U?
 U 2 1 66926237
-P 14675 7550
-F 0 "U?" V 14600 7550 50  0000 C CNN
-F 1 "TLV9301" V 14775 7550 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 14675 7525 50  0001 C CNN
-F 3 "~" H 14675 7525 50  0001 C CNN
-	2    14675 7550
+P 10425 5800
+AR Path="/66926237" Ref="U?"  Part="2" 
+AR Path="/667ED907/66926237" Ref="U4"  Part="2" 
+F 0 "U4" V 10350 5800 50  0000 C CNN
+F 1 "TLV9301" V 10525 5800 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 10425 5775 50  0001 C CNN
+F 3 "~" H 10425 5775 50  0001 C CNN
+	2    10425 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15000 7550 15000 7600
-Connection ~ 15000 7550
+	10750 5800 10750 5850
+Connection ~ 10750 5800
 Wire Wire Line
-	14875 7550 15000 7550
+	10625 5800 10750 5800
 Wire Wire Line
-	14875 7600 14875 7550
+	10625 5850 10625 5800
 $Comp
 L power:Earth #PWR?
 U 1 1 66926241
-P 14875 7600
-F 0 "#PWR?" H 14875 7350 50  0001 C CNN
-F 1 "Earth" H 14875 7450 50  0001 C CNN
-F 2 "" H 14875 7600 50  0001 C CNN
-F 3 "~" H 14875 7600 50  0001 C CNN
-	1    14875 7600
+P 10625 5850
+AR Path="/66926241" Ref="#PWR?"  Part="1" 
+AR Path="/667ED907/66926241" Ref="#PWR0152"  Part="1" 
+F 0 "#PWR0152" H 10625 5600 50  0001 C CNN
+F 1 "Earth" H 10625 5700 50  0001 C CNN
+F 2 "" H 10625 5850 50  0001 C CNN
+F 3 "~" H 10625 5850 50  0001 C CNN
+	1    10625 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15000 7500 15000 7550
+	10750 5750 10750 5800
 Wire Wire Line
-	14675 7100 14675 7150
-Connection ~ 14675 7150
+	10425 5350 10425 5400
+Connection ~ 10425 5400
 Wire Wire Line
-	14675 7150 14675 7250
+	10425 5400 10425 5500
 Wire Wire Line
-	15000 7150 14675 7150
+	10750 5400 10425 5400
 Wire Wire Line
-	15000 7200 15000 7150
+	10750 5450 10750 5400
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 6692624D
-P 15000 7350
-F 0 "C?" H 15025 7450 50  0000 L CNN
-F 1 "100nF" H 15025 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 15038 7200 50  0001 C CNN
-F 3 "~" H 15000 7350 50  0001 C CNN
-	1    15000 7350
+P 10750 5600
+AR Path="/6692624D" Ref="C?"  Part="1" 
+AR Path="/667ED907/6692624D" Ref="C47"  Part="1" 
+F 0 "C47" H 10775 5700 50  0000 L CNN
+F 1 "100nF" H 10775 5500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10788 5450 50  0001 C CNN
+F 3 "~" H 10750 5600 50  0001 C CNN
+	1    10750 5600
 	1    0    0    -1  
 $EndComp
-Connection ~ 14675 7950
+Connection ~ 10425 6200
 Wire Wire Line
-	14675 8000 14675 7950
+	10425 6250 10425 6200
 Wire Wire Line
-	14675 7950 14675 7850
+	10425 6200 10425 6100
 Wire Wire Line
-	15000 7950 14675 7950
+	10750 6200 10425 6200
 Wire Wire Line
-	15000 7900 15000 7950
+	10750 6150 10750 6200
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 66926258
-P 15000 7750
-F 0 "C?" H 15025 7850 50  0000 L CNN
-F 1 "100nF" H 15025 7650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 15038 7600 50  0001 C CNN
-F 3 "~" H 15000 7750 50  0001 C CNN
-	1    15000 7750
+P 10750 6000
+AR Path="/66926258" Ref="C?"  Part="1" 
+AR Path="/667ED907/66926258" Ref="C48"  Part="1" 
+F 0 "C48" H 10775 6100 50  0000 L CNN
+F 1 "100nF" H 10775 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10788 5850 50  0001 C CNN
+F 3 "~" H 10750 6000 50  0001 C CNN
+	1    10750 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:-15V #PWR?
 U 1 1 6692625E
-P 14675 8000
-F 0 "#PWR?" H 14675 8100 50  0001 C CNN
-F 1 "-15V" H 14675 8150 50  0000 C CNN
-F 2 "" H 14675 8000 50  0001 C CNN
-F 3 "" H 14675 8000 50  0001 C CNN
-	1    14675 8000
+P 10425 6250
+AR Path="/6692625E" Ref="#PWR?"  Part="1" 
+AR Path="/667ED907/6692625E" Ref="#PWR0153"  Part="1" 
+F 0 "#PWR0153" H 10425 6350 50  0001 C CNN
+F 1 "-15V" H 10425 6400 50  0000 C CNN
+F 2 "" H 10425 6250 50  0001 C CNN
+F 3 "" H 10425 6250 50  0001 C CNN
+	1    10425 6250
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+15V #PWR?
 U 1 1 66926264
-P 14675 7100
-F 0 "#PWR?" H 14675 6950 50  0001 C CNN
-F 1 "+15V" H 14675 7250 50  0000 C CNN
-F 2 "" H 14675 7100 50  0001 C CNN
-F 3 "" H 14675 7100 50  0001 C CNN
-	1    14675 7100
+P 10425 5350
+AR Path="/66926264" Ref="#PWR?"  Part="1" 
+AR Path="/667ED907/66926264" Ref="#PWR0155"  Part="1" 
+F 0 "#PWR0155" H 10425 5200 50  0001 C CNN
+F 1 "+15V" H 10425 5500 50  0000 C CNN
+F 2 "" H 10425 5350 50  0001 C CNN
+F 3 "" H 10425 5350 50  0001 C CNN
+	1    10425 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L bca-symbols:Opamp_Generic U?
 U 2 1 6692626A
-P 13950 7550
-F 0 "U?" V 13875 7550 50  0000 C CNN
-F 1 "TLV9301" V 14050 7550 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 13950 7525 50  0001 C CNN
-F 3 "~" H 13950 7525 50  0001 C CNN
-	2    13950 7550
+P 9700 5800
+AR Path="/6692626A" Ref="U?"  Part="2" 
+AR Path="/667ED907/6692626A" Ref="U2"  Part="2" 
+F 0 "U2" V 9625 5800 50  0000 C CNN
+F 1 "TLV9301" V 9800 5800 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9700 5775 50  0001 C CNN
+F 3 "~" H 9700 5775 50  0001 C CNN
+	2    9700 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14275 7550 14275 7600
-Connection ~ 14275 7550
+	10025 5800 10025 5850
+Connection ~ 10025 5800
 Wire Wire Line
-	14150 7550 14275 7550
+	9900 5800 10025 5800
 Wire Wire Line
-	14150 7600 14150 7550
+	9900 5850 9900 5800
 $Comp
 L power:Earth #PWR?
 U 1 1 66926274
-P 14150 7600
-F 0 "#PWR?" H 14150 7350 50  0001 C CNN
-F 1 "Earth" H 14150 7450 50  0001 C CNN
-F 2 "" H 14150 7600 50  0001 C CNN
-F 3 "~" H 14150 7600 50  0001 C CNN
-	1    14150 7600
+P 9900 5850
+AR Path="/66926274" Ref="#PWR?"  Part="1" 
+AR Path="/667ED907/66926274" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0156" H 9900 5600 50  0001 C CNN
+F 1 "Earth" H 9900 5700 50  0001 C CNN
+F 2 "" H 9900 5850 50  0001 C CNN
+F 3 "~" H 9900 5850 50  0001 C CNN
+	1    9900 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14275 7500 14275 7550
+	10025 5750 10025 5800
 Wire Wire Line
-	13950 7100 13950 7150
-Connection ~ 13950 7150
+	9700 5350 9700 5400
+Connection ~ 9700 5400
 Wire Wire Line
-	13950 7150 13950 7250
+	9700 5400 9700 5500
 Wire Wire Line
-	14275 7150 13950 7150
+	10025 5400 9700 5400
 Wire Wire Line
-	14275 7200 14275 7150
+	10025 5450 10025 5400
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 66926280
-P 14275 7350
-F 0 "C?" H 14300 7450 50  0000 L CNN
-F 1 "100nF" H 14300 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 14313 7200 50  0001 C CNN
-F 3 "~" H 14275 7350 50  0001 C CNN
-	1    14275 7350
+P 10025 5600
+AR Path="/66926280" Ref="C?"  Part="1" 
+AR Path="/667ED907/66926280" Ref="C45"  Part="1" 
+F 0 "C45" H 10050 5700 50  0000 L CNN
+F 1 "100nF" H 10050 5500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10063 5450 50  0001 C CNN
+F 3 "~" H 10025 5600 50  0001 C CNN
+	1    10025 5600
 	1    0    0    -1  
 $EndComp
-Connection ~ 13950 7950
+Connection ~ 9700 6200
 Wire Wire Line
-	13950 8000 13950 7950
+	9700 6250 9700 6200
 Wire Wire Line
-	13950 7950 13950 7850
+	9700 6200 9700 6100
 Wire Wire Line
-	14275 7950 13950 7950
+	10025 6200 9700 6200
 Wire Wire Line
-	14275 7900 14275 7950
+	10025 6150 10025 6200
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 6692628B
-P 14275 7750
-F 0 "C?" H 14300 7850 50  0000 L CNN
-F 1 "100nF" H 14300 7650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 14313 7600 50  0001 C CNN
-F 3 "~" H 14275 7750 50  0001 C CNN
-	1    14275 7750
+P 10025 6000
+AR Path="/6692628B" Ref="C?"  Part="1" 
+AR Path="/667ED907/6692628B" Ref="C46"  Part="1" 
+F 0 "C46" H 10050 6100 50  0000 L CNN
+F 1 "100nF" H 10050 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10063 5850 50  0001 C CNN
+F 3 "~" H 10025 6000 50  0001 C CNN
+	1    10025 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:-15V #PWR?
 U 1 1 66926291
-P 13950 8000
-F 0 "#PWR?" H 13950 8100 50  0001 C CNN
-F 1 "-15V" H 13950 8150 50  0000 C CNN
-F 2 "" H 13950 8000 50  0001 C CNN
-F 3 "" H 13950 8000 50  0001 C CNN
-	1    13950 8000
+P 9700 6250
+AR Path="/66926291" Ref="#PWR?"  Part="1" 
+AR Path="/667ED907/66926291" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0157" H 9700 6350 50  0001 C CNN
+F 1 "-15V" H 9700 6400 50  0000 C CNN
+F 2 "" H 9700 6250 50  0001 C CNN
+F 3 "" H 9700 6250 50  0001 C CNN
+	1    9700 6250
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+15V #PWR?
 U 1 1 66926297
-P 13950 7100
-F 0 "#PWR?" H 13950 6950 50  0001 C CNN
-F 1 "+15V" H 13950 7250 50  0000 C CNN
-F 2 "" H 13950 7100 50  0001 C CNN
-F 3 "" H 13950 7100 50  0001 C CNN
-	1    13950 7100
+P 9700 5350
+AR Path="/66926297" Ref="#PWR?"  Part="1" 
+AR Path="/667ED907/66926297" Ref="#PWR0158"  Part="1" 
+F 0 "#PWR0158" H 9700 5200 50  0001 C CNN
+F 1 "+15V" H 9700 5500 50  0000 C CNN
+F 2 "" H 9700 5350 50  0001 C CNN
+F 3 "" H 9700 5350 50  0001 C CNN
+	1    9700 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12800 7550 12800 7600
-Connection ~ 12800 7550
+	8550 5800 8550 5850
+Connection ~ 8550 5800
 Wire Wire Line
-	12675 7550 12800 7550
+	8425 5800 8550 5800
 Wire Wire Line
-	12675 7600 12675 7550
+	8425 5850 8425 5800
 $Comp
 L power:Earth #PWR?
 U 1 1 669262A1
-P 12675 7600
-F 0 "#PWR?" H 12675 7350 50  0001 C CNN
-F 1 "Earth" H 12675 7450 50  0001 C CNN
-F 2 "" H 12675 7600 50  0001 C CNN
-F 3 "~" H 12675 7600 50  0001 C CNN
-	1    12675 7600
+P 8425 5850
+AR Path="/669262A1" Ref="#PWR?"  Part="1" 
+AR Path="/667ED907/669262A1" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 8425 5600 50  0001 C CNN
+F 1 "Earth" H 8425 5700 50  0001 C CNN
+F 2 "" H 8425 5850 50  0001 C CNN
+F 3 "~" H 8425 5850 50  0001 C CNN
+	1    8425 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12800 7500 12800 7550
+	8550 5750 8550 5800
 Wire Wire Line
-	12475 7100 12475 7150
-Connection ~ 12475 7150
+	8225 5350 8225 5400
+Connection ~ 8225 5400
 Wire Wire Line
-	12475 7150 12475 7250
+	8225 5400 8225 5500
 Wire Wire Line
-	12800 7150 12475 7150
+	8550 5400 8225 5400
 Wire Wire Line
-	12800 7200 12800 7150
+	8550 5450 8550 5400
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 669262AD
-P 12800 7350
-F 0 "C?" H 12825 7450 50  0000 L CNN
-F 1 "100nF" H 12825 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 12838 7200 50  0001 C CNN
-F 3 "~" H 12800 7350 50  0001 C CNN
-	1    12800 7350
+P 8550 5600
+AR Path="/669262AD" Ref="C?"  Part="1" 
+AR Path="/667ED907/669262AD" Ref="C41"  Part="1" 
+F 0 "C41" H 8575 5700 50  0000 L CNN
+F 1 "100nF" H 8575 5500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8588 5450 50  0001 C CNN
+F 3 "~" H 8550 5600 50  0001 C CNN
+	1    8550 5600
 	1    0    0    -1  
 $EndComp
-Connection ~ 12475 7950
+Connection ~ 8225 6200
 Wire Wire Line
-	12475 8000 12475 7950
+	8225 6250 8225 6200
 Wire Wire Line
-	12475 7950 12475 7850
+	8225 6200 8225 6100
 Wire Wire Line
-	12800 7950 12475 7950
+	8550 6200 8225 6200
 Wire Wire Line
-	12800 7900 12800 7950
+	8550 6150 8550 6200
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 669262B8
-P 12800 7750
-F 0 "C?" H 12825 7850 50  0000 L CNN
-F 1 "100nF" H 12825 7650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 12838 7600 50  0001 C CNN
-F 3 "~" H 12800 7750 50  0001 C CNN
-	1    12800 7750
+P 8550 6000
+AR Path="/669262B8" Ref="C?"  Part="1" 
+AR Path="/667ED907/669262B8" Ref="C42"  Part="1" 
+F 0 "C42" H 8575 6100 50  0000 L CNN
+F 1 "100nF" H 8575 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8588 5850 50  0001 C CNN
+F 3 "~" H 8550 6000 50  0001 C CNN
+	1    8550 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:-15V #PWR?
 U 1 1 669262BE
-P 12475 8000
-F 0 "#PWR?" H 12475 8100 50  0001 C CNN
-F 1 "-15V" H 12475 8150 50  0000 C CNN
-F 2 "" H 12475 8000 50  0001 C CNN
-F 3 "" H 12475 8000 50  0001 C CNN
-	1    12475 8000
+P 8225 6250
+AR Path="/669262BE" Ref="#PWR?"  Part="1" 
+AR Path="/667ED907/669262BE" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 8225 6350 50  0001 C CNN
+F 1 "-15V" H 8225 6400 50  0000 C CNN
+F 2 "" H 8225 6250 50  0001 C CNN
+F 3 "" H 8225 6250 50  0001 C CNN
+	1    8225 6250
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+15V #PWR?
 U 1 1 669262C4
-P 12475 7100
-F 0 "#PWR?" H 12475 6950 50  0001 C CNN
-F 1 "+15V" H 12475 7250 50  0000 C CNN
-F 2 "" H 12475 7100 50  0001 C CNN
-F 3 "" H 12475 7100 50  0001 C CNN
-	1    12475 7100
+P 8225 5350
+AR Path="/669262C4" Ref="#PWR?"  Part="1" 
+AR Path="/667ED907/669262C4" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 8225 5200 50  0001 C CNN
+F 1 "+15V" H 8225 5500 50  0000 C CNN
+F 2 "" H 8225 5350 50  0001 C CNN
+F 3 "" H 8225 5350 50  0001 C CNN
+	1    8225 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:OPA1692xD U?
 U 3 1 669262CA
-P 12475 7550
-F 0 "U?" V 12550 7550 50  0000 C CNN
-F 1 "OPA1692xD" V 12375 7550 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 12575 7550 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/opa1692.pdf" H 12725 7700 50  0001 C CNN
-	3    12475 7550
+P 8225 5800
+AR Path="/669262CA" Ref="U?"  Part="3" 
+AR Path="/667ED907/669262CA" Ref="U3"  Part="3" 
+F 0 "U3" V 8300 5800 50  0000 C CNN
+F 1 "OPA1692xD" V 8125 5800 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8325 5800 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa1692.pdf" H 8475 5950 50  0001 C CNN
+	3    8225 5800
 	-1   0    0    -1  
 $EndComp
+$Comp
+L bca-symbols:R R?
+U 1 1 658D947C
+P 3025 7300
+AR Path="/658D947C" Ref="R?"  Part="1" 
+AR Path="/667ED907/658D947C" Ref="R61"  Part="1" 
+F 0 "R61" V 2979 7368 50  0000 L CNN
+F 1 "470R" V 3070 7368 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 3225 7100 50  0001 C CNN
+F 3 "~" V 3025 7300 50  0001 C CNN
+	1    3025 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:-15V #PWR?
+U 1 1 658D9FF0
+P 3025 7450
+AR Path="/658D9FF0" Ref="#PWR?"  Part="1" 
+AR Path="/667ED907/658D9FF0" Ref="#PWR0165"  Part="1" 
+F 0 "#PWR0165" H 3025 7550 50  0001 C CNN
+F 1 "-15V" H 3025 7600 50  0000 C CNN
+F 2 "" H 3025 7450 50  0001 C CNN
+F 3 "" H 3025 7450 50  0001 C CNN
+	1    3025 7450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 7150 2700 7100
+Wire Wire Line
+	2700 7100 2850 7100
+Wire Wire Line
+	2850 7100 2850 7050
+Wire Wire Line
+	3025 7150 3025 7100
+Wire Wire Line
+	3025 7100 2850 7100
+Connection ~ 2850 7100
+$Comp
+L bca-symbols:R R?
+U 1 1 65937C4C
+P 3700 7300
+AR Path="/65937C4C" Ref="R?"  Part="1" 
+AR Path="/667ED907/65937C4C" Ref="R62"  Part="1" 
+F 0 "R62" V 3654 7368 50  0000 L CNN
+F 1 "470R" V 3745 7368 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 3900 7100 50  0001 C CNN
+F 3 "~" V 3700 7300 50  0001 C CNN
+	1    3700 7300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 7150 3700 7100
+Wire Wire Line
+	3700 7100 3375 7100
+Connection ~ 3375 7100
+Wire Wire Line
+	3375 7100 3375 7050
+$Comp
+L power:-15V #PWR?
+U 1 1 65976CA2
+P 3700 7450
+AR Path="/65976CA2" Ref="#PWR?"  Part="1" 
+AR Path="/667ED907/65976CA2" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0166" H 3700 7550 50  0001 C CNN
+F 1 "-15V" H 3700 7600 50  0000 C CNN
+F 2 "" H 3700 7450 50  0001 C CNN
+F 3 "" H 3700 7450 50  0001 C CNN
+	1    3700 7450
+	-1   0    0    1   
+$EndComp
+Text Notes 1275 6500 0    50   ~ 0
+Iref=0.5uA
+Text Notes 2725 6500 0    50   ~ 0
+2x Iref
+Text Notes 3350 6500 0    50   ~ 0
+4x Iref
 $EndSCHEMATC

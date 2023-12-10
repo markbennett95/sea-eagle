@@ -5,7 +5,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 2
 Title "Tight Distortion"
-Date "2023-06-13"
+Date "2023-12-09"
 Rev "1.0.0"
 Comp "Bennett Custom Audio"
 Comment1 ""
@@ -315,52 +315,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 3525 1550 3575
 $Comp
-L Connector_Generic:Conn_01x08 J5
-U 1 1 665B03D0
-P 1975 4725
-F 0 "J5" V 1975 4250 50  0000 R CNN
-F 1 "Conn_01x08" V 1938 4237 50  0001 R CNN
-F 2 "bca-footprints:Pin_Header_Straight_1x08_Pitch2.54mm" H 1975 4725 50  0001 C CNN
-F 3 "~" H 1975 4725 50  0001 C CNN
-	1    1975 4725
-	0    -1   1    0   
-$EndComp
-$Comp
-L power:Earth #PWR0162
-U 1 1 665B1DB6
-P 1675 4525
-F 0 "#PWR0162" H 1675 4275 50  0001 C CNN
-F 1 "Earth" H 1675 4375 50  0001 C CNN
-F 2 "" H 1675 4525 50  0001 C CNN
-F 3 "~" H 1675 4525 50  0001 C CNN
-	1    1675 4525
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1775 4525 1775 4325
-Wire Wire Line
-	1775 4325 1675 4325
-Wire Wire Line
-	1675 4225 1875 4225
-Wire Wire Line
-	1875 4225 1875 4525
-Wire Wire Line
-	1675 4125 1975 4125
-Wire Wire Line
-	1975 4125 1975 4525
-Wire Wire Line
-	2375 4125 2075 4125
-Wire Wire Line
-	2075 4125 2075 4525
-Wire Wire Line
-	2375 4225 2175 4225
-Wire Wire Line
-	2175 4225 2175 4525
-Wire Wire Line
-	2375 4325 2275 4325
-Wire Wire Line
-	2275 4325 2275 4525
-$Comp
 L bca-symbols:R R60
 U 1 1 6670E62C
 P 4400 2725
@@ -413,39 +367,85 @@ Wire Wire Line
 Wire Wire Line
 	4400 3025 4400 3075
 $Sheet
-S 5975 1950 3725 2350
+S 6100 1925 3725 2350
 U 667ED907
 F0 "Signal Path" 50
 F1 "signal.sch" 50
-F2 "send" I L 5975 2950 50 
-F3 "return" I L 5975 3175 50 
+F2 "send" I L 6100 2925 50 
+F3 "return" I L 6100 3150 50 
 $EndSheet
-Text Label 5925 2950 2    50   ~ 0
+Text Label 6050 2925 2    50   ~ 0
 send
 Wire Wire Line
-	5925 2950 5975 2950
-Text Label 5925 3175 2    50   ~ 0
+	6050 2925 6100 2925
+Text Label 6050 3150 2    50   ~ 0
 return
 Wire Wire Line
-	5925 3175 5975 3175
-Text Label 1675 4225 2    50   ~ 0
-send
-Text Label 1675 4125 2    50   ~ 0
-return
+	6050 3150 6100 3150
 Text Label 4350 3025 2    50   ~ 0
 LED+
 Text Label 4350 2925 2    50   ~ 0
-V+
-Text Label 2375 4225 0    50   ~ 0
-LED+
-Text Label 2375 4325 0    50   ~ 0
 V+
 Text Label 1100 2775 2    50   ~ 0
 input_jack
 Text Label 2075 2775 2    50   ~ 0
 output_jack
-Text Label 1675 4325 2    50   ~ 0
-input_jack
-Text Label 2375 4125 0    50   ~ 0
+Text Label 2825 4325 0    50   ~ 0
 output_jack
+Text Label 2125 4525 2    50   ~ 0
+input_jack
+Text Label 2825 4525 0    50   ~ 0
+V+
+Text Label 2825 4425 0    50   ~ 0
+LED+
+Text Label 2125 4325 2    50   ~ 0
+return
+Text Label 2125 4425 2    50   ~ 0
+send
+Wire Wire Line
+	2725 4525 2725 4725
+Wire Wire Line
+	2825 4525 2725 4525
+Wire Wire Line
+	2625 4425 2625 4725
+Wire Wire Line
+	2825 4425 2625 4425
+Wire Wire Line
+	2525 4325 2525 4725
+Wire Wire Line
+	2825 4325 2525 4325
+Wire Wire Line
+	2425 4325 2425 4725
+Wire Wire Line
+	2125 4325 2425 4325
+Wire Wire Line
+	2325 4425 2325 4725
+Wire Wire Line
+	2125 4425 2325 4425
+Wire Wire Line
+	2225 4525 2125 4525
+Wire Wire Line
+	2225 4725 2225 4525
+$Comp
+L power:Earth #PWR0162
+U 1 1 665B1DB6
+P 2125 4725
+F 0 "#PWR0162" H 2125 4475 50  0001 C CNN
+F 1 "Earth" H 2125 4575 50  0001 C CNN
+F 2 "" H 2125 4725 50  0001 C CNN
+F 3 "~" H 2125 4725 50  0001 C CNN
+	1    2125 4725
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J5
+U 1 1 665B03D0
+P 2425 4925
+F 0 "J5" V 2425 4450 50  0000 R CNN
+F 1 "Conn_01x08" V 2388 4437 50  0001 R CNN
+F 2 "bca-footprints:Pin_Header_Straight_1x08_Pitch2.54mm" H 2425 4925 50  0001 C CNN
+F 3 "~" H 2425 4925 50  0001 C CNN
+	1    2425 4925
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC
