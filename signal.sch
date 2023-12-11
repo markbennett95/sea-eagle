@@ -1528,11 +1528,9 @@ ccs2
 Wire Wire Line
 	2375 6600 2325 6600
 Wire Wire Line
-	2325 6600 2325 6650
-Wire Wire Line
 	775  6550 775  6600
 $Comp
-L Device:Q_NPN_CBE Q?
+L Device:Q_NPN_BEC Q?
 U 1 1 668B539B
 P 1025 6600
 AR Path="/668B539B" Ref="Q?"  Part="1" 
@@ -1566,63 +1564,6 @@ F 3 "~" H 1125 6250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1125 6250 1125 6400
-Wire Wire Line
-	1125 6850 1575 6850
-$Comp
-L Device:Q_NPN_CBE Q?
-U 1 1 668B53AD
-P 2225 6850
-AR Path="/668B53AD" Ref="Q?"  Part="1" 
-AR Path="/667ED907/668B53AD" Ref="Q11"  Part="1" 
-F 0 "Q11" H 2416 6850 50  0000 L CNN
-F 1 "BC848C" H 2416 6805 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2425 6950 50  0001 C CNN
-F 3 "~" H 2225 6850 50  0001 C CNN
-	1    2225 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NPN_CBE Q?
-U 1 1 668B53B3
-P 1775 6850
-AR Path="/668B53B3" Ref="Q?"  Part="1" 
-AR Path="/667ED907/668B53B3" Ref="Q10"  Part="1" 
-F 0 "Q10" H 1966 6850 50  0000 L CNN
-F 1 "BC848C" H 1966 6805 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1975 6950 50  0001 C CNN
-F 3 "~" H 1775 6850 50  0001 C CNN
-	1    1775 6850
-	1    0    0    -1  
-$EndComp
-Connection ~ 1575 6850
-Wire Wire Line
-	1575 6850 2025 6850
-$Comp
-L Device:Q_NPN_CBE Q?
-U 1 1 668B53BB
-P 1325 6850
-AR Path="/668B53BB" Ref="Q?"  Part="1" 
-AR Path="/667ED907/668B53BB" Ref="Q9"  Part="1" 
-F 0 "Q9" H 1516 6850 50  0000 L CNN
-F 1 "BC848C" H 1516 6805 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1525 6950 50  0001 C CNN
-F 3 "~" H 1325 6850 50  0001 C CNN
-	1    1325 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NPN_CBE Q?
-U 1 1 668B53C1
-P 875 6850
-AR Path="/668B53C1" Ref="Q?"  Part="1" 
-AR Path="/667ED907/668B53C1" Ref="Q7"  Part="1" 
-F 0 "Q7" H 1066 6850 50  0000 L CNN
-F 1 "BC848C" H 1066 6805 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1075 6950 50  0001 C CNN
-F 3 "~" H 875 6850 50  0001 C CNN
-	1    875  6850
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:-15V #PWR?
 U 1 1 668B53C7
@@ -1689,38 +1630,6 @@ Wire Wire Line
 	3425 6600 3375 6600
 Wire Wire Line
 	3375 6600 3375 6650
-$Comp
-L Device:Q_NPN_CBE Q?
-U 1 1 668B53E6
-P 3275 6850
-AR Path="/668B53E6" Ref="Q?"  Part="1" 
-AR Path="/667ED907/668B53E6" Ref="Q13"  Part="1" 
-F 0 "Q13" H 3466 6850 50  0000 L CNN
-F 1 "BC848C" H 3466 6805 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3475 6950 50  0001 C CNN
-F 3 "~" H 3275 6850 50  0001 C CNN
-	1    3275 6850
-	1    0    0    -1  
-$EndComp
-Connection ~ 2025 6850
-Wire Wire Line
-	3075 6850 2550 6850
-Wire Wire Line
-	2550 6850 2025 6850
-Connection ~ 2550 6850
-$Comp
-L Device:Q_NPN_CBE Q?
-U 1 1 668B53F0
-P 2750 6850
-AR Path="/668B53F0" Ref="Q?"  Part="1" 
-AR Path="/667ED907/668B53F0" Ref="Q12"  Part="1" 
-F 0 "Q12" H 2941 6850 50  0000 L CNN
-F 1 "BC848C" H 2941 6805 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2950 6950 50  0001 C CNN
-F 3 "~" H 2750 6850 50  0001 C CNN
-	1    2750 6850
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:-15V #PWR?
 U 1 1 668B53F7
@@ -1826,8 +1735,6 @@ F 3 "~" V 6975 3275 50  0001 C CNN
 	1    6975 3275
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6825 3275 6325 3275
 Wire Wire Line
 	7125 3275 7175 3275
 $Comp
@@ -1935,23 +1842,22 @@ $EndComp
 $Comp
 L bca-symbols:C_Ceramic C?
 U 1 1 668FDF87
-P 7100 2625
+P 7300 2625
 AR Path="/668FDF87" Ref="C?"  Part="1" 
 AR Path="/667ED907/668FDF87" Ref="C35"  Part="1" 
-F 0 "C35" V 6950 2700 50  0000 R CNN
-F 1 "100pF" V 7250 2625 50  0000 C CNN
-F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 7138 2475 50  0001 C CNN
-F 3 "~" H 7100 2625 50  0001 C CNN
-	1    7100 2625
+F 0 "C35" V 7150 2700 50  0000 R CNN
+F 1 "100pF" V 7450 2625 50  0000 C CNN
+F 2 "bca-footprints:C_Ceramic_L4.0mm_W2.5mm_P2.50mm" H 7338 2475 50  0001 C CNN
+F 3 "~" H 7300 2625 50  0001 C CNN
+	1    7300 2625
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	6950 2625 6325 2625
+	7150 2625 6775 2625
 Wire Wire Line
-	7250 2625 7825 2625
-Connection ~ 6325 2950
+	7450 2625 7825 2625
 Wire Wire Line
-	6325 2625 6325 2950
+	6775 2625 6775 2950
 Connection ~ 7825 2950
 Wire Wire Line
 	7825 2625 7825 2950
@@ -2703,27 +2609,25 @@ Wire Wire Line
 Text Label 5925 4450 3    50   ~ 0
 -VREF1
 Wire Wire Line
-	7825 2950 7250 2950
+	7825 2950 7450 2950
 Wire Wire Line
 	7825 3375 7825 2950
 Wire Wire Line
 	7775 3375 7825 3375
 Connection ~ 6325 3275
 Wire Wire Line
-	6325 2950 6325 3275
-Wire Wire Line
-	6950 2950 6325 2950
+	7150 2950 6775 2950
 $Comp
 L bca-symbols:R R?
 U 1 1 668FE107
-P 7100 2950
+P 7300 2950
 AR Path="/668FE107" Ref="R?"  Part="1" 
 AR Path="/667ED907/668FE107" Ref="R46"  Part="1" 
-F 0 "R46" H 7100 3050 50  0000 C CNN
-F 1 "100k" H 7100 2850 50  0000 C CNN
-F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7300 2750 50  0001 C CNN
-F 3 "~" V 7100 2950 50  0001 C CNN
-	1    7100 2950
+F 0 "R46" H 7300 3050 50  0000 C CNN
+F 1 "100k" H 7300 2850 50  0000 C CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 7500 2750 50  0001 C CNN
+F 3 "~" V 7300 2950 50  0001 C CNN
+	1    7300 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3437,4 +3341,139 @@ Text Notes 2725 6500 0    50   ~ 0
 2x Iref
 Text Notes 3350 6500 0    50   ~ 0
 4x Iref
+Text Notes 4825 4025 0    50   ~ 0
++
+Text Notes 5600 3250 0    50   ~ 0
+-
+Text Notes 5600 3450 0    50   ~ 0
++
+Text Notes 7850 3350 0    50   ~ 0
++
+Text Notes 1975 1400 0    50   ~ 0
++
+Text Notes 2325 1175 0    50   ~ 0
+-
+Text Notes 5200 1150 0    50   ~ 0
++
+Text Notes 4875 1400 0    50   ~ 0
+-
+Text Notes 6750 1400 0    50   ~ 0
++
+Text Notes 7075 1150 0    50   ~ 0
+-
+Text Notes 8250 1425 0    50   ~ 0
+-
+Text Notes 8575 1175 0    50   ~ 0
++
+Text Notes 9800 1550 0    50   ~ 0
++
+Text Notes 9425 1175 0    50   ~ 0
++
+Text Notes 1300 2875 0    50   ~ 0
++
+Text Notes 3750 2975 0    50   ~ 0
++
+Wire Wire Line
+	1125 6850 1575 6850
+$Comp
+L Device:Q_NPN_BEC Q?
+U 1 1 65874E79
+P 875 6850
+AR Path="/65874E79" Ref="Q?"  Part="1" 
+AR Path="/667ED907/65874E79" Ref="Q7"  Part="1" 
+F 0 "Q7" H 1066 6850 50  0000 L CNN
+F 1 "BC848C" H 1066 6805 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1075 6950 50  0001 C CNN
+F 3 "~" H 875 6850 50  0001 C CNN
+	1    875  6850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q?
+U 1 1 658753F1
+P 1325 6850
+AR Path="/658753F1" Ref="Q?"  Part="1" 
+AR Path="/667ED907/658753F1" Ref="Q9"  Part="1" 
+F 0 "Q9" H 1475 6925 50  0000 L CNN
+F 1 "BC848C" H 1516 6805 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1525 6950 50  0001 C CNN
+F 3 "~" H 1325 6850 50  0001 C CNN
+	1    1325 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q?
+U 1 1 6587586D
+P 1775 6850
+AR Path="/6587586D" Ref="Q?"  Part="1" 
+AR Path="/667ED907/6587586D" Ref="Q10"  Part="1" 
+F 0 "Q10" H 1925 6925 50  0000 L CNN
+F 1 "BC848C" H 1966 6805 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1975 6950 50  0001 C CNN
+F 3 "~" H 1775 6850 50  0001 C CNN
+	1    1775 6850
+	1    0    0    -1  
+$EndComp
+Connection ~ 1575 6850
+Wire Wire Line
+	1575 6850 2025 6850
+$Comp
+L Device:Q_NPN_BEC Q?
+U 1 1 65875CA9
+P 2225 6850
+AR Path="/65875CA9" Ref="Q?"  Part="1" 
+AR Path="/667ED907/65875CA9" Ref="Q11"  Part="1" 
+F 0 "Q11" H 2375 6925 50  0000 L CNN
+F 1 "BC848C" H 2416 6805 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2425 6950 50  0001 C CNN
+F 3 "~" H 2225 6850 50  0001 C CNN
+	1    2225 6850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2025 6850
+Wire Wire Line
+	2025 6850 2550 6850
+$Comp
+L Device:Q_NPN_BEC Q?
+U 1 1 65876167
+P 2750 6850
+AR Path="/65876167" Ref="Q?"  Part="1" 
+AR Path="/667ED907/65876167" Ref="Q12"  Part="1" 
+F 0 "Q12" H 2900 6925 50  0000 L CNN
+F 1 "BC848C" H 2941 6805 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2950 6950 50  0001 C CNN
+F 3 "~" H 2750 6850 50  0001 C CNN
+	1    2750 6850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2550 6850
+Wire Wire Line
+	2550 6850 3075 6850
+$Comp
+L Device:Q_NPN_BEC Q?
+U 1 1 6587660A
+P 3275 6850
+AR Path="/6587660A" Ref="Q?"  Part="1" 
+AR Path="/667ED907/6587660A" Ref="Q13"  Part="1" 
+F 0 "Q13" H 3466 6850 50  0000 L CNN
+F 1 "BC848C" H 3466 6805 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3475 6950 50  0001 C CNN
+F 3 "~" H 3275 6850 50  0001 C CNN
+	1    3275 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2325 6600 2325 6650
+Wire Wire Line
+	6325 3275 6775 3275
+Wire Wire Line
+	6775 2950 6775 3275
+Connection ~ 6775 2950
+Connection ~ 6775 3275
+Wire Wire Line
+	6775 3275 6825 3275
+Text Notes 5000 6300 0    50   ~ 0
+-1V reference
+Text Notes 6250 6600 0    50   ~ 0
+-12V Reference
 $EndSCHEMATC
