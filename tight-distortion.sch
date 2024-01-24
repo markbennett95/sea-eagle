@@ -3,134 +3,472 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 1
-Title "Kicad Template"
-Date "2023-06-06"
-Rev "1.0.1"
+Sheet 1 2
+Title "Tight Distortion"
+Date "2023-12-09"
+Rev "1.0.0"
 Comp "Bennett Custom Audio"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 2825 2425
 Wire Wire Line
-	2050 7175 2050 7225
+	2825 3575 2525 3575
 Wire Wire Line
-	2050 7225 1650 7225
+	2825 3375 2825 3575
 Wire Wire Line
-	1400 7225 1400 6525
+	2400 2425 2400 2325
+Connection ~ 2400 2425
 Wire Wire Line
-	1400 6525 1600 6525
+	2825 2425 2400 2425
 Wire Wire Line
-	1600 6575 1600 6525
-Wire Wire Line
-	1650 7175 1650 7225
-Connection ~ 1650 7225
-Wire Wire Line
-	1650 7225 1400 7225
+	2825 3075 2825 3025
 $Comp
-L Connector:Barrel_Jack_Switch J1
-U 1 1 626C720D
-P 1300 6075
-F 0 "J1" H 1070 6071 50  0000 R CNN
-F 1 "Barrel_Jack_Switch" H 1070 6116 50  0001 R CNN
-F 2 "bca-footprints:DC_Jack_DC005" H 1350 6035 50  0001 C CNN
-F 3 "~" H 1350 6035 50  0001 C CNN
-	1    1300 6075
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	1600 6175 1800 6175
-Wire Wire Line
-	1800 6175 1800 6575
-Text HLabel 1600 6425 0    50   Input ~ 0
-input_jack
-Wire Wire Line
-	1600 6425 2000 6425
-Wire Wire Line
-	2000 6425 2000 6575
-$Comp
-L bca-symbols:AudioJack_TRS J3
-U 1 1 626C9CAA
-P 2775 6875
-F 0 "J3" H 3105 6875 50  0000 L CNN
-F 1 "AudioJack_TRS" V 3125 6875 50  0001 C CNN
-F 2 "bca-footprints:Rean_NYS215" H 3300 6850 50  0001 C CNN
-F 3 "~" H 3300 6850 50  0001 C CNN
-	1    2775 6875
+L bca-symbols:CP_Power C37
+U 1 1 664F2771
+P 2825 3225
+F 0 "C37" H 2850 3325 50  0000 L CNN
+F 1 "470uF" H 2850 3100 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2825 2825 50  0001 C CNN
+F 3 "~" H 2825 3225 50  0001 C CNN
+	1    2825 3225
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3025 7175 3025 7225
+	1600 2425 1600 2525
+Connection ~ 1600 2425
 Wire Wire Line
-	3025 7225 2825 7225
-Wire Wire Line
-	2375 7225 2375 6525
-Wire Wire Line
-	2375 6525 2575 6525
-Wire Wire Line
-	2775 6525 2775 6575
-Wire Wire Line
-	2575 6575 2575 6525
-Connection ~ 2575 6525
-Wire Wire Line
-	2575 6525 2775 6525
-Wire Wire Line
-	2625 7175 2625 7225
-Connection ~ 2625 7225
-Wire Wire Line
-	2625 7225 2375 7225
-Wire Wire Line
-	2825 7175 2825 7225
-Connection ~ 2825 7225
-Wire Wire Line
-	2825 7225 2625 7225
+	1550 2425 1600 2425
 $Comp
-L power:Earth #PWR0101
-U 1 1 626CB2BD
-P 3025 7275
-F 0 "#PWR0101" H 3025 7025 50  0001 C CNN
-F 1 "Earth" H 3025 7125 50  0001 C CNN
-F 2 "" H 3025 7275 50  0001 C CNN
-F 3 "~" H 3025 7275 50  0001 C CNN
-	1    3025 7275
+L power:Earth #PWR0154
+U 1 1 664422CF
+P 1550 2425
+F 0 "#PWR0154" H 1550 2175 50  0001 C CNN
+F 1 "Earth" H 1550 2275 50  0001 C CNN
+F 2 "" H 1550 2425 50  0001 C CNN
+F 3 "~" H 1550 2425 50  0001 C CNN
+	1    1550 2425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 2525 1950 2525
+Connection ~ 2000 2525
+Wire Wire Line
+	2000 2650 2000 2525
+Wire Wire Line
+	1450 2650 2000 2650
+Wire Wire Line
+	1450 2525 1450 2650
+Wire Wire Line
+	1400 2525 1450 2525
+Wire Wire Line
+	2000 2325 2050 2325
+Connection ~ 2000 2325
+Wire Wire Line
+	2000 2175 2000 2325
+Wire Wire Line
+	1450 2175 2000 2175
+Wire Wire Line
+	1450 2325 1450 2175
+Wire Wire Line
+	1400 2325 1450 2325
+Wire Wire Line
+	2050 2525 2000 2525
+Wire Wire Line
+	2825 2425 3200 2425
+Wire Wire Line
+	2400 2525 2400 2425
+Wire Wire Line
+	2350 2525 2400 2525
+Wire Wire Line
+	1950 2325 2000 2325
+Wire Wire Line
+	1600 2525 1650 2525
+Wire Wire Line
+	1600 2325 1600 2425
+Wire Wire Line
+	1650 2325 1600 2325
+$Comp
+L Device:D_Schottky D2
+U 1 1 66348F34
+P 1800 2525
+F 0 "D2" H 1800 2425 50  0000 C CNN
+F 1 "1N5819" H 1800 2399 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 1800 2525 50  0001 C CNN
+F 3 "~" H 1800 2525 50  0001 C CNN
+	1    1800 2525
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D4
+U 1 1 663489C9
+P 2200 2525
+F 0 "D4" H 2200 2425 50  0000 C CNN
+F 1 "1N5819" H 2200 2399 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2200 2525 50  0001 C CNN
+F 3 "~" H 2200 2525 50  0001 C CNN
+	1    2200 2525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2350 2325 2400 2325
+$Comp
+L Device:D_Schottky D3
+U 1 1 6630DFB5
+P 2200 2325
+F 0 "D3" H 2200 2225 50  0000 C CNN
+F 1 "1N5819" H 2200 2199 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2200 2325 50  0001 C CNN
+F 3 "~" H 2200 2325 50  0001 C CNN
+	1    2200 2325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D1
+U 1 1 6630C77B
+P 1800 2325
+F 0 "D1" H 1800 2225 50  0000 C CNN
+F 1 "1N5819" H 1800 2199 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 1800 2325 50  0001 C CNN
+F 3 "~" H 1800 2325 50  0001 C CNN
+	1    1800 2325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1350 3575 1150 3575
+Connection ~ 1350 3575
+Wire Wire Line
+	1350 3525 1350 3575
+Connection ~ 1100 2875
+Wire Wire Line
+	1300 2875 1100 2875
+Wire Wire Line
+	1300 2925 1300 2875
+Wire Wire Line
+	3150 2625 3150 2575
+$Comp
+L power:Earth #PWR0114
+U 1 1 648EF1C3
+P 3150 2625
+F 0 "#PWR0114" H 3150 2375 50  0001 C CNN
+F 1 "Earth" H 3150 2475 50  0001 C CNN
+F 2 "" H 3150 2625 50  0001 C CNN
+F 3 "~" H 3150 2625 50  0001 C CNN
+	1    3150 2625
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3025 7275 3025 7225
-Connection ~ 3025 7225
-Text HLabel 2575 6425 0    50   Input ~ 0
-output_jack
+	3200 2575 3150 2575
 Wire Wire Line
-	2575 6425 2975 6425
+	3950 2575 3900 2575
 Wire Wire Line
-	2975 6425 2975 6575
+	3950 2625 3950 2575
 $Comp
-L bca-symbols:AudioJack_TRS J2
-U 1 1 626C4482
-P 1800 6875
-F 0 "J2" H 2130 6875 50  0000 L CNN
-F 1 "AudioJack_TRS" V 2150 6875 50  0001 C CNN
-F 2 "bca-footprints:Rean_NYS215" H 2325 6850 50  0001 C CNN
-F 3 "~" H 2325 6850 50  0001 C CNN
-	1    1800 6875
+L power:-15V #PWR0105
+U 1 1 6487D7AC
+P 3950 2625
+F 0 "#PWR0105" H 3950 2725 50  0001 C CNN
+F 1 "-15V" H 3950 2775 50  0000 C CNN
+F 2 "" H 3950 2625 50  0001 C CNN
+F 3 "" H 3950 2625 50  0001 C CNN
+	1    3950 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 2425 3900 2425
+Wire Wire Line
+	3950 2375 3950 2425
+$Comp
+L power:+15V #PWR0104
+U 1 1 6487CA4A
+P 3950 2375
+F 0 "#PWR0104" H 3950 2225 50  0001 C CNN
+F 1 "+15V" H 3950 2525 50  0000 C CNN
+F 2 "" H 3950 2375 50  0001 C CNN
+F 3 "" H 3950 2375 50  0001 C CNN
+	1    3950 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L bca-symbols:power-module J4
+U 1 1 6487C012
+P 3550 2500
+F 0 "J4" H 3550 2723 50  0000 C CNN
+F 1 "power-module" H 3550 2700 50  0001 C CNN
+F 2 "bca-footprints:Power-module" H 3490 2500 50  0001 C CNN
+F 3 "" H 3490 2500 50  0001 C CNN
+	1    3550 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2375 7225 2050 7225
-Connection ~ 2375 7225
-Connection ~ 2050 7225
+	1150 3625 1150 3575
 $Comp
 L bca-symbols:GNDSpring G1
 U 1 1 647FAB68
-P 1650 7275
-F 0 "G1" H 1714 7190 50  0000 L CNN
-F 1 "GNDSpring" H 1650 7025 50  0001 C CNN
-F 2 "bca-footprints:Keystone_628" H 1650 7275 50  0001 C CNN
-F 3 "" H 1650 7275 50  0001 C CNN
-	1    1650 7275
+P 1150 3625
+F 0 "G1" H 1214 3540 50  0000 L CNN
+F 1 "GNDSpring" H 1150 3375 50  0001 C CNN
+F 2 "bca-footprints:Keystone_628" H 1150 3625 50  0001 C CNN
+F 3 "" H 1150 3625 50  0001 C CNN
+	1    1150 3625
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 3575
+Connection ~ 1875 3575
+Wire Wire Line
+	1875 3575 1550 3575
+$Comp
+L bca-symbols:AudioJack_TRS J2
+U 1 1 626C4482
+P 1300 3225
+F 0 "J2" H 1630 3225 50  0000 L CNN
+F 1 "AudioJack_TRS" V 1650 3225 50  0001 C CNN
+F 2 "bca-footprints:Rean_NYS215" H 1825 3200 50  0001 C CNN
+F 3 "~" H 1825 3200 50  0001 C CNN
+	1    1300 3225
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 7275 1650 7225
+	2475 2775 2475 2925
+Wire Wire Line
+	2075 2775 2475 2775
+Connection ~ 2525 3575
+Wire Wire Line
+	2525 3625 2525 3575
+$Comp
+L power:Earth #PWR0101
+U 1 1 626CB2BD
+P 2525 3625
+F 0 "#PWR0101" H 2525 3375 50  0001 C CNN
+F 1 "Earth" H 2525 3475 50  0001 C CNN
+F 2 "" H 2525 3625 50  0001 C CNN
+F 3 "~" H 2525 3625 50  0001 C CNN
+	1    2525 3625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2325 3575 2125 3575
+Connection ~ 2325 3575
+Wire Wire Line
+	2325 3525 2325 3575
+Wire Wire Line
+	2125 3575 1875 3575
+Connection ~ 2125 3575
+Wire Wire Line
+	2125 3525 2125 3575
+Wire Wire Line
+	2075 2875 2275 2875
+Connection ~ 2075 2875
+Wire Wire Line
+	2075 2925 2075 2875
+Wire Wire Line
+	2275 2875 2275 2925
+Wire Wire Line
+	1875 2875 2075 2875
+Wire Wire Line
+	1875 3575 1875 2875
+Wire Wire Line
+	2525 3575 2325 3575
+Wire Wire Line
+	2525 3525 2525 3575
+$Comp
+L bca-symbols:AudioJack_TRS J3
+U 1 1 626C9CAA
+P 2275 3225
+F 0 "J3" H 2605 3225 50  0000 L CNN
+F 1 "AudioJack_TRS" V 2625 3225 50  0001 C CNN
+F 2 "bca-footprints:Rean_NYS215" H 2800 3200 50  0001 C CNN
+F 3 "~" H 2800 3200 50  0001 C CNN
+	1    2275 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2775 1500 2925
+Wire Wire Line
+	1100 2775 1500 2775
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 626C720D
+P 1100 2425
+F 0 "J1" H 870 2421 50  0000 R CNN
+F 1 "Barrel_Jack_Switch" H 870 2466 50  0001 R CNN
+F 2 "bca-footprints:DC_Jack_DC005" H 1150 2385 50  0001 C CNN
+F 3 "~" H 1150 2385 50  0001 C CNN
+	1    1100 2425
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1150 3575 900  3575
+Connection ~ 1150 3575
+Wire Wire Line
+	1150 3525 1150 3575
+Wire Wire Line
+	1100 2925 1100 2875
+Wire Wire Line
+	900  2875 1100 2875
+Wire Wire Line
+	900  3575 900  2875
+Wire Wire Line
+	1550 3575 1350 3575
+Wire Wire Line
+	1550 3525 1550 3575
+$Comp
+L bca-symbols:R R60
+U 1 1 6670E62C
+P 4400 2725
+F 0 "R60" V 4354 2793 50  0000 L CNN
+F 1 "39k" V 4445 2793 50  0000 L CNN
+F 2 "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal" H 4600 2525 50  0001 C CNN
+F 3 "~" V 4400 2725 50  0001 C CNN
+	1    4400 2725
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+15V #PWR0163
+U 1 1 6670EE9F
+P 4400 2575
+F 0 "#PWR0163" H 4400 2425 50  0001 C CNN
+F 1 "+15V" H 4400 2725 50  0000 C CNN
+F 2 "" H 4400 2575 50  0001 C CNN
+F 3 "" H 4400 2575 50  0001 C CNN
+	1    4400 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2925 4400 2925
+Wire Wire Line
+	4400 2925 4400 2875
+$Comp
+L Device:LED D5
+U 1 1 667737E6
+P 4400 3225
+F 0 "D5" V 4439 3107 50  0000 R CNN
+F 1 "LED" V 4348 3107 50  0000 R CNN
+F 2 "bca-footprints:LED_D5.0mm" H 4400 3225 50  0001 C CNN
+F 3 "~" H 4400 3225 50  0001 C CNN
+	1    4400 3225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:Earth #PWR0164
+U 1 1 66774B37
+P 4400 3375
+F 0 "#PWR0164" H 4400 3125 50  0001 C CNN
+F 1 "Earth" H 4400 3225 50  0001 C CNN
+F 2 "" H 4400 3375 50  0001 C CNN
+F 3 "~" H 4400 3375 50  0001 C CNN
+	1    4400 3375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3025 4400 3025
+Wire Wire Line
+	4400 3025 4400 3075
+$Sheet
+S 6100 1925 3725 2350
+U 667ED907
+F0 "Signal Path" 50
+F1 "signal.sch" 50
+F2 "send" I L 6100 2925 50 
+F3 "return" I L 6100 3150 50 
+$EndSheet
+Text Label 6050 2925 2    50   ~ 0
+send
+Wire Wire Line
+	6050 2925 6100 2925
+Text Label 6050 3150 2    50   ~ 0
+return
+Wire Wire Line
+	6050 3150 6100 3150
+Text Label 4350 3025 2    50   ~ 0
+LED+
+Text Label 4350 2925 2    50   ~ 0
+V+
+Text Label 1100 2775 2    50   ~ 0
+input_jack
+Text Label 2075 2775 2    50   ~ 0
+output_jack
+Text Label 2825 4325 0    50   ~ 0
+output_jack
+Text Label 2125 4525 2    50   ~ 0
+input_jack
+Text Label 2825 4525 0    50   ~ 0
+V+
+Text Label 2825 4425 0    50   ~ 0
+LED+
+Text Label 2125 4325 2    50   ~ 0
+return
+Text Label 2125 4425 2    50   ~ 0
+send
+Wire Wire Line
+	2725 4525 2725 4725
+Wire Wire Line
+	2825 4525 2725 4525
+Wire Wire Line
+	2625 4425 2625 4725
+Wire Wire Line
+	2825 4425 2625 4425
+Wire Wire Line
+	2525 4325 2525 4725
+Wire Wire Line
+	2825 4325 2525 4325
+Wire Wire Line
+	2425 4325 2425 4725
+Wire Wire Line
+	2125 4325 2425 4325
+Wire Wire Line
+	2325 4425 2325 4725
+Wire Wire Line
+	2125 4425 2325 4425
+Wire Wire Line
+	2225 4525 2125 4525
+Wire Wire Line
+	2225 4725 2225 4525
+$Comp
+L power:Earth #PWR0162
+U 1 1 665B1DB6
+P 2125 4725
+F 0 "#PWR0162" H 2125 4475 50  0001 C CNN
+F 1 "Earth" H 2125 4575 50  0001 C CNN
+F 2 "" H 2125 4725 50  0001 C CNN
+F 3 "~" H 2125 4725 50  0001 C CNN
+	1    2125 4725
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J5
+U 1 1 665B03D0
+P 2425 4925
+F 0 "J5" V 2425 4450 50  0000 R CNN
+F 1 "Conn_01x08" V 2388 4437 50  0001 R CNN
+F 2 "bca-footprints:Pin_Header_Straight_1x08_Pitch2.54mm" H 2425 4925 50  0001 C CNN
+F 3 "~" H 2425 4925 50  0001 C CNN
+	1    2425 4925
+	0    -1   1    0   
+$EndComp
+$Comp
+L bca-symbols:C_Ceramic C49
+U 1 1 659D0B34
+P 3150 3225
+F 0 "C49" H 3175 3325 50  0000 L CNN
+F 1 "1uF" H 3200 3125 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3188 3075 50  0001 C CNN
+F 3 "~" H 3150 3225 50  0001 C CNN
+	1    3150 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3375 3150 3575
+Wire Wire Line
+	3150 3575 2825 3575
+Connection ~ 2825 3575
+Wire Wire Line
+	3150 3075 3150 3025
+Wire Wire Line
+	3150 3025 2825 3025
+Connection ~ 2825 3025
+Wire Wire Line
+	2825 3025 2825 2425
 $EndSCHEMATC
