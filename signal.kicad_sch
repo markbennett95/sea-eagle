@@ -3039,100 +3039,100 @@
     (uuid f4a47a7e-19a6-48a0-b1c2-406deb029673)
   )
 
-  (label "ccs1" (at 127 57.15 0)
+  (label "ccs1" (at 127 57.15 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 04c4097d-5a61-43be-8cb6-c2f9eaa0d93e)
   )
-  (label "ccs2" (at 171.45 57.15 0)
+  (label "ccs2" (at 171.45 57.15 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 05a069ca-389d-4ed6-a07c-e6d5d575610a)
   )
-  (label "-VREF0" (at 190.5 57.15 270)
+  (label "-VREF0" (at 190.5 57.15 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 05d96f52-deac-4899-ac40-9bfa311b00c0)
   )
-  (label "-VREF0" (at 97.79 57.15 270)
+  (label "-VREF0" (at 97.79 57.15 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 11a77b19-23ba-40fc-86d2-b5ce79c7fd7c)
   )
-  (label "-VREF0" (at 148.59 57.15 270)
+  (label "-VREF0" (at 148.59 57.15 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 16d7a468-0d01-4f51-b51d-1b0b23f7420a)
   )
-  (label "ccs0" (at 39.37 167.64 0)
+  (label "ccs0" (at 39.37 167.64 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2403b95a-ecb9-41c9-93f9-805c38b84954)
   )
-  (label "-VREF0" (at 101.6 57.15 270)
+  (label "-VREF0" (at 101.6 57.15 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 300cdf64-6282-4a4a-8308-ca4826b9a1f3)
   )
-  (label "ccs1" (at 50.8 167.64 0)
+  (label "ccs1" (at 50.8 167.64 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 32a4e01d-ec91-44e3-8dc1-9a49affaf048)
   )
-  (label "-VREF0" (at 44.45 57.15 270)
+  (label "-VREF0" (at 44.45 57.15 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 43b24cc6-51a3-4161-96e2-f0fb6201602d)
   )
-  (label "-VREF1" (at 158.75 179.07 0)
+  (label "-VREF1" (at 158.75 179.07 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5407ace6-8986-4b37-853f-3e5cd2fa2fe2)
   )
-  (label "-VREF1" (at 158.75 113.03 270)
+  (label "-VREF1" (at 158.75 113.03 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 59cda4a8-86dc-451d-9588-0ff7c79aeb2d)
   )
-  (label "ccs0" (at 54.61 57.15 180)
+  (label "ccs0" (at 54.61 57.15 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6eae42c1-54d3-4122-b79c-2dc365b73fc7)
   )
-  (label "-VREF1" (at 120.65 113.03 270)
+  (label "-VREF1" (at 120.65 113.03 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 702dc2b5-9c38-4afb-8542-45d726609e7b)
   )
-  (label "ccs3" (at 205.74 57.15 0)
+  (label "ccs3" (at 205.74 57.15 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 883fd05d-33eb-4946-ba2a-f19129ae3f86)
   )
-  (label "eq_send" (at 24.13 73.66 180)
+  (label "eq_send" (at 24.13 73.66 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8d0275e9-83e0-4218-95ce-e1e89db7bbef)
   )
-  (label "-VREF0" (at 139.7 161.29 0)
+  (label "-VREF0" (at 139.7 161.29 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a17b334c-95ac-45f7-9d7e-04128a742a5b)
   )
-  (label "ccs4" (at 88.9 167.64 0)
+  (label "ccs4" (at 88.9 167.64 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a443679e-f15b-46e8-a582-47e6837b6ec6)
   )
-  (label "ccs4" (at 144.78 110.49 270)
+  (label "ccs4" (at 144.78 110.49 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a5d81662-c632-4560-b138-a37fbd7c080c)
   )
-  (label "-VREF0" (at 153.67 57.15 270)
+  (label "-VREF0" (at 153.67 57.15 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid cb1737d3-0979-4145-bd05-6002ef1bfa4d)
   )
-  (label "ccs2" (at 62.23 167.64 0)
+  (label "ccs2" (at 62.23 167.64 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid db57cf54-d287-42fc-b7ff-8a9e57f7ef92)
   )
-  (label "eq_send" (at 246.38 44.45 0)
+  (label "eq_send" (at 246.38 44.45 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e78336ea-5e73-41b0-a519-47706af817f3)
   )
-  (label "ccs3" (at 74.93 167.64 0)
+  (label "ccs3" (at 74.93 167.64 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ec75722b-64e4-436a-be83-643fd856b83f)
   )
 
-  (hierarchical_label "return" (shape input) (at 224.79 93.98 0)
+  (hierarchical_label "return" (shape input) (at 224.79 93.98 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5568a59f-1311-4879-a6ba-3a8601528bae)
   )
-  (hierarchical_label "send" (shape input) (at 20.32 40.64 180)
+  (hierarchical_label "send" (shape input) (at 20.32 40.64 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8da157d6-5044-4601-a3db-45c130189fe5)
   )
@@ -3159,9 +3159,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "Q7") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "Q?") (unit 1)
         )
       )
     )
@@ -3190,9 +3187,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "Q9") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "Q?") (unit 1)
-        )
       )
     )
   )
@@ -3219,9 +3213,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "Q10") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "Q?") (unit 1)
         )
       )
     )
@@ -3250,9 +3241,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "Q11") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "Q?") (unit 1)
-        )
       )
     )
   )
@@ -3279,9 +3267,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "Q12") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "Q?") (unit 1)
         )
       )
     )
@@ -3310,9 +3295,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "Q13") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "Q?") (unit 1)
-        )
       )
     )
   )
@@ -3339,9 +3321,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R53") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -3366,9 +3345,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR040") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3396,9 +3372,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R55") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -3423,9 +3396,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR042") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3453,9 +3423,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C36") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -3481,9 +3448,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R44") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -3511,9 +3475,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C16") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -3538,9 +3499,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR013") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3568,9 +3526,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C12") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -3595,9 +3550,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR09") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3625,9 +3577,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R25") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -3652,9 +3601,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR021") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3682,9 +3628,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R6") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -3692,13 +3635,13 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 74.93 46.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000663bb1e1)
-    (property "Reference" "SW2" (at 74.93 42.0878 0)
+    (property "Reference" "SW2" (at 74.93 46.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 74.93 42.0624 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 74.93 46.99 0)
+    (property "Footprint" "bca-footprints:Pin_Header_Straight_1x06_Pitch2.54mm" (at 74.93 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 74.93 46.99 0)
@@ -3741,9 +3684,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R2") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -3768,9 +3708,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR01") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3798,9 +3735,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R1") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -3827,9 +3761,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C1") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -3854,9 +3785,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR02") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3884,9 +3812,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C3") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -3911,9 +3836,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR03") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3942,9 +3864,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "Q1") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "Q?") (unit 1)
-        )
       )
     )
   )
@@ -3971,9 +3890,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C6") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -3998,9 +3914,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR04") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4028,9 +3941,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R4") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -4057,9 +3967,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R5") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -4084,9 +3991,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR08") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4114,9 +4018,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C9") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -4141,9 +4042,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR06") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4171,9 +4069,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R10") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -4200,9 +4095,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C11") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -4228,9 +4120,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R11") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -4262,9 +4151,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "RV1") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "RV?") (unit 1)
-        )
       )
     )
   )
@@ -4291,9 +4177,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R9") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -4318,9 +4201,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR012") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4349,9 +4229,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "Q3") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "Q?") (unit 1)
-        )
       )
     )
   )
@@ -4377,9 +4254,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R15") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -4407,9 +4281,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C15") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -4436,9 +4307,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R16") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -4464,9 +4332,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R7") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -4498,9 +4363,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "RV1") (unit 2)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "RV?") (unit 2)
-        )
       )
     )
   )
@@ -4526,9 +4388,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R14") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -4556,9 +4415,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R12") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -4585,9 +4441,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C7") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -4612,9 +4465,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR05") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4642,9 +4492,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R3") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -4670,9 +4517,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R8") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -4700,9 +4544,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C5") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -4729,9 +4570,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C13") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -4756,9 +4594,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR010") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4786,9 +4621,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R17") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -4815,9 +4647,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R18") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -4842,9 +4671,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR016") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4873,9 +4699,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "Q4") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "Q?") (unit 1)
-        )
       )
     )
   )
@@ -4902,9 +4725,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R19") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -4930,9 +4750,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R20") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -4961,9 +4778,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "Q2") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "Q?") (unit 1)
-        )
       )
     )
   )
@@ -4991,9 +4805,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "Q5") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "Q?") (unit 1)
-        )
       )
     )
   )
@@ -5018,9 +4829,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR018") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5048,9 +4856,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R23") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -5075,9 +4880,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR019") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5105,9 +4907,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C20") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -5134,9 +4933,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C17") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -5161,9 +4957,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR014") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5191,9 +4984,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C10") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -5218,9 +5008,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR07") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5248,9 +5035,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C14") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -5275,9 +5059,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR011") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5305,9 +5086,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C19") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -5333,9 +5111,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R21") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -5363,9 +5138,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R22") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -5390,9 +5162,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR017") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5420,9 +5189,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C18") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -5447,9 +5213,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR015") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5476,9 +5239,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R13") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -5507,9 +5267,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "SW3") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "SW?") (unit 1)
-        )
       )
     )
   )
@@ -5535,9 +5292,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C8") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -5569,9 +5323,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "SW1") (unit 2)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "SW?") (unit 1)
-        )
       )
     )
   )
@@ -5598,9 +5349,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C2") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -5608,7 +5356,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 66.04 27.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000066840c0a)
-    (property "Reference" "SW1" (at 64.77 27.94 90)
+    (property "Reference" "SW1" (at 63.5 27.94 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SW_DPDT_x2" (at 70.8152 29.083 90)
@@ -5630,9 +5378,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "SW1") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "SW?") (unit 2)
         )
       )
     )
@@ -5660,9 +5405,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C4") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -5687,9 +5429,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR044") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5717,9 +5456,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R58") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -5746,9 +5482,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R56") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -5773,9 +5506,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR043") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5803,9 +5533,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C38") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -5830,9 +5557,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR045") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5859,9 +5583,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R57") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -5892,9 +5613,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "U4") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "U?") (unit 1)
-        )
       )
     )
   )
@@ -5921,9 +5639,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C39") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -5949,9 +5664,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR046") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
-        )
       )
     )
   )
@@ -5976,9 +5688,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR034") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6006,9 +5715,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R47") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -6033,9 +5739,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR033") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6063,9 +5766,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R48") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -6090,9 +5790,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR036") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6120,9 +5817,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R49") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -6147,9 +5841,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR037") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6177,9 +5868,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R50") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -6204,9 +5892,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR038") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6233,9 +5918,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R51") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -6264,9 +5946,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "Q8") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "Q?") (unit 1)
-        )
       )
     )
   )
@@ -6292,9 +5971,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR035") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
-        )
       )
     )
   )
@@ -6319,9 +5995,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR039") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6349,9 +6022,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R52") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -6376,9 +6046,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR041") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6406,9 +6073,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R54") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -6433,9 +6097,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR048") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6463,9 +6124,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R60") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -6492,9 +6150,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R59") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -6519,9 +6174,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR047") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6549,9 +6201,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C40") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -6576,9 +6225,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR049") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6606,9 +6252,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R42") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -6634,9 +6277,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C33") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -6664,9 +6304,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R43") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -6691,9 +6328,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR027") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6721,9 +6355,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C32") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -6749,9 +6380,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R35") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -6779,9 +6407,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R33") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -6806,9 +6431,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR028") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6836,9 +6458,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C35") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -6863,9 +6482,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR031") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6893,9 +6509,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C34") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -6921,9 +6534,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C28") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -6951,9 +6561,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R41") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -6978,9 +6585,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR032") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -7009,9 +6613,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "RV5") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "RV?") (unit 1)
-        )
       )
     )
   )
@@ -7037,9 +6638,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C37") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -7067,9 +6665,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R46") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -7094,9 +6689,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR029") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -7124,9 +6716,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R39") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -7151,9 +6740,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR030") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -7181,9 +6767,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R36") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -7208,9 +6791,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR020") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -7237,9 +6817,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C21") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -7268,9 +6845,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "RV4") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "RV?") (unit 1)
-        )
       )
     )
   )
@@ -7298,9 +6872,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "RV3") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "RV?") (unit 1)
-        )
       )
     )
   )
@@ -7327,9 +6898,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "RV2") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "RV?") (unit 1)
         )
       )
     )
@@ -7375,9 +6943,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "U1") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "U?") (unit 2)
-        )
       )
     )
   )
@@ -7403,9 +6968,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R24") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -7433,9 +6995,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R26") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -7462,9 +7021,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C22") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -7489,9 +7045,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR022") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -7518,9 +7071,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R27") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -7566,9 +7116,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "U1") (unit 2)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "U?") (unit 1)
-        )
       )
     )
   )
@@ -7594,9 +7141,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C23") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -7624,9 +7168,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R28") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -7653,9 +7194,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C24") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -7680,9 +7218,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR023") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -7710,9 +7245,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R29") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -7739,9 +7271,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C25") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -7766,9 +7295,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR024") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -7796,9 +7322,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R30") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -7824,9 +7347,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R31") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -7854,9 +7374,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C26") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -7882,9 +7399,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C27") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -7912,9 +7426,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C31") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -7940,9 +7451,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R45") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -7970,9 +7478,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C30") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -7998,9 +7503,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C29") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -8028,9 +7530,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R37") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -8057,9 +7556,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R38") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -8085,9 +7581,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R40") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -8121,9 +7614,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "U3") (unit 2)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "U?") (unit 2)
-        )
       )
     )
   )
@@ -8149,9 +7639,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR026") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
-        )
       )
     )
   )
@@ -8176,9 +7663,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR025") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -8206,9 +7690,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R32") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -8234,9 +7715,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "R34") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -8268,9 +7746,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "Q6") (unit 2)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "Q?") (unit 2)
-        )
       )
     )
   )
@@ -8300,9 +7775,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "Q6") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "Q?") (unit 1)
         )
       )
     )
@@ -8336,9 +7808,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "U3") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "U?") (unit 1)
-        )
       )
     )
   )
@@ -8364,9 +7833,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR054") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
-        )
       )
     )
   )
@@ -8391,37 +7857,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR053") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:Earth") (at 241.3 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00006692621a)
-    (property "Reference" "#PWR055" (at 241.3 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (at 241.3 148.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 241.3 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 241.3 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bc3250e7-bae3-40df-ba63-82e9fa77fc03))
-    (instances
-      (project "tight-distortion"
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
-          (reference "#PWR055") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -8449,9 +7884,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C43") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -8477,9 +7909,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C44") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -8510,37 +7939,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "U4") (unit 2)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "U?") (unit 2)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:Earth") (at 259.08 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000066926241)
-    (property "Reference" "#PWR058" (at 259.08 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (at 259.08 148.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 259.08 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 259.08 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3c0667ef-bac3-4b09-9393-acfd2220453f))
-    (instances
-      (project "tight-distortion"
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
-          (reference "#PWR058") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
-        )
       )
     )
   )
@@ -8566,9 +7964,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C45") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -8596,9 +7991,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C46") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -8623,9 +8015,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR057") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -8652,9 +8041,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR056") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
-        )
       )
     )
   )
@@ -8679,9 +8065,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR052") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -8709,9 +8092,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C41") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -8738,9 +8118,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "C42") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -8766,9 +8143,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR051") (unit 1)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
-        )
       )
     )
   )
@@ -8793,9 +8167,6 @@
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "#PWR050") (unit 1)
-        )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -8829,9 +8200,6 @@
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "U3") (unit 3)
         )
-        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c"
-          (reference "U?") (unit 3)
-        )
       )
     )
   )
@@ -8864,17 +8232,67 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "6" (uuid fdf428c1-9ab9-413c-bf74-dc9a15d53060))
-    (pin "2" (uuid fb60e801-e143-417c-9aae-369836416305))
+    (pin "2" (uuid fb60e801-e143-417c-9aae-369836416306))
     (pin "5" (uuid 73e91b27-6004-405a-99f4-47641733f57a))
-    (pin "3" (uuid 389fefc4-c2ea-46a0-b30c-44f6ac401c4b))
-    (pin "1" (uuid 5d489bfa-791e-4492-94e7-71c883226a9c))
+    (pin "3" (uuid 389fefc4-c2ea-46a0-b30c-44f6ac401c4c))
+    (pin "1" (uuid 5d489bfa-791e-4492-94e7-71c883226a9d))
     (pin "7" (uuid e35baf7b-ae17-4cc2-8e07-9cf2c885db40))
-    (pin "4" (uuid f9a19bd7-0917-4c30-bfe1-d8fe86912a5e))
-    (pin "8" (uuid 2f15c6dc-b045-4300-8201-f1522767abc7))
+    (pin "4" (uuid f9a19bd7-0917-4c30-bfe1-d8fe86912a5f))
+    (pin "8" (uuid 2f15c6dc-b045-4300-8201-f1522767abc8))
     (instances
       (project "tight-distortion"
         (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
           (reference "U1") (unit 3)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:Earth") (at 241.3 144.78 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 390f2b6a-0ad3-4b43-8a7f-2f9bb0db0d71)
+    (property "Reference" "#PWR055" (at 241.3 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Earth" (at 241.3 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 241.3 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 241.3 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6de4e592-3b1e-467f-b268-932a8226c564))
+    (instances
+      (project "tight-distortion"
+        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
+          (reference "#PWR055") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:Earth") (at 259.08 144.78 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 68b81b9c-bc56-414e-8539-1ed17d3dd47c)
+    (property "Reference" "#PWR058" (at 259.08 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Earth" (at 259.08 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 259.08 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 259.08 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a35c0349-0a50-4766-9622-b76ed3c182ef))
+    (instances
+      (project "tight-distortion"
+        (path "/8747734a-25e9-406c-b9a5-cb27aff1316c/00000000-0000-0000-0000-0000667ed907"
+          (reference "#PWR058") (unit 1)
         )
       )
     )
