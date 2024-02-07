@@ -9845,7 +9845,7 @@
   (gr_text "Designed & Assembled \nin St. John's, NL" (at 38 -13.4) (layer "F.SilkS") (tstamp 7038d1c1-bd4f-4b42-aa43-019e3809ca55)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "BCA Sea Eagle\nv1.1.0; Feb 2024" (at -22.5 -14.7) (layer "F.SilkS") (tstamp c2fa434e-0fe2-44df-ac81-0f91140a9421)
+  (gr_text "BCA Sea Eagle\nv1.1.0; Feb 2024" (at -22.6 -13.3) (layer "F.SilkS") (tstamp c2fa434e-0fe2-44df-ac81-0f91140a9421)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 
